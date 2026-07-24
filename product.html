@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FindWise Product</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+
+.product-page{
+    max-width:900px;
+    margin:50px auto;
+    padding:30px;
+}
+
+.product-page img{
+    width:100%;
+    max-width:450px;
+    display:block;
+    margin:auto;
+    border-radius:15px;
+}
+
+.product-page h1{
+    margin:25px 0;
+}
+
+.buy-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.buy-btn:hover{
+    background:#1d4ed8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="product-page">
+
+<img id="image">
+
+<h1 id="title"></h1>
+
+<p id="description"></p>
+
+<h2>Review</h2>
+
+<p id="review"></p>
+
+<a id="buyBtn"
+   class="buy-btn"
+   target="_blank"
+   rel="nofollow sponsored noopener">
+
+Buy on Amazon
+
+</a>
+
+<br><br>
+
+<a href="index.html">⬅ Back to Home</a>
+
+</div>
+
+<script src="assets/js/products.js"></script>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+const id = Number(params.get("id"));
+
+const product = products.find(p => p.id === id);
+
+if(product){
+
+document.getElementById("image").src = product.image;
+
+document.getElementById("image").alt = product.title;
+
+document.getElementById("title").textContent = product.title;
+
+document.getElementById("description").textContent = product.description;
+
+document.getElementById("review").textContent = product.review;
+
+document.getElementById("buyBtn").href = product.affiliate;
+
+}
+
+</script>
+
+</body>
+</html>
