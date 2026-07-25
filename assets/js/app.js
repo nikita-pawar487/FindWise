@@ -108,3 +108,32 @@ function displayProducts(productList){
 }
 
 displayProducts(products);
+// ==========================
+// CATEGORY FILTER
+// ==========================
+
+const categoryCards = document.querySelectorAll(".category-card");
+
+categoryCards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        const category = card.dataset.category;
+
+        if (category === "All") {
+            displayProducts(products);
+        } else {
+            const filtered = products.filter(product =>
+                product.category === category
+            );
+
+            displayProducts(filtered);
+        }
+
+        // Scroll to products
+        document.getElementById("featured-products")
+            .scrollIntoView({ behavior: "smooth" });
+
+    });
+
+});
