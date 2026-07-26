@@ -689,3 +689,21 @@ height:50px;
     background:#f7ca00;
 
 }
+.category-card{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.category-card.active{
+    background:#2563eb;
+    color:#fff;
+}
+
+.category-card.active h3{
+    color:#fff;
+}

@@ -118,21 +118,32 @@ categoryCards.forEach(card => {
 
     card.addEventListener("click", () => {
 
+        // Remove active class from all cards
+        categoryCards.forEach(c => c.classList.remove("active"));
+
+        // Highlight selected card
+        card.classList.add("active");
+
         const category = card.dataset.category;
 
         if (category === "All") {
+
             displayProducts(products);
+
         } else {
+
             const filtered = products.filter(product =>
                 product.category === category
             );
 
             displayProducts(filtered);
+
         }
 
-        // Scroll to products
-        document.getElementById("featured-products")
-            .scrollIntoView({ behavior: "smooth" });
+        // Scroll to Featured Products
+        document.querySelector(".products").scrollIntoView({
+            behavior: "smooth"
+        });
 
     });
 
