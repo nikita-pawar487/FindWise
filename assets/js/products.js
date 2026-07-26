@@ -104,7 +104,7 @@ const products = [
 {
     id: 11,
     title: "Kitchen Shelf",
-    category: "Home",
+    category: "Kitchen",
     image: "assets/images/kit.png",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books,stationery and kitchen items neatly arranged.",       
