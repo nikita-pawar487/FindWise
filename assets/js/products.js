@@ -41,5 +41,44 @@ const products = [
         
     affiliate: "https://www.amazon.in/Enigmatic-Woodworks-Bookshelves-Organizer-Accessories/dp/B0FD7N7GZ6?tag=homeorg12-21"
 },
-
+{
+    id: 5,
+    title: "Floating Shelf",
+    category: "Home",
+    image: "assets/images/float.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
+        
+    affiliate: "https://www.amazon.in/Dence-Store-Floating-Minimalist-Engineered/dp/B0G8LM7WB3?tag=homeorg12-21"
+},
+{
+    id: 6,
+    title: "Book Shelf",
+    category: "Home",
+    image: "assets/images/decor.png",
+    description: "Modern abstract family statue for elegant home and office decoration.",
+    review: "A stylish decorative piece with a premium finish. Perfect for adding a modern touch to your living room, bedroom, or office.",       
+        
+    affiliate: "https://www.amazon.in/AABCO-Showpiece-Posture-Figure-Decorative/dp/B0G6YKQDG7?tag=homeorg12-21"
+},
+{
+    id: 7,
+    title: "Wall Decor Floating Shelf",
+    category: "Home",
+    image: "assets/images/wall-decor.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
+        
+    affiliate: "https://www.amazon.in/BLUEWUD-Riley-Engineered-Decorative-Furniture/dp/B0DM29T59F?tag=homeorg12-21"
+},
+{
+    id: 8,
+    title: "Decorative Wall Mounted Floating Shelf",
+    category: "Home",
+    image: "assets/images/mount.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
+        
+    affiliate: "https://www.amazon.in/Dime-Store-Interlock-Shelves-Living/dp/B08B5CM9GR?tag=homeorg12-21"
+},
 ];
