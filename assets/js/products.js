@@ -53,7 +53,7 @@ const products = [
 },
 {
     id: 6,
-    title: "Book Shelf",
+    title: "Showpiece for Home Decor",
     category: "Home",
     image: "assets/images/decor.png",
     description: "Modern abstract family statue for elegant home and office decoration.",
