@@ -81,4 +81,34 @@ const products = [
         
     affiliate: "https://www.amazon.in/Dime-Store-Interlock-Shelves-Living/dp/B08B5CM9GR?tag=homeorg12-21"
 },
+{
+    id: 9,
+    title: "Wooden Floating Shelf",
+    category: "Home",
+    image: "assets/images/wooden-float.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
+        
+    affiliate: "https://www.amazon.in/Deion-Mounted-Bookshelf-Floating-Decoration/dp/B0FJ2Z1QQM?tag=homeorg12-21"
+},
+{
+    id:10,
+    title: "Wood Floating Shelf",
+    category: "Home",
+    image: "assets/images/woods.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
+        
+    affiliate: "https://www.amazon.in/Premium-Floating-Shelves-Mounted-Home/dp/B0GVTHM5HT?tag=homeorg12-21"
+},
+{
+    id: 11,
+    title: "Kitchen Shelf",
+    category: "Home",
+    image: "assets/images/kit.png",
+    description: "Stylish floating shelf for your home",
+    review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books,stationery and kitchen items neatly arranged.",       
+        
+    affiliate: "https://www.amazon.in/FireBees-Mounted-Bookshelf-Floating-Decorative/dp/B0FBW7J2JF?tag=homeorg12-21"
+},
 ];
