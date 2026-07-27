@@ -117,7 +117,7 @@ const products = [
     category: "Home",
     image: "assets/images/metal.png",
     description: "Creative metal bookend with a unique stick figure design. Sturdy, stylish, and perfect for organizing books",
-    review: "This metal bookshelf is well-built and adds a nice touch to any room.Strong, modern, and keeps books neatly in place. Great quality and design",       
+    review: "This metal bookshelf is well-built and adds a nice touch to any room.Strong, modern, and keeps books neatly in place. Great quality and designgit",       
         
     affiliate: "https://www.amazon.in/Metawood-MindSupport-Bookends-Decorative-Organizer/dp/B0GT28H19R?tag=homeorg12-21"
 },
