@@ -121,4 +121,14 @@ const products = [
         
     affiliate: "https://www.amazon.in/Metawood-MindSupport-Bookends-Decorative-Organizer/dp/B0GT28H19R?tag=homeorg12-21"
 },
+{
+    id: 13,
+    title: "Vases for Modern Home Decor",
+    category: "Home",
+    image: "assets/images/home.png",
+    description: "Modern ceramic vase set with a unique hollow design and matte finish. Perfect for dried flowers and minimalist home décor",
+    review: "Elegant, stylish, and well-crafted, this vase set instantly enhances any space with its modern minimalist design. A great choice for home décor or gifting.",       
+        
+    affiliate: "https://www.amazon.in/PUREZENTO-Unique-White-Ceramic-Donut/dp/B0DQQ2GXRB?tag=homeorg12-21"
+},
 ];
