@@ -111,4 +111,14 @@ const products = [
         
     affiliate: "https://www.amazon.in/FireBees-Mounted-Bookshelf-Floating-Decorative/dp/B0FBW7J2JF?tag=homeorg12-21"
 },
+{
+    id: 12,
+    title: "Metal Book Shelf",
+    category: "Home",
+    image: "assets/images/metal.png",
+    description: "Creative metal bookend with a unique stick figure design. Sturdy, stylish, and perfect for organizing books",
+    review: "This metal bookshelf is well-built and adds a nice touch to any room.Strong, modern, and keeps books neatly in place. Great quality and design",       
+        
+    affiliate: "https://www.amazon.in/Metawood-MindSupport-Bookends-Decorative-Organizer/dp/B0GT28H19R?tag=homeorg12-21"
+},
 ];
