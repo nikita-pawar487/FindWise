@@ -1,5 +1,8 @@
 console.log("App.js loaded!");
-
+// Restore saved theme
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+}
 // ==========================
 // DARK MODE
 // ==========================
@@ -11,11 +14,19 @@ if (themeBtn) {
 
         document.body.classList.toggle("dark-mode");
 
-        if (document.body.classList.contains("dark-mode")) {
-            themeBtn.classList.replace("fa-moon", "fa-sun");
-        } else {
-            themeBtn.classList.replace("fa-sun", "fa-moon");
-        }
+if (document.body.classList.contains("dark-mode")) {
+
+    localStorage.setItem("theme", "dark");
+
+    themeBtn.classList.replace("fa-moon", "fa-sun");
+
+} else {
+
+    localStorage.setItem("theme", "light");
+
+    themeBtn.classList.replace("fa-sun", "fa-moon");
+
+}
 
     });
 }
