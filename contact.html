@@ -48,7 +48,9 @@
 Have a question, suggestion, or business inquiry? We'd love to hear from you.
 </p>
 
-<form action="https://formspree.io/f/maqrlrll" method="POST">
+<form class="contact-form"
+      action="https://formspree.io/f/maqrlrll"
+      method="POST">
 
     <input
         type="text"
@@ -88,7 +90,11 @@ Have a question, suggestion, or business inquiry? We'd love to hear from you.
 </p>
 
 </footer>
-
+<script>
+if(localStorage.getItem("theme") === "dark"){
+    document.body.classList.add("dark");
+}
+</script>
 </body>
 
 </html>
