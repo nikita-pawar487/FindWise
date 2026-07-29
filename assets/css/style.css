@@ -54,16 +54,34 @@ header{
 }
 
 .nav-links{
-    display:flex;
-    list-style:none;
-    gap:30px;
+
+    display:none;
+    flex-direction:column;
+    position:absolute;
+
+    top:75px;
+    right:15px;
+
+    width:240px;
+
+    background:#1f2937;      /* or use var(--nav-bg) */
+
+    border-radius:12px;
+
+    padding:20px;
+
+    gap:18px;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.3);
+
+    z-index:9999;
+
 }
 
-.nav-links a{
-    text-decoration:none;
-    color:#1e293b;
-    font-weight:500;
-    transition:.3s;
+.nav-links.active{
+
+    display:flex;
+
 }
 
 .nav-links a:hover{
@@ -80,7 +98,25 @@ header{
 #menuBtn{
     display:none;
 }
+.nav-links li{
 
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+
+}
+.navbar{
+
+    position:relative;
+
+}
 /* =========================
    HERO
 ========================= */
