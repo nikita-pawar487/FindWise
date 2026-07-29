@@ -159,33 +159,3 @@ categoryCards.forEach(card => {
     });
 
 });
-// ==========================
-// MOBILE MENU
-// ==========================
-
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.querySelector(".nav-links");
-
-console.log("Menu Button:", menuBtn);
-console.log("Nav Links:", navLinks);
-
-if (menuBtn && navLinks) {
-
-    menuBtn.addEventListener("click", () => {
-
-        alert("Menu clicked!");
-
-        navLinks.classList.toggle("active");
-
-    });
-
-}
-document.querySelectorAll(".nav-links a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        navLinks.classList.remove("active");
-
-    });
-
-});

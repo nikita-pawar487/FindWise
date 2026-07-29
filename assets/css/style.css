@@ -173,7 +173,6 @@ header{
 /* =========================
    RESPONSIVE
 ========================= */
-
 @media(max-width:900px){
 
 .hero{
@@ -185,32 +184,12 @@ header{
     font-size:42px;
 }
 
-/* Mobile Navigation */
 .nav-links{
-
     display:none;
-    flex-direction:column;
-    position:absolute;
-    top:70px;
-    right:20px;
-    width:220px;
-    background:var(--card-bg);
-    border-radius:12px;
-    padding:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-    z-index:1000;
-
-}
-
-.nav-links.active{
-
-    display:flex;
-
 }
 
 #menuBtn{
-    display:block;
-    cursor:pointer;
+    display:none;
 }
 
 .hero-image{
