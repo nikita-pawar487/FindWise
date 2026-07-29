@@ -159,3 +159,19 @@ categoryCards.forEach(card => {
     });
 
 });
+// ==========================
+// MOBILE MENU
+// ==========================
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.querySelector(".nav-links");
+
+if (menuBtn && navLinks) {
+
+    menuBtn.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
+
+    });
+
+}
