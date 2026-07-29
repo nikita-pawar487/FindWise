@@ -56,23 +56,29 @@ const searchInput = document.getElementById("searchInput");
 
 if(searchInput){
 
-    searchInput.addEventListener("input",()=>{
+    searchInput.addEventListener("input", () => {
 
-        const keyword = searchInput.value.toLowerCase();
+    const keyword = searchInput.value.trim().toLowerCase();
 
-        const filtered = products.filter(product=>
+    const filtered = products.filter(product =>
+        product.title.toLowerCase().includes(keyword) ||
+        product.category.toLowerCase().includes(keyword) ||
+        product.description.toLowerCase().includes(keyword)
+    );
 
-            product.title.toLowerCase().includes(keyword) ||
+    displayProducts(filtered);
 
-            product.category.toLowerCase().includes(keyword) ||
+    // Only scroll if the user has typed something
+    if (keyword !== "") {
 
-            product.description.toLowerCase().includes(keyword)
+        document.querySelector(".products").scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
 
-        );
+    }
 
-        displayProducts(filtered);
-
-    });
+});
 
 }
 
