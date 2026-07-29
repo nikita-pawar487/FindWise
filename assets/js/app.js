@@ -56,7 +56,7 @@ const searchInput = document.getElementById("searchInput");
 
 if(searchInput){
 
-    searchInput.addEventListener("input", () => {
+  searchInput.addEventListener("input", () => {
 
     const keyword = searchInput.value.trim().toLowerCase();
 
@@ -68,8 +68,12 @@ if(searchInput){
 
     displayProducts(filtered);
 
-    // Only scroll if the user has typed something
-    if (keyword !== "") {
+});
+searchInput.addEventListener("keydown", (e) => {
+
+    if (e.key === "Enter") {
+
+        e.preventDefault();
 
         document.querySelector(".products").scrollIntoView({
             behavior: "smooth",
@@ -79,6 +83,7 @@ if(searchInput){
     }
 
 });
+    
 
 }
 
