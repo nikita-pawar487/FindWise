@@ -51,7 +51,9 @@ const products = [
     id: 2,
     title: "KEA VAO Book",
     category: "Student",
-    image: "assets/images/kea-book.png",
+    image: [
+        "assets/images/kea-book.png"
+    ],
     description: "Karnataka Village Administrative Officer Exam Book",
     review: "This book is comprehensive and well-structured, making it an excellent resource for exam preparation.",
     affiliate: "https://www.amazon.in/2026-2027-Karnataka-Village-Administrative-Officer/dp/B0H8PFVHBZ?tag=homeorg12-21"
@@ -60,7 +62,9 @@ const products = [
     id: 3,
     title: "Wooden Wall Shelf",
     category: "Home",
-    image: "assets/images/wall-shelf.png",
+    images:[
+     "assets/images/wall-shelf.png"
+],
     description: "Stylish and functional wall shelf for your home",
     review: "This shelf is well-built and adds a nice touch to any room.This stylish floating shelf is perfect for displaying plants, photo frames, and decorative items. Its modern design saves space and adds a premium touch to any room.",
 
@@ -70,7 +74,9 @@ const products = [
     id: 4,
     title: "Book Shelf",
     category: "Home",
-    image: "assets/images/book-shelf.png",
+    images: [
+        "assets/images/book-shelf.png"
+    ],
     description: "Stylish bookshelf for your home",
     review: "This bookshelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -80,7 +86,9 @@ const products = [
     id: 5,
     title: "Floating Shelf",
     category: "Home",
-    image: "assets/images/float.png",
+    images: [
+        "assets/images/float.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -90,7 +98,9 @@ const products = [
     id: 6,
     title: "Showpiece for Home Decor",
     category: "Home",
-    image: "assets/images/decor.png",
+    images: [
+        "assets/images/decor.png"
+    ],
     description: "Modern abstract family statue for elegant home and office decoration.",
     review: "A stylish decorative piece with a premium finish. Perfect for adding a modern touch to your living room, bedroom, or office.",       
         
@@ -100,7 +110,9 @@ const products = [
     id: 7,
     title: "Wall Decor Floating Shelf",
     category: "Home",
-    image: "assets/images/wall-decor.png",
+    images: [
+         "assets/images/wall-decor.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -110,7 +122,9 @@ const products = [
     id: 8,
     title: "Decorative Wall Mounted Floating Shelf",
     category: "Home",
-    image: "assets/images/mount.png",
+    images: [
+        "assets/images/mount.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -120,7 +134,9 @@ const products = [
     id: 9,
     title: "Wooden Floating Shelf",
     category: "Home",
-    image: "assets/images/wooden-float.png",
+    images: [
+        "assets/images/wooden-float.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -130,7 +146,9 @@ const products = [
     id:10,
     title: "Wood Floating Shelf",
     category: "Home",
-    image: "assets/images/woods.png",
+    images: [
+        "assets/images/woods.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -140,7 +158,9 @@ const products = [
     id: 11,
     title: "Kitchen Shelf",
     category: "Kitchen",
-    image: "assets/images/kit.png",
+    images: [
+        "assets/images/kit.png"
+    ],
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books,stationery and kitchen items neatly arranged.",       
         
@@ -150,7 +170,9 @@ const products = [
     id: 12,
     title: "Metal Book Shelf",
     category: "Home",
-    image: "assets/images/metal.png",
+    images: [
+        "assets/images/metal.png"
+    ],
     description: "Creative metal bookend with a unique stick figure design. Sturdy, stylish, and perfect for organizing books",
     review: "This metal bookshelf is well-built and adds a nice touch to any room.Strong, modern, and keeps books neatly in place. Great quality and designgit",       
         
@@ -160,7 +182,9 @@ const products = [
     id: 13,
     title: "Vases for Modern Home Decor",
     category: "Home",
-    image: "assets/images/home.png",
+    images: [
+        "assets/images/home.png"
+    ],
     description: "Modern ceramic vase set with a unique hollow design and matte finish. Perfect for dried flowers and minimalist home décor",
     review: "Elegant, stylish, and well-crafted, this vase set instantly enhances any space with its modern minimalist design. A great choice for home décor or gifting.",       
         
