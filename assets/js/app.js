@@ -1,100 +1,34 @@
-console.log("App.js loaded!");
-// Restore saved theme
-if (localStorage.getItem("theme") === "dark") {
-    document.body.classList.add("dark-mode");
-}
 // ==========================
-// DARK MODE
+// ELEMENTS
 // ==========================
 
-const themeBtn = document.getElementById("themeBtn");
-
-if (themeBtn) {
-    themeBtn.addEventListener("click", () => {
-
-        document.body.classList.toggle("dark-mode");
-
-if (document.body.classList.contains("dark-mode")) {
-
-    localStorage.setItem("theme", "dark");
-
-    themeBtn.classList.replace("fa-moon", "fa-sun");
-
-} else {
-
-    localStorage.setItem("theme", "light");
-
-    themeBtn.classList.replace("fa-sun", "fa-moon");
-
-}
-
-    });
-}
-
-
-// ==========================
-// SEARCH BUTTON
-// ==========================
-
-const searchBtn = document.getElementById("searchBtn");
-const searchContainer = document.getElementById("searchContainer");
-
-if (searchBtn && searchContainer) {
-
-    searchBtn.addEventListener("click", () => {
-
-        searchContainer.classList.toggle("active");
-
-    });
-
-}
-// ==========================
-// SEARCH PRODUCTS
-// ==========================
-
+const grid = document.querySelector(".product-grid");
 const searchInput = document.getElementById("searchInput");
+const themeBtn = document.getElementById("themeBtn");
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.querySelector(".nav-links");
+const categoryCards = document.querySelectorAll(".category-card");
 
-if(searchInput){
-
-  searchInput.addEventListener("input", () => {
-
-    const keyword = searchInput.value.trim().toLowerCase();
-
-    const filtered = products.filter(product =>
-        product.title.toLowerCase().includes(keyword) ||
-        product.category.toLowerCase().includes(keyword) ||
-        product.description.toLowerCase().includes(keyword)
-    );
-
-    displayProducts(filtered);
-
-});
-searchInput.addEventListener("keydown", (e) => {
-
-    if (e.key === "Enter") {
-
-        e.preventDefault();
-
-        document.querySelector(".products").scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        });
-
-    }
-
-});
-    
-
-}
 // ==========================
 // DISPLAY PRODUCTS
 // ==========================
 
-const grid = document.querySelector(".product-grid");
-
 function displayProducts(productList) {
 
+    if (!grid) return;
+
     grid.innerHTML = "";
+
+    if (productList.length === 0) {
+
+        grid.innerHTML = `
+            <p style="text-align:center;grid-column:1/-1;">
+                No products found.
+            </p>
+        `;
+
+        return;
+    }
 
     productList.forEach(product => {
 
@@ -107,13 +41,22 @@ function displayProducts(productList) {
 
                 <div class="product-info">
 
-                    <span class="category">${product.category}</span>
+                    <span class="category">
+                        ${product.category}
+                    </span>
 
                     <h3>${product.title}</h3>
 
                     <div class="product-meta">
-                        <span class="rating">⭐ ${product.rating}</span>
-                        <span class="price">${product.price}</span>
+
+                        <span class="rating">
+                            ⭐ ${product.rating}
+                        </span>
+
+                        <span class="price">
+                            ${product.price}
+                        </span>
+
                     </div>
 
                     <p>${product.description}</p>
@@ -133,21 +76,54 @@ function displayProducts(productList) {
 
 }
 
+// Show all products initially
 displayProducts(products);
+
+// ==========================
+// SEARCH
+// ==========================
+
+if (searchInput) {
+
+    searchInput.addEventListener("input", function () {
+
+        const keyword = this.value.toLowerCase();
+
+        const filtered = products.filter(product =>
+
+            product.title.toLowerCase().includes(keyword) ||
+
+            product.category.toLowerCase().includes(keyword)
+
+        );
+
+        displayProducts(filtered);
+
+        const productSection = document.querySelector(".products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
+    });
+
+}
+
 // ==========================
 // CATEGORY FILTER
 // ==========================
-
-const categoryCards = document.querySelectorAll(".category-card");
 
 categoryCards.forEach(card => {
 
     card.addEventListener("click", () => {
 
-        // Remove active class from all cards
         categoryCards.forEach(c => c.classList.remove("active"));
 
-        // Highlight selected card
         card.classList.add("active");
 
         const category = card.dataset.category;
@@ -166,7 +142,6 @@ categoryCards.forEach(card => {
 
         }
 
-        // Scroll to Featured Products
         document.querySelector(".products").scrollIntoView({
             behavior: "smooth"
         });
@@ -174,4 +149,58 @@ categoryCards.forEach(card => {
     });
 
 });
-const grid = document.querySelector(".product-grid");
+
+// ==========================
+// DARK MODE
+// ==========================
+
+if (themeBtn) {
+
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+
+        document.body.classList.add("dark");
+
+        themeBtn.classList.remove("fa-moon");
+        themeBtn.classList.add("fa-sun");
+
+    }
+
+    themeBtn.addEventListener("click", () => {
+
+        document.body.classList.toggle("dark");
+
+        if (document.body.classList.contains("dark")) {
+
+            localStorage.setItem("theme", "dark");
+
+            themeBtn.classList.remove("fa-moon");
+            themeBtn.classList.add("fa-sun");
+
+        } else {
+
+            localStorage.setItem("theme", "light");
+
+            themeBtn.classList.remove("fa-sun");
+            themeBtn.classList.add("fa-moon");
+
+        }
+
+    });
+
+}
+
+// ==========================
+// MOBILE MENU
+// ==========================
+
+if (menuBtn && navLinks) {
+
+    menuBtn.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
+
+    });
+
+}
