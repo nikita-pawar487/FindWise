@@ -85,19 +85,19 @@ const id = Number(params.get("id"));
 
 const product = products.find(p => p.id === id);
 
-if(product){
+if (product) {
 
-document.getElementById("image").src = product.images[0];
+    document.getElementById("image").src = product.images[0];
 
-document.getElementById("image").alt = product.title;
+    document.getElementById("image").alt = product.title;
 
-document.getElementById("title").textContent = product.title;
+    document.getElementById("title").textContent = product.title;
 
-document.getElementById("description").textContent = product.description;
+    document.getElementById("description").textContent = product.description;
 
-document.getElementById("review").textContent = product.review;
+    document.getElementById("review").textContent = product.review;
 
-document.getElementById("buyBtn").href = product.affiliate;
+    document.getElementById("buyBtn").href = product.amazon;
 
 }
 
