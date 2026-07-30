@@ -51,7 +51,7 @@ const products = [
     id: 2,
     title: "KEA VAO Book",
     category: "Student",
-    image: [
+    images: [
         "assets/images/kea-book.png"
     ],
     description: "Karnataka Village Administrative Officer Exam Book",
