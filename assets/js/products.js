@@ -9,11 +9,9 @@ const products = [
     name: "Floating Wall Shelf",
 
     images: [
-        "images/shelf1.jpg",
-        "images/shelf2.jpg",
-        "images/shelf3.jpg",
-        "images/shelf4.jpg",
-        "images/shelf5.jpg"
+        "assets/images/floating-shelf.png",
+        "assets/images/float2.png",
+        "assets/images/float3.png"
     ],
 
     price: "₹949",
