@@ -123,7 +123,7 @@ grid.innerHTML += `
 </a>
 `;
 
-
+displayProducts(products);
 
 // ==========================
 // CATEGORY FILTER
