@@ -54,6 +54,9 @@ const products = [
     images: [
         "assets/images/kea-book.png"
     ],
+    price: "₹799",
+
+    rating: "3.9",
     description: "Karnataka Village Administrative Officer Exam Book",
     review: "This book is comprehensive and well-structured, making it an excellent resource for exam preparation.",
     affiliate: "https://www.amazon.in/2026-2027-Karnataka-Village-Administrative-Officer/dp/B0H8PFVHBZ?tag=homeorg12-21"
@@ -65,6 +68,9 @@ const products = [
     images:[
      "assets/images/wall-shelf.png"
 ],
+price: "₹619",
+
+    rating: "4.1",
     description: "Stylish and functional wall shelf for your home",
     review: "This shelf is well-built and adds a nice touch to any room.This stylish floating shelf is perfect for displaying plants, photo frames, and decorative items. Its modern design saves space and adds a premium touch to any room.",
 
@@ -77,6 +83,9 @@ const products = [
     images: [
         "assets/images/book-shelf.png"
     ],
+    price: "₹899",
+
+    rating: "4.4",
     description: "Stylish bookshelf for your home",
     review: "This bookshelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -89,6 +98,9 @@ const products = [
     images: [
         "assets/images/float.png"
     ],
+    price: "₹419",
+
+    rating: "4.0",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -101,6 +113,9 @@ const products = [
     images: [
         "assets/images/decor.png"
     ],
+    price: "₹474",
+
+    rating: "4.4",
     description: "Modern abstract family statue for elegant home and office decoration.",
     review: "A stylish decorative piece with a premium finish. Perfect for adding a modern touch to your living room, bedroom, or office.",       
         
@@ -113,6 +128,9 @@ const products = [
     images: [
          "assets/images/wall-decor.png"
     ],
+    price: "₹899",
+
+    rating: "4.2",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -125,6 +143,9 @@ const products = [
     images: [
         "assets/images/mount.png"
     ],
+    price: "₹745",
+
+    rating: "4.1",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -137,6 +158,9 @@ const products = [
     images: [
         "assets/images/wooden-float.png"
     ],
+    price: "₹699",
+
+    rating: "4.0",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -149,6 +173,9 @@ const products = [
     images: [
         "assets/images/woods.png"
     ],
+    price: "₹999",
+
+    rating: "5.0",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books, stationery, and small accessories neatly arranged. Its modern design saves space while adding a clean and organized look to your study or workspace.",       
         
@@ -161,6 +188,8 @@ const products = [
     images: [
         "assets/images/kit.png"
     ],
+    price: "₹584",
+    rating: "4.0",
     description: "Stylish floating shelf for your home",
     review: "This floating shelf is well-built and adds a nice touch to any room.This wooden desk organizer is a practical solution for keeping books,stationery and kitchen items neatly arranged.",       
         
@@ -173,6 +202,8 @@ const products = [
     images: [
         "assets/images/metal.png"
     ],
+    price: "₹499",
+    rating: "4.1",
     description: "Creative metal bookend with a unique stick figure design. Sturdy, stylish, and perfect for organizing books",
     review: "This metal bookshelf is well-built and adds a nice touch to any room.Strong, modern, and keeps books neatly in place. Great quality and designgit",       
         
@@ -185,6 +216,8 @@ const products = [
     images: [
         "assets/images/home.png"
     ],
+    price: "₹543",
+    rating: "4.3",
     description: "Modern ceramic vase set with a unique hollow design and matte finish. Perfect for dried flowers and minimalist home décor",
     review: "Elegant, stylish, and well-crafted, this vase set instantly enhances any space with its modern minimalist design. A great choice for home décor or gifting.",       
         
