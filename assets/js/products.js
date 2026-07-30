@@ -6,8 +6,8 @@ const products = [
    {
     id: 1,
 
-    name: "Floating Wall Shelf",
-
+    title: "Floating Wall Shelf",
+    category: "Home",
     images: [
         "assets/images/floating-shelf.png",
         "assets/images/float2.png",
