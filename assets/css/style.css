@@ -712,3 +712,25 @@ footer{
 .category-card.active h3{
     color:#fff;
 }
+.product-meta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px 0;
+}
+
+.rating{
+    color:#f59e0b;
+    font-weight:600;
+}
+
+.price{
+    color:#16a34a;
+    font-size:18px;
+    font-weight:700;
+}
+.product-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}

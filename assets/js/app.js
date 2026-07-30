@@ -92,42 +92,37 @@ searchInput.addEventListener("keydown", (e) => {
 // ==========================
 // DISPLAY PRODUCTS
 // ==========================
+grid.innerHTML += `
+<a href="product.html?id=${product.id}" class="product-link">
 
-function displayProducts(productList){
+    <div class="product-card">
 
-    const grid = document.getElementById("productGrid");
+        <img src="${product.images[0]}" alt="${product.title}">
 
-    if(!grid) return;
+        <div class="product-info">
 
-    grid.innerHTML = "";
+            <span class="category">${product.category}</span>
 
-    productList.forEach(product=>{
+            <h3>${product.title}</h3>
 
-        grid.innerHTML += `
-            <div class="product-card">
-
-                <img src="${product.image}" alt="${product.title}">
-
-                <div class="product-info">
-
-                    <span class="category">${product.category}</span>
-
-                    <h3>${product.title}</h3>
-
-                    <p>${product.description}</p>
-
-<a href="product.html?id=${product.id}" class="product-btn">
-    Read Full Review →
-</a>
-
-                </div>
-
+            <div class="product-meta">
+                <span class="rating">⭐ ${product.rating}</span>
+                <span class="price">${product.price}</span>
             </div>
-        `;
 
-    });
+            <p>${product.description}</p>
 
-}
+            <span class="product-btn">
+                Read Full Review →
+            </span>
+
+        </div>
+
+    </div>
+
+</a>
+`;
+
 
 displayProducts(products);
 // ==========================
