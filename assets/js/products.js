@@ -5,13 +5,48 @@
 const products = [
    {
     id: 1,
-    title: "Floating-Shelf",
-    category: "Home",
-    image: "assets/images/floating-shelf.png",
-    description: "Beautiful home decor and organizer",
-    review: "This shelf is lightweight, ergonomic, and has excellent  life. It's a great choice for students and professionals.",
-    affiliate: "https://www.amazon.in/BLUEWUD-Easton-Engineered-Display-Shelves/dp/B09T3D9K1Z?tag=homeorg12-21"
-},
+
+    name: "Floating Wall Shelf",
+
+    images: [
+        "images/shelf1.jpg",
+        "images/shelf2.jpg",
+        "images/shelf3.jpg",
+        "images/shelf4.jpg",
+        "images/shelf5.jpg"
+    ],
+
+    price: "₹949",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/BLUEWUD-Easton-Engineered-Display-Shelves/dp/B09T3D9K1Z?tag=homeorg12-21",
+
+    description: "Modern floating wall shelf with a stylish geometric design. Perfect for displaying books, plants, and decorative items while saving space.",
+
+    review: "A well-built shelf that combines functionality with modern aesthetics. Easy to install and ideal for home decoration.",
+
+    pros: [
+        "Premium wooden finish",
+        "Modern geometric design",
+        "Easy to install",
+        "Space-saving",
+        "Good value for money"
+    ],
+
+    cons: [
+        "Not suitable for very heavy items",
+        "Installation hardware quality could be better"
+    ],
+
+    specifications: {
+        Material: "Engineered Wood",
+        Color: "Walnut Brown",
+        Mounting: "Wall Mounted",
+        SuitableFor: "Living Room, Bedroom, Office",
+        Warranty: "1 Year"
+    }
+}
 {
     id: 2,
     title: "KEA VAO Book",
