@@ -124,7 +124,7 @@ grid.innerHTML += `
 `;
 
 
-displayProducts(products);
+
 // ==========================
 // CATEGORY FILTER
 // ==========================
