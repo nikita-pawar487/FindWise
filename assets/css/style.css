@@ -734,3 +734,8 @@ footer{
     color:inherit;
     display:block;
 }
+.product-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
