@@ -43,8 +43,8 @@ const products = [
         Mounting: "Wall Mounted",
         SuitableFor: "Living Room, Bedroom, Office",
         Warranty: "1 Year"
-    }
-}
+    },
+},
 {
     id: 2,
     title: "KEA VAO Book",
