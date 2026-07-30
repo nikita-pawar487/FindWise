@@ -165,3 +165,4 @@ categoryCards.forEach(card => {
     });
 
 });
+const grid = document.querySelector(".product-grid");
