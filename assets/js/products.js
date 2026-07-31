@@ -10,9 +10,9 @@ const products = [
     category: "Home",
     images:
     [
-        "assets/images/floating-shelf.png",
-        "assets/images/float2.png",
-        "assets/images/float3.png"
+        "assets/images/floating-shelf/floating-shelf.png",
+        "assets/images/floating-shelf/float2.png",
+        "assets/images/floating-shelf/float3.png"
     ],
     
 
