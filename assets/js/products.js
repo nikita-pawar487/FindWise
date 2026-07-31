@@ -223,4 +223,18 @@ price: "₹619",
         
     amazon: "https://www.amazon.in/PUREZENTO-Unique-White-Ceramic-Donut/dp/B0DQQ2GXRB?tag=homeorg12-21"
 },
+{
+    id: 14,
+    title: "White Ceramic Donut Vase",
+    category: "Home",
+    images: [
+        "assets/images/vase.png"
+    ],
+    price: "₹178",
+
+    rating: "4.2",
+    description: "White ceramic donut vase with a modern design",
+    review: "This vase is beautifully crafted and adds a touch of elegance to any room. The unique donut shape makes it a standout piece for home décor.",
+    amazon: "https://www.amazon.in/SPHINX-Ceramic-Flower-Centrepiece-Gifts-Vase/dp/B0CQ23K1SB?tag=homeorg12-21"
+},
 ];
