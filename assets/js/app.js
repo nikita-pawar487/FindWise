@@ -204,3 +204,20 @@ if (menuBtn && navLinks) {
     });
 
 }
+const thumbnailContainer = document.getElementById("thumbnails");
+
+product.images.forEach((imgPath) => {
+
+    const thumb = document.createElement("img");
+
+    thumb.src = imgPath;
+
+    thumb.addEventListener("click", () => {
+
+        document.getElementById("image").src = imgPath;
+
+    });
+
+    thumbnailContainer.appendChild(thumb);
+
+});

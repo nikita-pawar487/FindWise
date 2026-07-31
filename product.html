@@ -50,7 +50,17 @@
 
 <div class="product-page">
 
-<img id="image">
+<div class="gallery">
+
+    <div id="thumbnails" class="thumbnails">
+        <!-- JavaScript will automatically create the thumbnails -->
+    </div>
+
+    <div class="main-image">
+        <img id="image" src="" alt="Product Image">
+    </div>
+
+</div>
 
 <h1 id="title"></h1>
 
@@ -71,7 +81,7 @@ Buy on Amazon
 
 <br><br>
 
-<a href="index.html">⬅ Back to Home</a>
+<a href="index.html">Back to Home</a>
 
 </div>
 
@@ -87,7 +97,7 @@ const product = products.find(p => p.id === id);
 
 if (product) {
 
-    document.getElementById("image").src = "assets/images/floating-shelf/floating-shelf.png";
+    document.getElementById("image").src = product.images[0];
 
     document.getElementById("image").alt = product.title;
 
