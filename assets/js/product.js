@@ -69,5 +69,3 @@ const buyBtn = document.getElementById("buyBtn");
 
 buyBtn.href = product.affiliate;
 buyBtn.target = "_blank";
-<script src="assets/js/products.js"></script>
-<script src="assets/js/product.js"></script>
