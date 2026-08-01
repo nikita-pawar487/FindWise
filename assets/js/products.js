@@ -237,4 +237,54 @@ price: "₹619",
     review: "This vase is beautifully crafted and adds a touch of elegance to any room. The unique donut shape makes it a standout piece for home décor.",
     amazon: "https://www.amazon.in/SPHINX-Ceramic-Flower-Centrepiece-Gifts-Vase/dp/B0CQ23K1SB?tag=homeorg12-21"
 },
+{
+    id: 15,
+
+    title: "Modern Ceramic Cat Figurines Set (3 Pieces)",
+
+    category: "Home",
+
+    images: [
+        "assets/images/decor/dec.png",
+        "assets/images/decor/dec1.png",
+        "assets/images/decor/dec2.png"
+    ],
+
+    price: "₹828",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Xtore%C2%AE-Family-Finish-Ceramic-Figures/dp/B08MD5J7Z5?tag=homeorg12-21",
+
+    description: "Enhance your home décor with this elegant set of three modern ceramic cat figurines. Featuring a minimalist design with matte black, warm brown, and ivory finishes, these sculptures add a sophisticated touch to living rooms, bedrooms, offices, bookshelves, TV units, and coffee tables.",
+
+    review: "These decorative cat figurines offer a premium finish and contemporary design that complements modern interiors. The ceramic construction feels sturdy, while the sleek matte colors blend beautifully with various décor styles. Customers appreciate the unique artistic appearance and use them as statement pieces on shelves and tables.",
+
+    pros: [
+        "Elegant minimalist design",
+        "Premium ceramic construction",
+        "Set of 3 decorative pieces",
+        "Perfect for home and office décor",
+        "Stable and durable build",
+        "Ideal gifting option"
+    ],
+
+    cons: [
+        "Decorative purpose only",
+        "Can break if dropped",
+        "Slightly smaller than expected for some buyers"
+    ],
+
+    specifications: {
+        Material: "Premium Ceramic",
+        Color: "Black, Brown & Ivory",
+        Quantity: "3 Pieces",
+        Height: "Approximately 25 cm",
+        Width: "Approximately 20 cm",
+        Depth: "Approximately 6 cm",
+        Style: "Modern Minimalist",
+        SuitableFor: "Living Room, Bedroom, Office, Bookshelf, TV Unit",
+        PackageIncludes: "3 Decorative Cat Figurines"
+    },
+},
 ];
