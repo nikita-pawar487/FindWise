@@ -66,7 +66,9 @@ const products = [
     title: "Wooden Wall Shelf",
     category: "Home",
     images:[
-     "assets/images/wall-shelf.png"
+     "assets/images/shelf/shelf1.png",
+        "assets/images/shelf/shelf2.png",
+        "assets/images/shelf/shelf3.png"
 ],
 price: "₹619",
 
@@ -126,7 +128,10 @@ price: "₹619",
     title: "Wall Decor Floating Shelf",
     category: "Home",
     images: [
-         "assets/images/wall-decor.png"
+         "assets/images/wall/wall-decor.png",
+         "assets/images/wall/wall-decor1.png",
+         "assets/images/wall/wall-decor2.png",
+        "assets/images/wall/wall-decor3.png"
     ],
     price: "₹899",
 
@@ -285,6 +290,55 @@ price: "₹619",
         Style: "Modern Minimalist",
         SuitableFor: "Living Room, Bedroom, Office, Bookshelf, TV Unit",
         PackageIncludes: "3 Decorative Cat Figurines"
+    },
+},
+{
+    id: 16,
+
+    title: "Wooden Spice Box with Glass Lid ",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/spice/spice1.png",
+        "assets/images/spice/spice2.png",
+        "assets/images/spice/spice3.png"
+    ],
+
+    price: "₹999",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/dp/B01N5KPCSB?tag=homeorg12-21",
+
+    description: "Keep your kitchen organized with this premium wooden spice box featuring 9 spacious compartments and a transparent glass lid. Perfect for storing spices, herbs, dry fruits, tea, sugar, and other kitchen essentials while adding an elegant touch to your countertop.",
+
+    review: "This wooden masala box combines traditional craftsmanship with modern functionality. The glass lid allows you to quickly identify spices without opening the box, while the sturdy wooden construction ensures durability. It is ideal for Indian kitchens and makes cooking more convenient.",
+
+    pros: [
+        "Premium wooden construction",
+        "9 spacious storage compartments",
+        "Transparent glass lid for easy visibility",
+        "Comes with a wooden serving spoon",
+        "Elegant design enhances kitchen décor",
+        "Perfect for spices, dry fruits, tea, and herbs"
+    ],
+
+    cons: [
+        "Requires occasional polishing for long-lasting finish",
+        "Glass lid should be handled carefully",
+        "Not dishwasher safe"
+    ],
+
+    specifications: {
+        Material: "Natural Sheesham Wood & Glass",
+        Compartments: "9",
+        Lid: "Transparent Glass",
+        SpoonIncluded: "Yes",
+        Color: "Natural Brown",
+        SuitableFor: "Spices, Dry Fruits, Tea, Herbs, Seasonings",
+        Shape: "Square",
+        CareInstructions: "Wipe with a dry or slightly damp cloth. Avoid soaking in water."
     },
 },
 ];
