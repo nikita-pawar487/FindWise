@@ -341,4 +341,54 @@ price: "₹619",
         CareInstructions: "Wipe with a dry or slightly damp cloth. Avoid soaking in water."
     },
 },
+{
+    id: 17,
+
+    title: "3-Tier Wooden Floating Wall Shelf",
+
+    category: "Home",
+
+    images: [
+        "assets/images/wallsh/sell1.png",
+        "assets/images/wallsh/sell2.png",
+        "assets/images/wallsh/sell3.png"
+    ],
+
+    price: "₹379",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/Amazing-Shoppee-Shelves-Living-Standard/dp/B07ZXC6H5M?tag=homeorg12-21",
+
+    description: "Add style and functionality to your walls with this elegant 3-tier floating wooden shelf. Designed to maximize storage while enhancing your home décor, it is perfect for displaying plants, books, photo frames, candles, collectibles, and decorative accessories in living rooms, bedrooms, offices, or kitchens.",
+
+    review: "This wall-mounted shelf offers a modern minimalist design with a premium wooden finish. Its sturdy construction provides reliable support for everyday decorative items while creating an attractive vertical display. Customers appreciate its space-saving design, easy installation, and versatile use in different rooms.",
+
+    pros: [
+        "Modern 3-tier floating design",
+        "Premium engineered wood construction",
+        "Strong and durable build quality",
+        "Easy wall installation",
+        "Perfect for home and office décor",
+        "Saves floor space while increasing storage"
+    ],
+
+    cons: [
+        "Not recommended for very heavy objects",
+        "Wall mounting hardware quality may vary",
+        "Requires proper wall installation for maximum stability"
+    ],
+
+    specifications: {
+        Material: "Engineered Wood",
+        Color: "Dark Walnut Brown",
+        Type: "Wall Mounted Floating Shelf",
+        Shelves: "3",
+        Style: "Modern Minimalist",
+        SuitableFor: "Living Room, Bedroom, Office, Kitchen",
+        Mounting: "Wall Mounted",
+        CareInstructions: "Clean with a soft dry cloth. Avoid excessive moisture.",
+        Warranty: "1 Year"
+    },
+},
 ];
