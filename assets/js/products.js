@@ -398,11 +398,11 @@ price: "₹619",
     category: "Home",
 
     images: [
-        "assets/images/table/table1.png",
+        "assets/images/table/table5.png",
         "assets/images/table/table2.png",
         "assets/images/table/table3.png",
         "assets/images/table/table4.png",
-        "assets/images/table/table5.png"
+        "assets/images/table/table1.png"
     ],
 
     price: "₹399",
