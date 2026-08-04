@@ -387,8 +387,109 @@ price: "₹619",
         Style: "Modern Minimalist",
         SuitableFor: "Living Room, Bedroom, Office, Kitchen",
         Mounting: "Wall Mounted",
-        CareInstructions: "Clean with a soft dry cloth. Avoid excessive moisture.",
-        Warranty: "1 Year"
+        CareInstructions: "Clean with a soft dry cloth. Avoid excessive moisture."
+    },
+},
+{
+    id: 18,
+
+    title: "Modern Wooden Side Table with White Top",
+
+    category: "Home",
+
+    images: [
+        "assets/images/table/table1.png",
+        "assets/images/table/table2.png",
+        "assets/images/table/table3.png",
+        "assets/images/table/table4.png",
+        "assets/images/table/table5.png"
+    ],
+
+    price: "₹399",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/UHUD-CRAFTS-Beautiful-Fold-able-Furniture/dp/B0927T6DS6?tag=homeorg12-21",
+
+    description: "Add a touch of Scandinavian elegance to your home with this modern wooden side table. Featuring a smooth white tabletop and sturdy natural wooden legs, it is perfect for holding coffee mugs, books, plants, decorative items, or bedside essentials. Its compact size makes it ideal for living rooms, bedrooms, offices, balconies, and reading corners.",
+
+    review: "This stylish side table combines minimalist aesthetics with everyday functionality. The durable wooden legs provide excellent stability, while the clean white tabletop complements modern, contemporary, and Scandinavian interiors. Customers appreciate its elegant design, sturdy construction, lightweight build, and easy assembly.",
+
+    pros: [
+        "Modern Scandinavian-inspired design",
+        "Premium white tabletop finish",
+        "Strong and durable wooden legs",
+        "Compact and space-saving",
+        "Easy to assemble",
+        "Perfect for living rooms, bedrooms, and offices"
+    ],
+
+    cons: [
+        "Not suitable for very heavy items",
+        "Requires basic assembly",
+        "Surface should be protected from excessive moisture"
+    ],
+
+    specifications: {
+        Material: "Engineered Wood & Solid Wood Legs",
+        Color: "White Top with Natural Wood Finish",
+        Type: "Side Table",
+        Shape: "Octagonal",
+        Style: "Modern Scandinavian",
+        SuitableFor: "Living Room, Bedroom, Office, Balcony, Reading Corner",
+        Assembly: "Self Assembly Required",
+        CareInstructions: "Wipe clean with a soft dry or slightly damp cloth. Avoid prolonged exposure to water."
+        
+    },
+},
+{
+    id: 19,
+
+    title: "Hanging Wooden Wall Shelf",
+
+    category: "Home",
+
+    images: [
+        "assets/images/hang/hang1.png",
+        "assets/images/hang/hang2.png",
+        "assets/images/hang/hang3.png",
+        "assets/images/hang/hang4.png"
+    ],
+
+    price: "₹256",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/dp/B0DFMLG5BP?pd_rd_i=B0DFMLG5BP&tag=homeorg12-21",
+
+    description: "Enhance your home décor with this beautiful boho macrame hanging wall shelf. Crafted with a sturdy natural wooden shelf and handwoven cotton rope, it offers the perfect blend of style and functionality. Ideal for displaying small plants, candles, photo frames, books, succulents, or decorative accessories in your living room, bedroom, office, nursery, or hallway.",
+
+    review: "This macrame hanging shelf brings a warm, minimalist, and bohemian touch to any space. The durable wooden shelf and strong cotton rope ensure reliable support for lightweight decorative items. Customers love its elegant handcrafted appearance, easy installation, and ability to instantly elevate empty wall spaces.",
+
+    pros: [
+        "Elegant handcrafted macrame design",
+        "Premium natural wooden shelf",
+        "Strong and durable cotton rope",
+        "Easy to hang and install",
+        "Perfect for boho and minimalist interiors",
+        "Ideal for displaying plants and decorative items"
+    ],
+
+    cons: [
+        "Not suitable for heavy objects",
+        "Requires secure wall hook for installation",
+        "Best suited for lightweight décor items"
+    ],
+
+    specifications: {
+        Material: "Natural Wood & Cotton Rope",
+        Color: "Natural Wood with Off-White Rope",
+        Type: "Hanging Wall Shelf",
+        Shelves: "1",
+        Style: "Bohemian / Minimalist",
+        SuitableFor: "Living Room, Bedroom, Office, Nursery, Hallway",
+        Mounting: "Wall Hanging",
+        CareInstructions: "Dust regularly with a soft dry cloth. Keep away from excessive moisture."
     },
 },
 ];
