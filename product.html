@@ -88,29 +88,41 @@ Buy on Amazon
 <script src="assets/js/products.js"></script>
 
 <script>
-
 const params = new URLSearchParams(window.location.search);
-
 const id = Number(params.get("id"));
 
 const product = products.find(p => p.id === id);
 
 if (product) {
 
-    document.getElementById("image").src = product.images[0];
+    const mainImage = document.getElementById("image");
+    const thumbnails = document.getElementById("thumbnails");
 
-    document.getElementById("image").alt = product.title;
+    // Main Image
+    mainImage.src = product.images[0];
+    mainImage.alt = product.title;
+
+    // Create Thumbnails
+    product.images.forEach((img) => {
+
+        const thumb = document.createElement("img");
+
+        thumb.src = img;
+        thumb.className = "thumb";
+
+        thumb.onclick = () => {
+            mainImage.src = img;
+        };
+
+        thumbnails.appendChild(thumb);
+
+    });
 
     document.getElementById("title").textContent = product.title;
-
     document.getElementById("description").textContent = product.description;
-
     document.getElementById("review").textContent = product.review;
-
     document.getElementById("buyBtn").href = product.amazon;
-
 }
-
 </script>
 <script src="assets/js/products.js"></script>
 <script src="assets/js/product.js"></script>
