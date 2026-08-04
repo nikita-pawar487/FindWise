@@ -450,8 +450,8 @@ price: "₹619",
     category: "Home",
 
     images: [
-        "assets/images/hang/hang1.png",
         "assets/images/hang/hang2.png",
+        "assets/images/hang/hang1.png",
         "assets/images/hang/hang3.png",
         "assets/images/hang/hang4.png"
     ],
