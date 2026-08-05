@@ -63,7 +63,9 @@
 </div>
 
 <h1 id="title"></h1>
+<p class="price" id="price"></p>
 
+<p class="rating" id="rating"></p>
 
 <a id="buyBtn"
    class="buy-btn"
@@ -73,19 +75,26 @@
 Buy on Amazon
 
 </a>
-<p id="description"></p>
-<p id="review"></p>
-<h2>Review</h2>
-<br><br>
-<h2>Pros</h2>
-<ul id="pros"></ul>
+<div class="description-box">
+    <p id="description"></p>
+</div>
 
-<h2>Cons</h2>
-<ul id="cons"></ul>
+<h2 class="section-title">📝 Product Review</h2>
 
-<h2>Specifications</h2>
+<div class="description-box">
+    <p id="review"></p>
+</div>
+
+<h2 class="section-title">✅ Why You'll Love It</h2>
+<ul id="pros" class="pros"></ul>
+
+<h2 class="section-title">⚠ Things to Know</h2>
+<ul id="cons" class="cons"></ul>
+
+<h2 class="section-title">📋 Specifications</h2>
 
 <table id="specifications" class="spec-table"></table>
+
 <a href="index.html">Back to Home</a>
 
 </div>
@@ -127,36 +136,44 @@ if (product) {
     document.getElementById("description").textContent = product.description;
     document.getElementById("review").textContent = product.review;
     // Pros
-const prosList = document.getElementById("pros");
+const pros = document.getElementById("pros");
 
 product.pros.forEach(item => {
+
     const li = document.createElement("li");
+
     li.textContent = item;
-    prosList.appendChild(li);
+
+    pros.appendChild(li);
+
 });
 
 // Cons
-const consList = document.getElementById("cons");
+const cons = document.getElementById("cons");
 
 product.cons.forEach(item => {
+
     const li = document.createElement("li");
+
     li.textContent = item;
-    consList.appendChild(li);
+
+    cons.appendChild(li);
+
 });
 
 // Specifications
-const specTable = document.getElementById("specifications");
+const specs = document.getElementById("specifications");
 
-Object.entries(product.specifications).forEach(([key, value]) => {
+Object.entries(product.specifications).forEach(([key,value]) => {
 
     const row = document.createElement("tr");
 
     row.innerHTML = `
-        <td><strong>${key}</strong></td>
+        <td>${key}</td>
         <td>${value}</td>
     `;
 
-    specTable.appendChild(row);
+    specs.appendChild(row);
 
 });
     document.getElementById("buyBtn").href = product.amazon;
