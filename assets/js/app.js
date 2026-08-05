@@ -206,18 +206,22 @@ if (menuBtn && navLinks) {
 }
 const thumbnailContainer = document.getElementById("thumbnails");
 
-product.images.forEach((imgPath) => {
+if (typeof product !== "undefined" && thumbnailContainer) {
 
-    const thumb = document.createElement("img");
+    product.images.forEach((imgPath) => {
 
-    thumb.src = imgPath;
+        const thumb = document.createElement("img");
 
-    thumb.addEventListener("click", () => {
+        thumb.src = imgPath;
 
-        document.getElementById("image").src = imgPath;
+        thumb.addEventListener("click", () => {
+
+            document.getElementById("image").src = imgPath;
+
+        });
+
+        thumbnailContainer.appendChild(thumb);
 
     });
 
-    thumbnailContainer.appendChild(thumb);
-
-});
+}

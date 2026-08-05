@@ -44,7 +44,6 @@ const products = [
         Color: "Walnut Brown",
         Mounting: "Wall Mounted",
         SuitableFor: "Living Room, Bedroom, Office",
-        Warranty: "1 Year"
     },
 },
 {
@@ -63,20 +62,54 @@ const products = [
 },
 {
     id: 3,
-    title: "Wooden Wall Shelf",
+
+    title: "Wooden Zig-Zag Corner Wall Shelf",
+
     category: "Home",
-    images:[
-     "assets/images/shelf/shelf1.png",
+
+    images: [
+        "assets/images/shelf/shelf1.png",
         "assets/images/shelf/shelf2.png",
         "assets/images/shelf/shelf3.png"
-],
-price: "₹619",
+    ],
+
+    price: "₹619",
 
     rating: "4.1",
-    description: "Stylish and functional wall shelf for your home",
-    review: "This shelf is well-built and adds a nice touch to any room.This stylish floating shelf is perfect for displaying plants, photo frames, and decorative items. Its modern design saves space and adds a premium touch to any room.",
 
-    amazon: "https://www.amazon.in/Dime-Store-Engineered-Corner-Glossy/dp/B07RHZV825?tag=homeorg12-21"
+    amazon: "https://www.amazon.in/Dime-Store-Engineered-Corner-Glossy/dp/B07RHZV825?tag=homeorg12-21",
+
+    description: "Make the most of unused corners with this stylish zig-zag corner wall shelf. Crafted from premium engineered wood with a glossy finish, it provides an elegant way to display books, plants, photo frames, trophies, candles, and decorative items while saving valuable floor space. Its modern design blends beautifully with living rooms, bedrooms, offices, and study spaces.",
+
+    review: "The Dime Store Zig-Zag Corner Wall Shelf combines modern design with practical storage. Its space-saving corner layout transforms empty wall corners into attractive display areas. The engineered wood construction and glossy finish give it a premium appearance, while the included mounting hardware makes installation straightforward. It is an excellent choice for organizing and decorating compact spaces.",
+
+    pros: [
+        "Unique zig-zag corner design",
+        "Premium engineered wood construction",
+        "Glossy finish enhances home décor",
+        "Maximizes unused corner space",
+        "Ideal for books, plants and decorative items",
+        "Wall mounting hardware included"
+    ],
+
+    cons: [
+        "Professional or careful installation recommended",
+        "Not suitable for very heavy objects",
+        "Requires drilling into the wall"
+    ],
+
+    specifications: {
+        Material: "Engineered Wood",
+        Color: "Brown",
+        Finish: "Glossy",
+        Type: "Corner Wall Shelf",
+        Style: "Modern Contemporary",
+        Dimensions: "20 x 20 x 123 cm",
+        Mounting: "Wall Mounted",
+        SuitableFor: "Living Room, Bedroom, Office, Study Room",
+        Assembly: "Assembly Required",
+        CareInstructions: "Clean with a soft dry cloth. Do not scrub or expose to excessive moisture."
+    },
 },
 {
     id: 4,
