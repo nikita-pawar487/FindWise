@@ -67,5 +67,5 @@ document.getElementById("description").textContent =
 // Buy Button
 const buyBtn = document.getElementById("buyBtn");
 
-buyBtn.href = product.affiliate;
+buyBtn.href = product.amazon;
 buyBtn.target = "_blank";

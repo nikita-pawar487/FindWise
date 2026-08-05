@@ -83,7 +83,10 @@ price: "₹619",
     title: "Book Shelf",
     category: "Home",
     images: [
-        "assets/images/book-shelf.png"
+        "assets/images/book/book1.png",
+        "assets/images/book/book2.png",
+        "assets/images/book/book3.png",
+        "assets/images/book/book4.png"
     ],
     price: "₹899",
 
@@ -98,7 +101,11 @@ price: "₹619",
     title: "Floating Shelf",
     category: "Home",
     images: [
-        "assets/images/float.png"
+        "assets/images/map/map1.png",
+        "assets/images/map/map2.png",
+        "assets/images/map/map3.png",
+        "assets/images/map/map4.png",
+        "assets/images/map/map5.png"
     ],
     price: "₹419",
 
@@ -113,7 +120,10 @@ price: "₹619",
     title: "Showpiece for Home Decor",
     category: "Home",
     images: [
-        "assets/images/decor.png"
+        "assets/images/dec/dec1.png",
+        "assets/images/dec/dec2.png",
+        "assets/images/dec/dec3.png",
+        "assets/images/dec/dec4.png"
     ],
     price: "₹474",
 
@@ -146,7 +156,10 @@ price: "₹619",
     title: "Decorative Wall Mounted Floating Shelf",
     category: "Home",
     images: [
-        "assets/images/mount.png"
+        "assets/images/mount/mount1.png",
+        "assets/images/mount/mount2.png",
+        "assets/images/mount/mount3.png",
+        "assets/images/mount/mount4.png"
     ],
     price: "₹745",
 
@@ -161,7 +174,10 @@ price: "₹619",
     title: "Wooden Floating Shelf",
     category: "Home",
     images: [
-        "assets/images/wooden-float.png"
+        "assets/images/float/woof1.png",
+        "assets/images/float/woof2.png",
+        "assets/images/float/woof3.png",
+        "assets/images/float/woof4.png"
     ],
     price: "₹699",
 
@@ -176,7 +192,10 @@ price: "₹619",
     title: "Wood Floating Shelf",
     category: "Home",
     images: [
-        "assets/images/woods.png"
+        "assets/images/wood/wood1.png",
+        "assets/images/wood/wood2.png",
+        "assets/images/wood/wood3.png",
+        "assets/images/wood/wood4.png"
     ],
     price: "₹999",
 
@@ -191,7 +210,10 @@ price: "₹619",
     title: "Kitchen Shelf",
     category: "Kitchen",
     images: [
-        "assets/images/kit.png"
+        "assets/images/kitc/kit1.png",
+        "assets/images/kitc/kit2.png",
+        "assets/images/kitc/kit3.png",
+        "assets/images/kitc/kit4.png"
     ],
     price: "₹584",
     rating: "4.0",
@@ -219,7 +241,10 @@ price: "₹619",
     title: "Vases for Modern Home Decor",
     category: "Home",
     images: [
-        "assets/images/home.png"
+        "assets/images/home/home1.png",
+        "assets/images/home/home2.png",
+        "assets/images/home/home3.png",
+        "assets/images/home/home4.png"
     ],
     price: "₹543",
     rating: "4.3",
@@ -233,7 +258,10 @@ price: "₹619",
     title: "White Ceramic Donut Vase",
     category: "Home",
     images: [
-        "assets/images/vase.png"
+        "assets/images/vase/vase1.png",
+        "assets/images/vase/vase2.png",
+        "assets/images/vase/vase3.png",
+        "assets/images/vase/vase4.png"
     ],
     price: "₹178",
 
