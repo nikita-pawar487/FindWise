@@ -901,4 +901,55 @@ const products = [
         CareInstructions: "Dust regularly with a soft dry cloth. Keep away from excessive moisture."
     },
 },
+{
+    id: 20,
+
+    title: "Artificial Plant in Ceramic Pot",
+
+    category: "Home",
+
+    images: [
+        "assets/images/plant/plan1.png",
+        "assets/images/plant/plan2.png",
+        "assets/images/plant/plan3.png",
+        "assets/images/plant/plan4.png",
+        "assets/images/plant/plan5.png"
+    ],
+
+    price: "₹329",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/Dekorly%C2%AE-Artificial-Bathroom-Farmhouse-Decorations/dp/B0BRCRKTVM?tag=homeorg12-21",
+
+    description: "Bring a refreshing touch of greenery to your home without the need for maintenance. This Dekorly artificial eucalyptus plant features realistic green leaves arranged in a stylish white ceramic pot, making it an ideal decorative accent for bathrooms, living rooms, bedrooms, offices, kitchens, shelves, coffee tables, and farmhouse-inspired interiors.",
+
+    review: "The Dekorly artificial eucalyptus plant is a charming décor piece that instantly brightens any space. The lifelike foliage and elegant ceramic planter create a natural, premium look while requiring no watering or sunlight. Customers appreciate its realistic appearance, compact size, and versatility for decorating shelves, countertops, bathrooms, and office desks.",
+
+    pros: [
+        "Realistic eucalyptus leaves",
+        "Premium ceramic planter included",
+        "No watering or maintenance required",
+        "Perfect for farmhouse and modern décor",
+        "Lightweight and easy to place anywhere",
+        "Suitable for home, office, bathroom, and kitchen decoration"
+    ],
+
+    cons: [
+        "Decorative use only",
+        "Smaller than some buyers expect",
+        "Artificial plant is not UV resistant for outdoor use"
+    ],
+
+    specifications: {
+        PlantType: "Artificial Eucalyptus",
+        PotMaterial: "Ceramic",
+        PotColor: "White",
+        PlantColor: "Green",
+        Style: "Farmhouse / Modern",
+        Mounting: "Tabletop",
+        SuitableFor: "Bathroom, Living Room, Bedroom, Office, Kitchen, Shelf, Coffee Table",
+        CareInstructions: "Dust occasionally with a soft dry cloth. Keep away from prolonged outdoor exposure."
+    },
+},
 ];
