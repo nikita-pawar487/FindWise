@@ -952,4 +952,58 @@ const products = [
         CareInstructions: "Dust occasionally with a soft dry cloth. Keep away from prolonged outdoor exposure."
     },
 },
+{
+    id: 21,
+
+    title: "3D Crystal Ball Night Light",
+
+    category: "Home",
+
+    images: [
+        "assets/images/cry/cry1.png",
+        "assets/images/cry/cry2.png",
+        "assets/images/cry/cry3.png",
+        "assets/images/cry/cry4.png",
+        "assets/images/cry/cry5.png"
+    ],
+
+    price: "₹226",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/Desidiya-Crystal-Night-Woodern-Decorations/dp/B0D9H5M2HR?tag=homeorg12-21",
+
+    description: "Create a warm and magical atmosphere with the Desidiya 3D Crystal Ball Night Light. Featuring a beautifully laser-engraved crystal globe placed on a natural wooden LED base, this decorative lamp emits a soft warm glow that enhances bedrooms, living rooms, offices, study tables, and bedside spaces. Its elegant design makes it a beautiful décor piece as well as a thoughtful gift for family and friends.",
+
+    review: "The Desidiya Crystal Ball Night Light combines elegant craftsmanship with soothing ambient lighting. The crystal sphere showcases an intricate 3D design that becomes more striking when illuminated by the LED wooden base. USB-powered operation and touch control make it convenient for everyday use, while its compact size fits perfectly on desks, shelves, and bedside tables. Customers appreciate its premium appearance, relaxing warm light, and excellent gifting appeal. :contentReference[oaicite:1]{index=1}",
+
+    pros: [
+        "Premium laser-engraved crystal ball",
+        "Natural wooden LED base",
+        "Soft warm ambient lighting",
+        "USB powered for convenient use",
+        "Touch control operation",
+        "Perfect for bedrooms, offices, and gifting"
+    ],
+
+    cons: [
+        "Designed mainly as a decorative light",
+        "USB connection required for operation",
+        "Compact size may be smaller than expected"
+    ],
+
+    specifications: {
+        Material: "Crystal Glass & Wood",
+        Color: "Transparent Crystal with Wooden Base",
+        LightSource: "Warm White LED",
+        PowerSource: "USB Powered",
+        Control: "Touch Switch",
+        Type: "3D Crystal Ball Night Light",
+        Style: "Modern Decorative",
+        Mounting: "Tabletop",
+        SuitableFor: "Bedroom, Living Room, Office, Study Table, Bedside",
+        Dimensions: "Approx. 5 × 5 × 5 cm",
+        CareInstructions: "Clean the crystal with a soft microfiber cloth and keep away from excessive moisture."
+    },
+},
 ];
