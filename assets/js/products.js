@@ -48,17 +48,51 @@ const products = [
 },
 {
     id: 2,
-    title: "KEA VAO Book",
+
+    title: "2026-2027 Karnataka Village Administrative Officer (VAO) Exam Guide",
+
     category: "Student",
+
     images: [
         "assets/images/kea-book.png"
     ],
+
     price: "₹799",
 
     rating: "3.9",
-    description: "Karnataka Village Administrative Officer Exam Book",
-    review: "This book is comprehensive and well-structured, making it an excellent resource for exam preparation.",
-    amazon: "https://www.amazon.in/2026-2027-Karnataka-Village-Administrative-Officer/dp/B0H8PFVHBZ?tag=homeorg12-21"
+
+    amazon: "https://www.amazon.in/2026-2027-Karnataka-Village-Administrative-Officer/dp/B0H8PFVHBZ?tag=homeorg12-21",
+
+    description: "Prepare confidently for the Karnataka Village Administrative Officer (VAO) examination with this comprehensive 2026–2027 exam guide. The book is designed according to the latest KEA syllabus and includes subject-wise theory, practice questions, previous-year question papers, model tests, and detailed explanations to help candidates strengthen their concepts and improve exam performance.",
+
+    review: "This VAO preparation guide is a valuable resource for aspirants preparing for the Karnataka Village Administrative Officer recruitment exam. It provides well-organized study material covering General Knowledge, Indian Constitution, Karnataka History, Geography, Current Affairs, Mental Ability, and other important topics. The inclusion of practice sets and previous-year papers makes it useful for self-study and revision. Students appreciate its syllabus-oriented content and exam-focused approach.",
+
+    pros: [
+        "Based on the latest 2026–2027 KEA VAO syllabus",
+        "Includes previous-year question papers",
+        "Contains model papers and practice questions",
+        "Well-structured subject-wise content",
+        "Useful for self-study and quick revision",
+        "Suitable for both beginners and repeat aspirants"
+    ],
+
+    cons: [
+        "Current affairs should be supplemented with recent updates",
+        "Some topics may require additional reference books for in-depth preparation",
+        "Practice more mock tests for better exam readiness"
+    ],
+
+    specifications: {
+        Exam: "Karnataka Village Administrative Officer (VAO)",
+        ConductingAuthority: "Karnataka Examination Authority (KEA)",
+        Edition: "2026–2027",
+        Language: "Kannada",
+        BookType: "Competitive Exam Preparation Guide",
+        Contents: "Theory, Previous-Year Papers, Practice Questions, Model Tests",
+        SuitableFor: "KEA VAO Aspirants",
+        Publisher: "Refer to Amazon Listing",
+        Binding: "Paperback"
+    },
 },
 {
     id: 3,
