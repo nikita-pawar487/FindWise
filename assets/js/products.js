@@ -63,7 +63,7 @@ const products = [
 
     amazon: "https://www.amazon.in/2026-2027-Karnataka-Village-Administrative-Officer/dp/B0H8PFVHBZ?tag=homeorg12-21",
 
-    description: "Prepare confidently for the Karnataka Village Administrative Officer (VAO) examination with this comprehensive 2026–2027 exam guide. The book is designed according to the latest KEA syllabus and includes subject-wise theory, practice questions, previous-year question papers, model tests, and detailed explanations to help candidates strengthen their concepts and improve exam performance.",
+    description: "Prepare confidently for the Karnataka Village Administrative Officer (VAO) examination with this comprehensive 2026–2027 exam guide.",
 
     review: "This VAO preparation guide is a valuable resource for aspirants preparing for the Karnataka Village Administrative Officer recruitment exam. It provides well-organized study material covering General Knowledge, Indian Constitution, Karnataka History, Geography, Current Affairs, Mental Ability, and other important topics. The inclusion of practice sets and previous-year papers makes it useful for self-study and revision. Students appreciate its syllabus-oriented content and exam-focused approach.",
 
@@ -86,7 +86,7 @@ const products = [
         Exam: "Karnataka Village Administrative Officer (VAO)",
         ConductingAuthority: "Karnataka Examination Authority (KEA)",
         Edition: "2026–2027",
-        Language: "Kannada",
+        Language: "English",
         BookType: "Competitive Exam Preparation Guide",
         Contents: "Theory, Previous-Year Papers, Practice Questions, Model Tests",
         SuitableFor: "KEA VAO Aspirants",
@@ -1038,6 +1038,56 @@ const products = [
         SuitableFor: "Bedroom, Living Room, Office, Study Table, Bedside",
         Dimensions: "Approx. 5 × 5 × 5 cm",
         CareInstructions: "Clean the crystal with a soft microfiber cloth and keep away from excessive moisture."
+    },
+},
+{
+    id: 22,
+
+    title: "One94Store Panda Rechargeable LED Table Lamp",
+
+    category: "Home",
+
+    images: [
+        "assets/images/panda/panda1.png",
+        "assets/images/panda/panda2.png",
+        "assets/images/panda/panda3.png",
+        "assets/images/panda/panda4.png"
+    ],
+
+    price: "₹379",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/One94Store-Panda-Rechargeable-Lamp-Cute/dp/B0D3QL62DS?tag=homeorg12-21",
+
+    description: "Add a playful and relaxing touch to your space with this panda-shaped rechargeable LED table lamp. Its compact design and soft illumination make it suitable for bedrooms, bedside tables, study desks, children's rooms, and decorative spaces.",
+
+    review: "This panda LED lamp combines decorative appeal with practical bedside lighting. Its adorable panda-inspired design makes it an attractive addition to bedrooms, desks, and children's spaces, while the rechargeable functionality makes it convenient for everyday use. It can also work well as a thoughtful gift for birthdays and other special occasions.The rechargeable design allows convenient use without keeping the lamp connected to a power source all the time.",
+
+    pros: [
+        "Cute panda-inspired design",
+        "Rechargeable and convenient to use",
+        "Compact tabletop design",
+        "Soft ambient lighting",
+        "Suitable for bedrooms and study tables",
+        "Good gifting option"
+    ],
+
+    cons: [
+        "Primarily intended as an ambient/decorative light",
+        "Not suitable for illuminating large rooms",
+        "Battery requires periodic recharging"
+    ],
+
+    specifications: {
+        Type: "Rechargeable LED Table Lamp",
+        Design: "Panda",
+        LightSource: "LED",
+        PowerSource: "Rechargeable Battery",
+        Mounting: "Tabletop",
+        Style: "Decorative / Cute",
+        SuitableFor: "Bedroom, Study Table, Children's Room, Bedside Table",
+        CareInstructions: "Wipe gently with a soft dry cloth. Keep away from excessive moisture."
     },
 },
 ];
