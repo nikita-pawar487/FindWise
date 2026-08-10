@@ -3,11 +3,18 @@
 // ==========================
 
 const grid = document.querySelector(".product-grid");
+
+const searchBtn = document.getElementById("searchBtn");
+const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
+
 const themeBtn = document.getElementById("themeBtn");
+
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.querySelector(".nav-links");
+
 const categoryCards = document.querySelectorAll(".category-card");
+
 
 // ==========================
 // DISPLAY PRODUCTS
@@ -73,46 +80,66 @@ function displayProducts(productList) {
         `;
 
     });
-
 }
 
-// Show all products initially
+
+// Show products
 displayProducts(products);
 
+
 // ==========================
-// SEARCH
+// SEARCH BUTTON
 // ==========================
 
-if (searchInput) {
+if (searchBtn && searchContainer) {
 
-    searchInput.addEventListener("input", function () {
+    searchBtn.addEventListener("click", () => {
 
-        const keyword = this.value.toLowerCase();
+        searchContainer.classList.toggle("active");
 
-        const filtered = products.filter(product =>
+        if (searchContainer.classList.contains("active")) {
 
-            product.title.toLowerCase().includes(keyword) ||
+            searchInput.focus();
 
-            product.category.toLowerCase().includes(keyword)
+        } else {
 
-        );
+            searchInput.value = "";
 
-        displayProducts(filtered);
-
-        const productSection = document.querySelector(".products");
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
+            displayProducts(products);
 
         }
 
     });
 
 }
+
+
+// ==========================
+// SEARCH PRODUCTS
+// ==========================
+
+if (searchInput) {
+
+    searchInput.addEventListener("input", function () {
+
+        const keyword = this.value.toLowerCase().trim();
+
+        const filtered = products.filter(product =>
+
+            product.title.toLowerCase().includes(keyword) ||
+
+            product.category.toLowerCase().includes(keyword) ||
+
+            product.description.toLowerCase().includes(keyword)
+
+        );
+
+        displayProducts(filtered);
+
+    });
+
+}
+
 
 // ==========================
 // CATEGORY FILTER
@@ -122,7 +149,9 @@ categoryCards.forEach(card => {
 
     card.addEventListener("click", () => {
 
-        categoryCards.forEach(c => c.classList.remove("active"));
+        categoryCards.forEach(c =>
+            c.classList.remove("active")
+        );
 
         card.classList.add("active");
 
@@ -142,13 +171,22 @@ categoryCards.forEach(card => {
 
         }
 
-        document.querySelector(".products").scrollIntoView({
-            behavior: "smooth"
-        });
+        const productSection =
+            document.querySelector(".products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
 
     });
 
 });
+
 
 // ==========================
 // DARK MODE
@@ -167,11 +205,15 @@ if (themeBtn) {
 
     }
 
+
     themeBtn.addEventListener("click", () => {
 
         document.body.classList.toggle("dark");
 
-        if (document.body.classList.contains("dark")) {
+        const isDark =
+            document.body.classList.contains("dark");
+
+        if (isDark) {
 
             localStorage.setItem("theme", "dark");
 
@@ -191,6 +233,7 @@ if (themeBtn) {
 
 }
 
+
 // ==========================
 // MOBILE MENU
 // ==========================
@@ -203,25 +246,30 @@ if (menuBtn && navLinks) {
 
     });
 
-}
-const thumbnailContainer = document.getElementById("thumbnails");
 
-if (typeof product !== "undefined" && thumbnailContainer) {
+    // Close menu after clicking a link
 
-    product.images.forEach((imgPath) => {
+    navLinks.querySelectorAll("a").forEach(link => {
 
-        const thumb = document.createElement("img");
+        link.addEventListener("click", () => {
 
-        thumb.src = imgPath;
-
-        thumb.addEventListener("click", () => {
-
-            document.getElementById("image").src = imgPath;
+            navLinks.classList.remove("active");
 
         });
 
-        thumbnailContainer.appendChild(thumb);
-
     });
 
+}
+const searchBtn = document.getElementById("searchBtn");
+const searchContainer = document.querySelector(".search-container");
+const searchInput = document.getElementById("searchInput");
+
+if (searchBtn && searchContainer) {
+    searchBtn.addEventListener("click", () => {
+        searchContainer.classList.toggle("active");
+
+        if (searchContainer.classList.contains("active")) {
+            searchInput.focus();
+        }
+    });
 }

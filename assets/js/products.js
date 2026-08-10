@@ -1090,4 +1090,58 @@ const products = [
         CareInstructions: "Wipe gently with a soft dry cloth. Keep away from excessive moisture."
     },
 },
+{
+    id: 23,
+
+    title: "The Diary of a Young Girl",
+
+    category: "student",
+
+    images: [
+        "assets/images/boo/boo1.png",
+        "assets/images/boo/boo2.png",
+        "assets/images/boo/boo3.png",
+        "assets/images/boo/boo4.png"
+    ],
+
+    price: "₹120",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.in/dp/8172345194?tag=homeorg12-21",
+
+    description: "The Diary of a Young Girl is the remarkable diary of Anne Frank, written while she and her family were hiding from the Nazis during World War II. Through her personal thoughts, experiences, hopes, fears, and observations, Anne offers a deeply moving perspective on life in hiding and the realities of wartime persecution. The book has become one of the most widely read personal accounts of the Holocaust.",
+
+    review: "Anne Frank's diary is a powerful and deeply personal account that combines everyday teenage thoughts with the extraordinary circumstances of life during the Holocaust. Her writing is honest, reflective, and emotionally engaging, making the book valuable for readers interested in history, literature, human resilience, and personal memoirs. It is a thoughtful addition to any personal or academic reading collection.",
+
+    pros: [
+        "Powerful first-person historical account",
+        "Written in an engaging and personal style",
+        "Provides insight into life during World War II",
+        "Suitable for students and general readers",
+        "Encourages reflection on courage and resilience",
+        "Widely regarded as an important literary memoir"
+    ],
+
+    cons: [
+        "Emotionally heavy subject matter",
+        "Not a fictional story or light recreational read",
+        "Historical context may be helpful for younger readers"
+    ],
+
+    specifications: {
+        Author: "Anne Frank",
+        Title: "The Diary of a Young Girl",
+        Language: "English",
+        Format: "Paperback",
+        Pages: "280",
+        Publisher: "Fingerprint Classics",
+        ISBN10: "8172345194",
+        ISBN13: "9788172345198",
+        Genre: "Memoir / Non-Fiction / History",
+        OriginalPublication: "1947",
+        SuitableFor: "Students, History Readers, Literature Enthusiasts",
+        CareInstructions: "Keep the book away from moisture and excessive heat."
+    },
+},
 ];
