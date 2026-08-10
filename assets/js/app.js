@@ -126,13 +126,13 @@ if (searchBtn && searchContainer) {
     });
 
 }
-
-
 // ==========================
 // SEARCH PRODUCTS
 // ==========================
+
 if (searchInput) {
 
+    // Filter while typing - DON'T SCROLL
     searchInput.addEventListener("input", function () {
 
         const keyword = this.value.toLowerCase().trim();
@@ -145,18 +145,45 @@ if (searchInput) {
 
         displayProducts(filtered);
 
-        // Automatically scroll to the product results
-        if (keyword !== "") {
+    });
 
+
+    // Scroll only when user presses ENTER
+    searchInput.addEventListener("keydown", function (event) {
+
+        if (event.key === "Enter") {
+
+            event.preventDefault();
+
+            const keyword = this.value.toLowerCase().trim();
+
+            if (keyword === "") {
+                return;
+            }
+
+            const filtered = products.filter(product =>
+                product.title.toLowerCase().includes(keyword) ||
+                product.category.toLowerCase().includes(keyword) ||
+                product.description.toLowerCase().includes(keyword)
+            );
+
+            displayProducts(filtered);
+
+
+            // Move to the product results
             const productSection =
                 document.getElementById("featured-products");
 
             if (productSection) {
 
-                productSection.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
+                setTimeout(() => {
+
+                    productSection.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+
+                }, 100);
 
             }
 
