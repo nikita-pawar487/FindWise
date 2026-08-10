@@ -3,18 +3,11 @@
 // ==========================
 
 const grid = document.querySelector(".product-grid");
-
-const searchBtn = document.getElementById("searchBtn");
-const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
-
 const themeBtn = document.getElementById("themeBtn");
-
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.querySelector(".nav-links");
-
 const categoryCards = document.querySelectorAll(".category-card");
-
 
 // ==========================
 // DISPLAY PRODUCTS
@@ -80,66 +73,46 @@ function displayProducts(productList) {
         `;
 
     });
+
 }
 
-
-// Show products
+// Show all products initially
 displayProducts(products);
 
-
 // ==========================
-// SEARCH BUTTON
-// ==========================
-
-if (searchBtn && searchContainer) {
-
-    searchBtn.addEventListener("click", () => {
-
-        searchContainer.classList.toggle("active");
-
-        if (searchContainer.classList.contains("active")) {
-
-            searchInput.focus();
-
-        } else {
-
-            searchInput.value = "";
-
-            displayProducts(products);
-
-        }
-
-    });
-
-}
-
-
-// ==========================
-// SEARCH PRODUCTS
+// SEARCH
 // ==========================
 
 if (searchInput) {
 
     searchInput.addEventListener("input", function () {
 
-        const keyword = this.value.toLowerCase().trim();
+        const keyword = this.value.toLowerCase();
 
         const filtered = products.filter(product =>
 
             product.title.toLowerCase().includes(keyword) ||
 
-            product.category.toLowerCase().includes(keyword) ||
-
-            product.description.toLowerCase().includes(keyword)
+            product.category.toLowerCase().includes(keyword)
 
         );
 
         displayProducts(filtered);
 
+        const productSection = document.querySelector(".products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
     });
 
 }
-
 
 // ==========================
 // CATEGORY FILTER
@@ -149,9 +122,7 @@ categoryCards.forEach(card => {
 
     card.addEventListener("click", () => {
 
-        categoryCards.forEach(c =>
-            c.classList.remove("active")
-        );
+        categoryCards.forEach(c => c.classList.remove("active"));
 
         card.classList.add("active");
 
@@ -171,49 +142,42 @@ categoryCards.forEach(card => {
 
         }
 
-        const productSection =
-            document.querySelector(".products");
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-
-        }
+        document.querySelector(".products").scrollIntoView({
+            behavior: "smooth"
+        });
 
     });
 
 });
 
+// ==========================
+// LIGHT / DARK MODE
+// ==========================
 
-// ==========================
-// DARK MODE
-// ==========================
+const themeBtn = document.getElementById("themeBtn");
 
 if (themeBtn) {
 
+    // Check saved preference
     const savedTheme = localStorage.getItem("theme");
 
     if (savedTheme === "dark") {
-
         document.body.classList.add("dark");
-
         themeBtn.classList.remove("fa-moon");
         themeBtn.classList.add("fa-sun");
-
+    } else {
+        document.body.classList.remove("dark");
+        themeBtn.classList.remove("fa-sun");
+        themeBtn.classList.add("fa-moon");
     }
 
 
-    themeBtn.addEventListener("click", () => {
+    // Toggle when clicked
+    themeBtn.addEventListener("click", function () {
 
         document.body.classList.toggle("dark");
 
-        const isDark =
-            document.body.classList.contains("dark");
-
-        if (isDark) {
+        if (document.body.classList.contains("dark")) {
 
             localStorage.setItem("theme", "dark");
 
@@ -226,11 +190,9 @@ if (themeBtn) {
 
             themeBtn.classList.remove("fa-sun");
             themeBtn.classList.add("fa-moon");
-
         }
 
     });
-
 }
 
 
@@ -246,82 +208,24 @@ if (menuBtn && navLinks) {
 
     });
 
+}
+const thumbnailContainer = document.getElementById("thumbnails");
 
-    // Close menu after clicking a link
+if (typeof product !== "undefined" && thumbnailContainer) {
 
-    navLinks.querySelectorAll("a").forEach(link => {
+    product.images.forEach((imgPath) => {
 
-        link.addEventListener("click", () => {
+        const thumb = document.createElement("img");
 
-            navLinks.classList.remove("active");
+        thumb.src = imgPath;
+
+        thumb.addEventListener("click", () => {
+
+            document.getElementById("image").src = imgPath;
 
         });
 
-    });
-
-}
-const searchBtn = document.getElementById("searchBtn");
-const searchContainer = document.querySelector(".search-container");
-const searchInput = document.getElementById("searchInput");
-
-if (searchBtn && searchContainer) {
-    searchBtn.addEventListener("click", () => {
-        searchContainer.classList.toggle("active");
-
-        if (searchContainer.classList.contains("active")) {
-            searchInput.focus();
-        }
-    });
-}
-// ==========================
-// DARK / LIGHT MODE
-// ==========================
-
-const themeBtn = document.getElementById("themeBtn");
-
-function setTheme(theme) {
-
-    if (theme === "dark") {
-        document.body.classList.add("dark");
-        localStorage.setItem("theme", "dark");
-
-        if (themeBtn) {
-            themeBtn.classList.remove("fa-moon");
-            themeBtn.classList.add("fa-sun");
-        }
-
-    } else {
-        document.body.classList.remove("dark");
-        localStorage.setItem("theme", "light");
-
-        if (themeBtn) {
-            themeBtn.classList.remove("fa-sun");
-            themeBtn.classList.add("fa-moon");
-        }
-    }
-}
-
-
-// Load saved theme
-const savedTheme = localStorage.getItem("theme");
-
-if (savedTheme === "dark") {
-    setTheme("dark");
-} else {
-    setTheme("light");
-}
-
-
-// Theme button
-if (themeBtn) {
-
-    themeBtn.addEventListener("click", function () {
-
-        if (document.body.classList.contains("dark")) {
-            setTheme("light");
-        } else {
-            setTheme("dark");
-        }
+        thumbnailContainer.appendChild(thumb);
 
     });
 
