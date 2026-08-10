@@ -274,45 +274,55 @@ if (searchBtn && searchContainer) {
     });
 }
 // ==========================
-// LIGHT / DARK MODE
+// DARK / LIGHT MODE
 // ==========================
 
 const themeBtn = document.getElementById("themeBtn");
 
-if (themeBtn) {
+function setTheme(theme) {
 
-    // Load saved preference
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
+    if (theme === "dark") {
         document.body.classList.add("dark");
-        themeBtn.classList.remove("fa-moon");
-        themeBtn.classList.add("fa-sun");
-    }
+        localStorage.setItem("theme", "dark");
 
-
-    // Change theme when clicked
-    themeBtn.addEventListener("click", () => {
-
-        document.body.classList.toggle("dark");
-
-        const isDark = document.body.classList.contains("dark");
-
-        if (isDark) {
-
-            localStorage.setItem("theme", "dark");
-
+        if (themeBtn) {
             themeBtn.classList.remove("fa-moon");
             themeBtn.classList.add("fa-sun");
+        }
 
-        } else {
+    } else {
+        document.body.classList.remove("dark");
+        localStorage.setItem("theme", "light");
 
-            localStorage.setItem("theme", "light");
-
+        if (themeBtn) {
             themeBtn.classList.remove("fa-sun");
             themeBtn.classList.add("fa-moon");
+        }
+    }
+}
 
+
+// Load saved theme
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "dark") {
+    setTheme("dark");
+} else {
+    setTheme("light");
+}
+
+
+// Theme button
+if (themeBtn) {
+
+    themeBtn.addEventListener("click", function () {
+
+        if (document.body.classList.contains("dark")) {
+            setTheme("light");
+        } else {
+            setTheme("dark");
         }
 
     });
+
 }

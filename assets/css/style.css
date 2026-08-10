@@ -1282,3 +1282,23 @@ body.dark form textarea:focus {
         color: #60a5fa;
     }
 }
+body.dark {
+    background: #111827 !important;
+    color: white !important;
+}
+
+body.dark header {
+    background: #0f172a !important;
+}
+
+body.dark .product-card {
+    background: #1e293b !important;
+}
+
+body.dark .product-card h3 {
+    color: white !important;
+}
+
+body.dark .product-card p {
+    color: #cbd5e1 !important;
+}
