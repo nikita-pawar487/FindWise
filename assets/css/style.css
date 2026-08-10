@@ -547,49 +547,49 @@ footer{
    DARK MODE
 ========================= */
 
-.dark-mode{
+.dark{
 
     background:#0f172a;
     color:white;
 
 }
 
-.dark-mode header{
+.dark header{
 
     background:#1e293b;
 
 }
 
-.dark-mode .navbar a{
+.dark .navbar a{
 
     color:white;
 
 }
 
-.dark-mode .product-card,
-.dark-mode .category-card,
-.dark-mode .article-card,
-.dark-mode .why-card{
+.dark .product-card,
+.dark .category-card,
+.dark .article-card,
+.dark .why-card{
 
     background:#1e293b;
     color:white;
 
 }
 
-.dark-mode p{
+.dark p{
 
     color:#cbd5e1;
 
 }
 
-.dark-mode footer{
+.dark footer{
 
     background:#020617;
 
 }
 
-.dark-mode input,
-.dark-mode textarea{
+.dark input,
+.dark textarea{
 
     background:#334155;
     color:white;
@@ -597,7 +597,7 @@ footer{
 
 }
 
-.dark-mode .newsletter{
+.dark .newsletter{
 
     background:#1d4ed8;
 
