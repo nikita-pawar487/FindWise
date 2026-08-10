@@ -131,24 +131,36 @@ if (searchBtn && searchContainer) {
 // ==========================
 // SEARCH PRODUCTS
 // ==========================
-
 if (searchInput) {
 
     searchInput.addEventListener("input", function () {
 
         const keyword = this.value.toLowerCase().trim();
 
-        if (typeof products === "undefined") return;
-
         const filtered = products.filter(product =>
-
             product.title.toLowerCase().includes(keyword) ||
-
-            product.category.toLowerCase().includes(keyword)
-
+            product.category.toLowerCase().includes(keyword) ||
+            product.description.toLowerCase().includes(keyword)
         );
 
         displayProducts(filtered);
+
+        // Automatically scroll to the product results
+        if (keyword !== "") {
+
+            const productSection =
+                document.getElementById("featured-products");
+
+            if (productSection) {
+
+                productSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+
+            }
+
+        }
 
     });
 
