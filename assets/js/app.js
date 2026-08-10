@@ -154,7 +154,6 @@ categoryCards.forEach(card => {
 // LIGHT / DARK MODE
 // ==========================
 
-const themeBtn = document.getElementById("themeBtn");
 
 if (themeBtn) {
 
