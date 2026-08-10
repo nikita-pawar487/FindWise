@@ -273,3 +273,46 @@ if (searchBtn && searchContainer) {
         }
     });
 }
+// ==========================
+// LIGHT / DARK MODE
+// ==========================
+
+const themeBtn = document.getElementById("themeBtn");
+
+if (themeBtn) {
+
+    // Load saved preference
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark");
+        themeBtn.classList.remove("fa-moon");
+        themeBtn.classList.add("fa-sun");
+    }
+
+
+    // Change theme when clicked
+    themeBtn.addEventListener("click", () => {
+
+        document.body.classList.toggle("dark");
+
+        const isDark = document.body.classList.contains("dark");
+
+        if (isDark) {
+
+            localStorage.setItem("theme", "dark");
+
+            themeBtn.classList.remove("fa-moon");
+            themeBtn.classList.add("fa-sun");
+
+        } else {
+
+            localStorage.setItem("theme", "light");
+
+            themeBtn.classList.remove("fa-sun");
+            themeBtn.classList.add("fa-moon");
+
+        }
+
+    });
+}
