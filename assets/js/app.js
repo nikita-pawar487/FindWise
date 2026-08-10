@@ -1,13 +1,24 @@
+// ==========================================
+// FINDWISE MAIN JAVASCRIPT
+// ==========================================
+
 // ==========================
 // ELEMENTS
 // ==========================
 
 const grid = document.querySelector(".product-grid");
+
+const searchBtn = document.getElementById("searchBtn");
+const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
+
 const themeBtn = document.getElementById("themeBtn");
+
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.querySelector(".nav-links");
+
 const categoryCards = document.querySelectorAll(".category-card");
+
 
 // ==========================
 // DISPLAY PRODUCTS
@@ -33,61 +44,101 @@ function displayProducts(productList) {
     productList.forEach(product => {
 
         grid.innerHTML += `
-        <a href="product.html?id=${product.id}" class="product-link">
+            <a href="product.html?id=${product.id}" class="product-link">
 
-            <div class="product-card">
+                <div class="product-card">
 
-                <img src="${product.images[0]}" alt="${product.title}">
+                    <img
+                        src="${product.images[0]}"
+                        alt="${product.title}"
+                    >
 
-                <div class="product-info">
+                    <div class="product-info">
 
-                    <span class="category">
-                        ${product.category}
-                    </span>
-
-                    <h3>${product.title}</h3>
-
-                    <div class="product-meta">
-
-                        <span class="rating">
-                            ⭐ ${product.rating}
+                        <span class="category">
+                            ${product.category}
                         </span>
 
-                        <span class="price">
-                            ${product.price}
+                        <h3>${product.title}</h3>
+
+                        <div class="product-meta">
+
+                            <span class="rating">
+                                ⭐ ${product.rating}
+                            </span>
+
+                            <span class="price">
+                                ${product.price}
+                            </span>
+
+                        </div>
+
+                        <p>
+                            ${product.description}
+                        </p>
+
+                        <span class="product-btn">
+                            Read Full Review →
                         </span>
 
                     </div>
 
-                    <p>${product.description}</p>
-
-                    <span class="product-btn">
-                        Read Full Review →
-                    </span>
-
                 </div>
 
-            </div>
-
-        </a>
+            </a>
         `;
 
     });
 
 }
 
-// Show all products initially
-displayProducts(products);
+
+// Show products when page loads
+if (typeof products !== "undefined") {
+    displayProducts(products);
+}
+
 
 // ==========================
-// SEARCH
+// SEARCH BUTTON
+// ==========================
+
+if (searchBtn && searchContainer) {
+
+    searchBtn.addEventListener("click", function () {
+
+        searchContainer.classList.toggle("active");
+
+        if (searchContainer.classList.contains("active")) {
+
+            searchInput.focus();
+
+        } else {
+
+            searchInput.value = "";
+
+            if (typeof products !== "undefined") {
+                displayProducts(products);
+            }
+
+        }
+
+    });
+
+}
+
+
+// ==========================
+// SEARCH PRODUCTS
 // ==========================
 
 if (searchInput) {
 
     searchInput.addEventListener("input", function () {
 
-        const keyword = this.value.toLowerCase();
+        const keyword = this.value.toLowerCase().trim();
+
+        if (typeof products === "undefined") return;
 
         const filtered = products.filter(product =>
 
@@ -99,20 +150,10 @@ if (searchInput) {
 
         displayProducts(filtered);
 
-        const productSection = document.querySelector(".products");
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-
-        }
-
     });
 
 }
+
 
 // ==========================
 // CATEGORY FILTER
@@ -120,13 +161,18 @@ if (searchInput) {
 
 categoryCards.forEach(card => {
 
-    card.addEventListener("click", () => {
+    card.addEventListener("click", function () {
 
-        categoryCards.forEach(c => c.classList.remove("active"));
+        categoryCards.forEach(c =>
+            c.classList.remove("active")
+        );
 
-        card.classList.add("active");
+        this.classList.add("active");
 
-        const category = card.dataset.category;
+        const category = this.dataset.category;
+
+        if (typeof products === "undefined") return;
+
 
         if (category === "All") {
 
@@ -142,56 +188,94 @@ categoryCards.forEach(card => {
 
         }
 
-        document.querySelector(".products").scrollIntoView({
-            behavior: "smooth"
-        });
+
+        const productSection =
+            document.querySelector(".products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
 
     });
 
 });
 
+
 // ==========================
 // LIGHT / DARK MODE
 // ==========================
 
+function applyTheme(theme) {
 
-if (themeBtn) {
+    if (theme === "dark") {
 
-    // Check saved preference
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
         document.body.classList.add("dark");
-        themeBtn.classList.remove("fa-moon");
-        themeBtn.classList.add("fa-sun");
-    } else {
-        document.body.classList.remove("dark");
-        themeBtn.classList.remove("fa-sun");
-        themeBtn.classList.add("fa-moon");
-    }
 
-
-    // Toggle when clicked
-    themeBtn.addEventListener("click", function () {
-
-        document.body.classList.toggle("dark");
-
-        if (document.body.classList.contains("dark")) {
-
-            localStorage.setItem("theme", "dark");
+        if (themeBtn) {
 
             themeBtn.classList.remove("fa-moon");
             themeBtn.classList.add("fa-sun");
 
-        } else {
+        }
 
-            localStorage.setItem("theme", "light");
+    } else {
+
+        document.body.classList.remove("dark");
+
+        if (themeBtn) {
 
             themeBtn.classList.remove("fa-sun");
             themeBtn.classList.add("fa-moon");
+
+        }
+
+    }
+
+}
+
+
+// Load saved theme
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "dark") {
+
+    applyTheme("dark");
+
+} else {
+
+    applyTheme("light");
+
+}
+
+
+// Theme button
+if (themeBtn) {
+
+    themeBtn.addEventListener("click", function () {
+
+        const isDark =
+            document.body.classList.contains("dark");
+
+        if (isDark) {
+
+            applyTheme("light");
+
+            localStorage.setItem("theme", "light");
+
+        } else {
+
+            applyTheme("dark");
+
+            localStorage.setItem("theme", "dark");
+
         }
 
     });
+
 }
 
 
@@ -201,30 +285,9 @@ if (themeBtn) {
 
 if (menuBtn && navLinks) {
 
-    menuBtn.addEventListener("click", () => {
+    menuBtn.addEventListener("click", function () {
 
         navLinks.classList.toggle("active");
-
-    });
-
-}
-const thumbnailContainer = document.getElementById("thumbnails");
-
-if (typeof product !== "undefined" && thumbnailContainer) {
-
-    product.images.forEach((imgPath) => {
-
-        const thumb = document.createElement("img");
-
-        thumb.src = imgPath;
-
-        thumb.addEventListener("click", () => {
-
-            document.getElementById("image").src = imgPath;
-
-        });
-
-        thumbnailContainer.appendChild(thumb);
 
     });
 
