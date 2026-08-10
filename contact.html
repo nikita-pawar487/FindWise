@@ -97,5 +97,9 @@ if(localStorage.getItem("theme") === "dark"){
 </script>
 <script src="assets/js/app.js"></script>
 </body>
-
+<script>
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+}
+</script>
 </html>
