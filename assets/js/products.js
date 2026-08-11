@@ -1203,4 +1203,64 @@ const products = [
         CareInstructions: "No watering, pruning, or fertilizing required. Dust gently when necessary."
     },
 },
+{
+    id: 25,
+
+    title: "Engage Luxury Perfume Gift Set for Women",
+
+    category: "Beauty",
+
+    images: [
+        "assets/images/engage/engage1.png",
+        "assets/images/engage/engage2.png",
+        "assets/images/engage/engage3.png",
+        "assets/images/engage/engage4.png"
+    ],
+
+    price: "₹378",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/Engage-Luxury-Perfume-Assorted-Birthday/dp/B0CSK7YP3H?tag=homeorg12-21",
+
+    description: "Make every occasion special with this Engage Luxury Perfume Gift Set for Women. The set contains four 25ml Eau de Parfum fragrances — Engage Yang, Femme, Fantasia, and Verona — offering a selection of fruity, floral, and woody fragrance profiles. The compact travel-sized bottles are easy to carry and make the set suitable for everyday wear, special occasions, and gifting.",
+
+    review: "This Engage perfume gift set offers four different fragrances in convenient 25ml bottles, allowing you to choose a scent according to your mood or occasion. The travel-friendly packaging makes it practical for carrying in a handbag or while travelling, while the elegant gift-ready presentation makes it a good choice for birthdays, anniversaries, and other special occasions. The set is also listed as alcohol-free and dermatologically tested.",
+
+    pros: [
+        "Four different fragrances in one set",
+        "25ml travel-sized bottles",
+        "Eau de Parfum formulation",
+        "Includes floral, fruity, and woody fragrance profiles",
+        "Alcohol-free formulation",
+        "Travel-friendly and easy to carry",
+        "Suitable for gifting",
+        "Dermatologically tested"
+    ],
+
+    cons: [
+        "Individual fragrance preferences may vary",
+        "25ml bottles may not be ideal for users wanting larger quantities",
+        "Fragrance longevity can vary from person to person"
+    ],
+
+    specifications: {
+        Brand: "Engage",
+        FragranceType: "Eau de Parfum",
+        FragranceSet: "Yang, Femme, Fantasia, Verona",
+        NumberOfItems: "4",
+        BottleSize: "25ml each",
+        TotalVolume: "100ml",
+        ItemForm: "Liquid",
+        ApplicationMode: "Spray",
+        Scent: "Citrus, Fruity, Floral, Woody",
+        MaterialFeatures: "Alcohol Free",
+        SpecialFeature: "Travel Size",
+        Manufacturer: "ITC Limited",
+        ModelNumber: "PENPS0220",
+        CountryOfOrigin: "India",
+        SuitableFor: "Women",
+        Occasion: "Birthday, Anniversary, Everyday Wear, Gifting"
+    },
+},
 ];
