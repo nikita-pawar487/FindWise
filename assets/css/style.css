@@ -947,3 +947,21 @@ footer{
 .back-to-findwise:hover {
     background: #1d4ed8;
 }
+.buy-btn,
+.back-to-findwise {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-to-findwise {
+    background: #64748b;
+    color: white;
+}
+
+.back-to-findwise:hover {
+    background: #475569;
+}
