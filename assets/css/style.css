@@ -1003,3 +1003,30 @@ footer{
     background: #64748b;
     color: white;
 }
+.product-actions {
+    margin-top: 20px;
+}
+
+.product-info-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product-info-row .price,
+.product-info-row .rating {
+    margin: 0;
+}
+
+.product-buttons-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.product-buttons-row .buy-btn,
+.product-buttons-row .back-to-findwise {
+    margin: 0;
+}
