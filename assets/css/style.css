@@ -965,3 +965,41 @@ footer{
 .back-to-findwise:hover {
     background: #475569;
 }
+.product-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-actions .price,
+.product-actions .rating,
+.product-actions .buy-btn,
+.product-actions .back-to-findwise {
+    margin: 0;
+}
+
+.product-actions .price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.product-actions .rating {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-actions .buy-btn,
+.product-actions .back-to-findwise {
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.product-actions .back-to-findwise {
+    background: #64748b;
+    color: white;
+}
