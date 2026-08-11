@@ -104,6 +104,8 @@ Buy on Amazon
 
 
 
+<script src="assets/js/products.js"></script>
+
 <script>
 const params = new URLSearchParams(window.location.search);
 const id = Number(params.get("id"));
@@ -115,11 +117,9 @@ if (product) {
     const mainImage = document.getElementById("image");
     const thumbnails = document.getElementById("thumbnails");
 
-    // Main Image
     mainImage.src = product.images[0];
     mainImage.alt = product.title;
 
-    // Create Thumbnails
     product.images.forEach((img) => {
 
         const thumb = document.createElement("img");
@@ -136,54 +136,46 @@ if (product) {
     });
 
     document.getElementById("title").textContent = product.title;
+    document.getElementById("price").textContent = product.price;
+    document.getElementById("rating").textContent = "⭐ " + product.rating;
     document.getElementById("description").textContent = product.description;
     document.getElementById("review").textContent = product.review;
-    // Pros
-const pros = document.getElementById("pros");
 
-product.pros.forEach(item => {
+    const pros = document.getElementById("pros");
 
-    const li = document.createElement("li");
+    product.pros.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        pros.appendChild(li);
+    });
 
-    li.textContent = item;
+    const cons = document.getElementById("cons");
 
-    pros.appendChild(li);
+    product.cons.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        cons.appendChild(li);
+    });
 
-});
+    const specs = document.getElementById("specifications");
 
-// Cons
-const cons = document.getElementById("cons");
+    Object.entries(product.specifications).forEach(([key, value]) => {
 
-product.cons.forEach(item => {
+        const row = document.createElement("tr");
 
-    const li = document.createElement("li");
+        row.innerHTML = `
+            <td>${key}</td>
+            <td>${value}</td>
+        `;
 
-    li.textContent = item;
+        specs.appendChild(row);
+    });
 
-    cons.appendChild(li);
-
-});
-
-// Specifications
-const specs = document.getElementById("specifications");
-
-Object.entries(product.specifications).forEach(([key,value]) => {
-
-    const row = document.createElement("tr");
-
-    row.innerHTML = `
-        <td>${key}</td>
-        <td>${value}</td>
-    `;
-
-    specs.appendChild(row);
-
-});
     document.getElementById("buyBtn").href = product.amazon;
 }
 </script>
 <script src="assets/js/product.js"></script>
-<script src="assets/js/products.js"></script>
+
 </body>
 
 </html>
