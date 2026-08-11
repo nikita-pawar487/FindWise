@@ -1095,7 +1095,7 @@ const products = [
 
     title: "The Diary of a Young Girl",
 
-    category: "student",
+    category: "Student",
 
     images: [
         "assets/images/boo/boo1.png",
@@ -1142,6 +1142,65 @@ const products = [
         OriginalPublication: "1947",
         SuitableFor: "Students, History Readers, Literature Enthusiasts",
         CareInstructions: "Keep the book away from moisture and excessive heat."
+    },
+},
+{
+    id: 24,
+
+    title: "Artificial Gardenia Plant in Wooden Planter",
+
+    category: "Home",
+
+    images: [
+        "assets/images/gar/gar1.png",
+        "assets/images/gar/gar2.png",
+        "assets/images/gar/gar3.png",
+        "assets/images/gar/gar4.png",
+        "assets/images/gar/gar5.png"
+    ],
+
+    price: "₹339",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/fancymart-Artificial-Gardenia-Plant-Planter/dp/B096QN5HM4?tag=homeorg12-21",
+
+    description: "Bring a natural and refreshing look to your interiors with this realistic artificial gardenia plant bunch in a wooden planter. Designed for easy indoor decoration, it adds greenery to living rooms, bedrooms, offices, shelves, tables, bathrooms, and other spaces without requiring watering, sunlight, pruning, or fertilizers.",
+
+    review: "This artificial gardenia plant is designed to provide a realistic greenery effect with virtually no maintenance. The decorative wooden planter gives it a warm, natural appearance, making it suitable for both home and office interiors. Its compact design makes it easy to place on tables, shelves, desks, and other decorative spaces.",
+
+    pros: [
+        "Realistic-looking gardenia foliage",
+        "Decorative wooden planter",
+        "No watering or sunlight required",
+        "No pruning or fertilizers needed",
+        "Suitable for home and office décor",
+        "Easy to place on tables and shelves",
+        "Suitable for year-round indoor decoration"
+    ],
+
+    cons: [
+        "Artificial plant does not have the natural fragrance of a real gardenia",
+        "Primarily intended for indoor decorative use",
+        "Appearance may differ slightly from natural plants"
+    ],
+
+    specifications: {
+        Brand: "fancymart",
+        PlantType: "Gardenia",
+        Material: "Plastic",
+        Color: "Green",
+        PlanterMaterial: "Wood",
+        Type: "Artificial Plant",
+        PlanterSize: "8-Inch Planter",
+        Height: "Approx. 13 cm",
+        NumberOfItems: "1",
+        IndoorOutdoorUsage: "Indoor",
+        SuitableFor: "Living Room, Office, Bedroom, Bathroom, Table, Shelf",
+        SpecialFeature: "Water Resistant",
+        Manufacturer: "TheFancyMart",
+        ModelNumber: "FMDB-6357",
+        CareInstructions: "No watering, pruning, or fertilizing required. Dust gently when necessary."
     },
 },
 ];
