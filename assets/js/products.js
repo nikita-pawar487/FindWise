@@ -1322,4 +1322,64 @@ const products = [
         ModelNumber: "WPS-01"
     },
 },
+{
+    id: 27,
+
+    title: "Panda Ceramic Coffee Mug 3D",
+
+    category: "All Products",
+
+    images: [
+        "assets/images/mug/mug1.png",
+        "assets/images/mug/mug2.png",
+        "assets/images/mug/mug3.png",
+        "assets/images/mug/mug4.png"
+    ],
+
+    price: "₹559",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.in/Vasukie-Coffee-Brother-Birthday-Ceramic/dp/B0DTKKJZX1?tag=homeorg12-21",
+
+    description: "Add a playful touch to your coffee or tea routine with this Vasukie 3D Panda Ceramic Coffee Mug. With a generous 420ml capacity, the mug comes with a matching panda-themed lid and glass spoon, making it both functional and decorative. Its charming design makes it suitable for everyday drinks as well as a thoughtful gift for birthdays, Raksha Bandhan, and other special occasions.",
+
+    review: "This panda-themed ceramic mug combines an attractive design with useful accessories. The 420ml capacity makes it suitable for coffee, tea, hot chocolate, milk, and other beverages, while the lid helps keep drinks covered. The included glass spoon adds to the presentation, making the set particularly appealing as a gift for a brother or someone who enjoys fun and distinctive drinkware. The listing also specifies microwave, refrigerator, and dishwasher compatibility. :contentReference[oaicite:1]{index=1}",
+
+    pros: [
+        "Cute 3D panda design",
+        "Large 420ml capacity",
+        "Includes matching lid",
+        "Includes glass spoon",
+        "Ceramic construction",
+        "Microwave safe",
+        "Suitable for hot and cold beverages",
+        "Good gifting option"
+    ],
+
+    cons: [
+        "Ceramic construction requires careful handling",
+        "Panda design may not suit minimalist preferences",
+        "Larger size may not be ideal for small cup holders"
+    ],
+
+    specifications: {
+        Brand: "Vasukie",
+        Material: "Ceramic",
+        Color: "White",
+        Capacity: "420ml",
+        Type: "3D Panda Coffee Mug",
+        Size: "Large",
+        IncludesLid: "Yes",
+        IncludesSpoon: "Yes",
+        SpoonMaterial: "Glass",
+        MicrowaveSafe: "Yes",
+        RefrigeratorSafe: "Yes",
+        DishwasherSafe: "Yes",
+        ModelNumber: "PandaMug",
+        CountryOfOrigin: "China",
+        SuitableFor: "Coffee, Tea, Hot Chocolate, Milk, Juice",
+        Occasion: "Birthday, Raksha Bandhan, Gifting"
+    },
+},
 ];
