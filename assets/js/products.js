@@ -1263,4 +1263,63 @@ const products = [
         Occasion: "Birthday, Anniversary, Everyday Wear, Gifting"
     },
 },
+{
+    id: 26,
+
+    title: "Bella Vita Luxury Perfume Gift Set for Women",
+
+    category: "Beauty",
+
+    images: [
+        "assets/images/bella/bella1.png",
+        "assets/images/bella/bella2.png",
+        "assets/images/bella/bella3.png",
+        "assets/images/bella/bella4.png"
+    ],
+
+    price: "₹498",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/Bella-Vita-Organic-Perfumes-Fragrance/dp/B09232XNTX?tag=homeorg12-21",
+
+    description: "Discover a collection of four elegant fragrances with the Bella Vita Luxury Perfume Gift Set for Women. The set includes DATE, SENORITA, GLAM, and ROSE, with each 20ml Eau de Parfum offering a different fragrance profile ranging from fruity and floral to warm and sensual notes. The compact bottles are travel-friendly and make the set a convenient choice for everyday wear, special occasions, and gifting.",
+
+    review: "This gift set is a good choice for women who enjoy having different fragrances for different moods and occasions. DATE offers a romantic fruity-floral profile, SENORITA combines fresh and floral notes with a musky base, GLAM has a sophisticated floral character, while ROSE delivers a romantic blend of jasmine, peach, and amber. The four 20ml bottles are easy to carry, making the set practical for travel as well as gifting.",
+
+    pros: [
+        "Includes 4 different fragrances",
+        "20ml travel-friendly bottles",
+        "Eau de Parfum formulation",
+        "Floral and fruity fragrance profiles",
+        "Suitable for different occasions",
+        "Compact and easy to carry",
+        "Good gifting option",
+        "IFRA-certified"
+    ],
+
+    cons: [
+        "Fragrance preferences can vary from person to person",
+        "20ml bottles are smaller than full-size perfumes",
+        "The set is designed specifically for women"
+    ],
+
+    specifications: {
+        Brand: "Bella Vita Luxury",
+        Type: "Perfume Gift Set",
+        FragranceConcentration: "Eau de Parfum",
+        NumberOfPerfumes: "4",
+        BottleSize: "20ml each",
+        TotalVolume: "80ml",
+        Fragrances: "DATE, SENORITA, GLAM, ROSE",
+        Gender: "Women",
+        Form: "Liquid",
+        ApplicationMode: "Spray",
+        Occasion: "Everyday Wear, Party, Romantic Evening, Gifting",
+        SpecialFeature: "Long Lasting, Travel Friendly",
+        CountryOfOrigin: "India",
+        Manufacturer: "IDAM Natural Wellness Pvt. Ltd.",
+        ModelNumber: "WPS-01"
+    },
+},
 ];
