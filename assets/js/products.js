@@ -1431,4 +1431,70 @@ const products = [
         CareInstructions: "Dust gently with a soft dry cloth."
     },
 },
+{
+    id: 29,
+
+    title: "NYRWANA Mr & Mrs Couple Coffee Mug Gift Set",
+
+    category: "Gifts",
+
+    images: [
+        "assets/images/couple-mug/couple-mug1.png",
+        "assets/images/couple-mug/couple-mug2.png",
+        "assets/images/couple-mug/couple-mug3.png",
+        "assets/images/couple-mug/couple-mug4.png"
+    ],
+
+    price: "₹848",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.in/Delivering-Coffee-Mug-Anniversary-Marriage/dp/B08YWN2FT3?tag=homeorg12-21",
+
+    description: "Celebrate love and togetherness with the NYRWANA Mr & Mrs Couple Coffee Mug Gift Set. The set includes two elegant 380ml ceramic mugs featuring a stylish marble-inspired design, along with matching lids, ceramic spoons, coasters, a Best Wishes card, and a beautiful carry bag. It makes a thoughtful gift for weddings, anniversaries, engagements, Valentine's Day, and newly married couples.",
+
+    review: "This couple mug set combines attractive design with a complete gifting presentation. The two ceramic mugs are designed for everyday beverages such as coffee, tea, cocoa, milk, and juice, while the matching lids and spoons make the set more practical. The included coasters, greeting card, and gift packaging make it especially convenient when you want to give it directly as a wedding or anniversary present.",
+
+    pros: [
+        "Complete Mr & Mrs gift set",
+        "Includes 2 ceramic mugs",
+        "Large 380ml capacity per mug",
+        "Includes matching lids and ceramic spoons",
+        "Includes 2 coasters and Best Wishes card",
+        "Beautiful gift packaging",
+        "Microwave and dishwasher safe",
+        "Ideal for weddings and anniversaries"
+    ],
+
+    cons: [
+        "Ceramic construction requires careful handling",
+        "Gift set may be more than needed for everyday personal use",
+        "Marble pattern may vary slightly between pieces"
+    ],
+
+    specifications: {
+        Brand: "NYRWANA",
+        Material: "Ceramic",
+        Color: "Mr & Mrs Gift Box",
+        Design: "Marble Pattern",
+        Type: "Couple Coffee Mug Gift Set",
+        NumberOfMugs: "2",
+        Capacity: "380ml Each",
+        TotalMugCapacity: "760ml",
+        IncludesLids: "2",
+        IncludesSpoons: "2 Ceramic Spoons",
+        IncludesCoasters: "2",
+        IncludesGiftCard: "Best Wishes Card",
+        GiftPackaging: "Beautiful Carry Bag / Gift Box",
+        Finish: "Glossy",
+        MicrowaveSafe: "Yes",
+        DishwasherSafe: "Yes",
+        Dimensions: "12 × 12.5 cm",
+        ModelNumber: "Mr & Mrs Coffee Mug",
+        Manufacturer: "Nyrwana",
+        CountryOfOrigin: "India",
+        SuitableFor: "Coffee, Tea, Cocoa, Juice, Milk, Water",
+        Occasion: "Wedding, Anniversary, Engagement, Valentine's Day, Gifting"
+    },
+},
 ];
