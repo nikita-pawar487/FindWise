@@ -1382,4 +1382,53 @@ const products = [
         Occasion: "Birthday, Raksha Bandhan, Gifting"
     },
 },
+{
+    id: 28,
+
+    title: "TIED RIBBONS Multicolor Miniature Decoration",
+
+    category: "Home",
+
+    images: [
+        "assets/images/old/old1.png",
+        "assets/images/old/old2.png",
+        "assets/images/old/old3.png",
+        "assets/images/old/old4.png"
+    ],
+
+    price: "198",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/TIED-RIBBONS-Miniature-Decoration-Multicolor/dp/B07P8SYN87?tag=homeorg12-21",
+
+    description: "Add a colourful decorative touch to your home with this TIED RIBBONS miniature décor piece. Its compact design makes it suitable for displaying on shelves, tables, cabinets, desks, or other decorative spaces, adding personality and visual interest to your interior.",
+
+    review: "This miniature decorative piece is designed primarily to enhance the look of small spaces and display areas. Its multicolor appearance makes it easy to pair with different décor styles and other decorative accessories. It can be used as an accent piece for shelves, tabletops, cabinets, or gifting.",
+
+    pros: [
+        "Attractive multicolor design",
+        "Compact decorative piece",
+        "Easy to display",
+        "Suitable for different interior spaces",
+        "Works well with other décor accessories",
+        "Suitable as a decorative gift"
+    ],
+
+    cons: [
+        "Primarily intended for decoration",
+        "Exact dimensions should be checked before purchase",
+        "Details may vary depending on the selected listing"
+    ],
+
+    specifications: {
+        Brand: "TIED RIBBONS",
+        Type: "Miniature Decorative Showpiece",
+        Color: "Multicolor",
+        Style: "Decorative",
+        Mounting: "Tabletop",
+        SuitableFor: "Living Room, Bedroom, Office, Shelf, Table",
+        CareInstructions: "Dust gently with a soft dry cloth."
+    },
+},
 ];
