@@ -1439,10 +1439,10 @@ const products = [
     category: "Gifts",
 
     images: [
-        "assets/images/couple-mug/couple-mug1.png",
-        "assets/images/couple-mug/couple-mug2.png",
-        "assets/images/couple-mug/couple-mug3.png",
-        "assets/images/couple-mug/couple-mug4.png"
+        "assets/images/cup/cup1.png",
+        "assets/images/cup/cup2.png",
+        "assets/images/cup/cup3.png",
+        "assets/images/cup/cup4.png"
     ],
 
     price: "₹848",
