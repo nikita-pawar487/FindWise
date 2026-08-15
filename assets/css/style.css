@@ -1160,3 +1160,53 @@ body.dark .container {
     background: #0f172a;
     color: #f8fafc;
 }
+.blog-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-card {
+    padding: 25px;
+    border-radius: 15px;
+    background: #f1f5f9;
+}
+
+.blog-card h3 {
+    margin-top: 0;
+}
+
+.blog-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+body.dark .blog-card {
+    background: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark .blog-card h3,
+body.dark .blog-card p {
+    color: #f8fafc;
+}
+
+@media (max-width: 700px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+}
