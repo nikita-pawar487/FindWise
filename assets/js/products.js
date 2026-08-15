@@ -1554,4 +1554,64 @@ const products = [
         SuitableFor: "Mystery and Thriller Readers"
     }
 },
+{
+    id: 31,
+
+    title: "Flameless LED Candles with Remote",
+
+    category: "Home",
+
+    images: [
+        "assets/images/can/can1.png",
+        "assets/images/can/can2.png",
+        "assets/images/can/can3.png",
+        "assets/images/can/can4.png",
+        "assets/images/can/can5.png"
+    ],
+
+    price: "₹787",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Amazon-Flameless-Candles-Controller-Acrylic/dp/B0D6GP5HSM?tag=homeorg12-21",
+
+    description: "Create a warm and elegant ambience without the risks of a real flame with these Amazon Basics flameless LED candles. The set includes three golden acrylic fiber-glass candles in different heights, creating a layered decorative effect. With remote control and timer functionality, they are convenient for bedrooms, living rooms, dining areas, festive decorations, and special occasions.",
+
+    review: "These flameless LED candles are a practical choice for adding soft decorative lighting to your home without smoke, wax, or an open flame. The three different candle heights create an attractive layered display, while the golden acrylic exterior adds a sophisticated touch. The included remote control and timer make them convenient for everyday ambience as well as parties and festive décor.",
+
+    pros: [
+        "Set of 3 candles in different heights",
+        "Elegant golden acrylic fiber-glass finish",
+        "Flameless and safer than traditional candles",
+        "Remote control included",
+        "Timer function for convenient operation",
+        "Battery operated",
+        "Creates a layered decorative lighting effect",
+        "Suitable for home and festive décor"
+    ],
+
+    cons: [
+        "Requires AA batteries",
+        "Primarily intended for decorative lighting",
+        "Golden finish may not suit every interior style"
+    ],
+
+    specifications: {
+        Brand: "Amazon Basics",
+        Type: "Flameless LED Candles",
+        Material: "Acrylic Fiber Glass",
+        Color: "Gold",
+        NumberOfCandles: "3",
+        PowerSource: "AA Batteries",
+        Control: "Remote Control",
+        Timer: "Yes",
+        CandleSizes: "3 × 4 inch, 3 × 5 inch, 3 × 6 inch",
+        Dimensions: "7.1D × 21.6W × 15.2H cm",
+        LightType: "LED",
+        Flame: "Flameless",
+        SuitableFor: "Living Room, Bedroom, Dining Area, Events, Festive Décor",
+        CountryOfOrigin: "China",
+        CareInstructions: "Wipe gently with a soft dry cloth. Keep the battery compartment dry."
+    },
+},
 ];
