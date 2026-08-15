@@ -1497,4 +1497,61 @@ const products = [
         Occasion: "Wedding, Anniversary, Engagement, Valentine's Day, Gifting"
     },
 },
+{
+    id: 30,
+
+    title: "The Da Vinci Code",
+
+    category: "Books",
+
+    images: [
+        "assets/images/dan/dan1.png",
+        "assets/images/dan/dan2.png"
+    ],
+
+    price: "₹340",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.in/Vinci-Code-Robert-Langdon/dp/0552161276?tag=homeorg12-21",
+
+    description: "The Da Vinci Code by Dan Brown is a gripping mystery thriller featuring Harvard symbologist Robert Langdon. After the curator of the Louvre is murdered and mysterious codes are discovered beside the body, Langdon and French cryptologist Sophie Neveu are drawn into a dangerous investigation involving Leonardo da Vinci's works, hidden symbols, secret societies, and an ancient mystery.",
+
+    review: "The Da Vinci Code is a fast-paced mystery thriller that combines art, history, cryptography, secret societies, and suspense. The story follows Robert Langdon and Sophie Neveu as they decode a series of clues while uncovering secrets connected to Leonardo da Vinci. It is a good choice for readers who enjoy intellectually engaging mysteries, historical puzzles, unexpected revelations, and action-driven storytelling.",
+
+    pros: [
+        "Fast-paced mystery thriller",
+        "Engaging puzzles and cryptic clues",
+        "Features Robert Langdon and Sophie Neveu",
+        "Combines art, history and mystery",
+        "Strong suspense throughout the story",
+        "Interesting references to Leonardo da Vinci",
+        "Easy-to-follow storytelling",
+        "Popular choice for thriller and mystery readers"
+    ],
+
+    cons: [
+        "Some historical claims are fictionalized",
+        "Large number of twists may feel overwhelming",
+        "Some readers may find the descriptive sections lengthy",
+        "Not ideal for readers looking for a purely realistic mystery"
+    ],
+
+    specifications: {
+        Brand: "Corgi",
+        Author: "Dan Brown",
+        Title: "The Da Vinci Code",
+        Series: "Robert Langdon #2",
+        Publisher: "Corgi",
+        ISBN10: "0552161276",
+        ISBN13: "9780552161275",
+        Language: "English",
+        Binding: "Paperback",
+        Pages: "590",
+        PublicationYear: "2003",
+        Genre: "Mystery, Thriller",
+        CountryOfOrigin: "United Kingdom",
+        SuitableFor: "Mystery and Thriller Readers"
+    }
+},
 ];
