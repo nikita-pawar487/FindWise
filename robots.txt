@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikita-pawar487.github.io/FindWise/sitemap.xml
