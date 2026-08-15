@@ -1502,7 +1502,7 @@ const products = [
 
     title: "The Da Vinci Code",
 
-    category: "Books",
+    category: "Student",
 
     images: [
         "assets/images/dan/dan1.png",

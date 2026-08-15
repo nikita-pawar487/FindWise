@@ -233,6 +233,7 @@ if (searchInput) {
 
         const keyword = searchInput.value.toLowerCase().trim();
 
+        // Don't do anything for an empty search
         if (keyword === "") {
             return;
         }
@@ -243,25 +244,52 @@ if (searchInput) {
             product.description.toLowerCase().includes(keyword)
         );
 
+        // ==========================
+        // NO PRODUCT FOUND
+        // ==========================
+
         if (filtered.length === 0) {
 
-    grid.innerHTML = `
-        <div class="no-results">
-            <h3>🔍 No products found</h3>
-            <p>
-                Sorry, we couldn't find anything matching
-                "<strong>${searchInput.value}</strong>".
-            </p>
-            <p>
-                Try another search or browse our categories.
-            </p>
-        </div>
-    `;
+            grid.innerHTML = `
+                <div class="no-results" style="
+                    width: 100%;
+                    text-align: center;
+                    padding: 40px 20px;
+                    box-sizing: border-box;
+                ">
+                    <h2>🔍 No products found</h2>
 
-    return;
-}
+                    <p>
+                        Sorry, we couldn't find anything matching
+                        "<strong>${searchInput.value}</strong>".
+                    </p>
 
-displayProducts(filtered);
+                    <p>
+                        Try another search or browse our categories.
+                    </p>
+                </div>
+            `;
+
+            const productSection =
+                document.getElementById("featured-products");
+
+            if (productSection) {
+
+                productSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+
+            }
+
+            return;
+        }
+
+        // ==========================
+        // PRODUCTS FOUND
+        // ==========================
+
+        displayProducts(filtered);
 
         const productSection =
             document.getElementById("featured-products");
@@ -278,7 +306,20 @@ displayProducts(filtered);
     });
 
 }
-}
+
+displayProducts(filtered);
+
+        const productSection =
+            document.getElementById("featured-products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
 
 
 // ==========================
@@ -416,5 +457,5 @@ if (menuBtn && navLinks) {
         navLinks.classList.toggle("active");
 
     });
-
+}
 }
