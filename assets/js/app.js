@@ -11,7 +11,7 @@ const grid = document.querySelector(".product-grid");
 const searchBtn = document.getElementById("searchBtn");
 const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
-
+const searchSubmit = document.getElementById("searchSubmit");
 const themeBtn = document.getElementById("themeBtn");
 
 const menuBtn = document.getElementById("menuBtn");
@@ -227,7 +227,57 @@ if (searchInput) {
         }
 
     });
+    if (searchSubmit) {
 
+    searchSubmit.addEventListener("click", function () {
+
+        const keyword = searchInput.value.toLowerCase().trim();
+
+        if (keyword === "") {
+            return;
+        }
+
+        const filtered = products.filter(product =>
+            product.title.toLowerCase().includes(keyword) ||
+            product.category.toLowerCase().includes(keyword) ||
+            product.description.toLowerCase().includes(keyword)
+        );
+
+        displayProducts(filtered);
+
+        if (filtered.length === 0) {
+
+            grid.innerHTML = `
+                <div class="no-results">
+                    <h3>🔍 No products found</h3>
+                    <p>
+                        Sorry, we couldn't find a product matching
+                        "<strong>${searchInput.value}</strong>".
+                    </p>
+                    <p>
+                        Try another search or browse our categories.
+                    </p>
+                </div>
+            `;
+
+            return;
+        }
+
+        const productSection =
+            document.getElementById("featured-products");
+
+        if (productSection) {
+
+            productSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+        }
+
+    });
+
+}
 }
 
 
