@@ -1122,3 +1122,41 @@ body.dark section {
     background: #0f172a;
     color: #f8fafc;
 }
+body.dark {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark li {
+    color: #f8fafc;
+}
+
+body.dark main,
+body.dark section,
+body.dark .container {
+    background: #0f172a;
+    color: #f8fafc;
+}
+body.dark {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark li {
+    color: #f8fafc;
+}
+
+body.dark main,
+body.dark section,
+body.dark .container {
+    background: #0f172a;
+    color: #f8fafc;
+}
