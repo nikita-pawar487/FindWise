@@ -243,25 +243,25 @@ if (searchInput) {
             product.description.toLowerCase().includes(keyword)
         );
 
-        displayProducts(filtered);
-
         if (filtered.length === 0) {
 
-            grid.innerHTML = `
-                <div class="no-results">
-                    <h3>🔍 No products found</h3>
-                    <p>
-                        Sorry, we couldn't find a product matching
-                        "<strong>${searchInput.value}</strong>".
-                    </p>
-                    <p>
-                        Try another search or browse our categories.
-                    </p>
-                </div>
-            `;
+    grid.innerHTML = `
+        <div class="no-results">
+            <h3>🔍 No products found</h3>
+            <p>
+                Sorry, we couldn't find anything matching
+                "<strong>${searchInput.value}</strong>".
+            </p>
+            <p>
+                Try another search or browse our categories.
+            </p>
+        </div>
+    `;
 
-            return;
-        }
+    return;
+}
+
+displayProducts(filtered);
 
         const productSection =
             document.getElementById("featured-products");
