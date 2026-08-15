@@ -1030,3 +1030,95 @@ footer{
 .product-buttons-row .back-to-findwise {
     margin: 0;
 }
+/* Product page dark mode */
+body.dark {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark .product-page {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark p,
+body.dark li,
+body.dark td,
+body.dark th {
+    color: #f8fafc;
+}
+
+body.dark .description-box {
+    background: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark .description-box p {
+    color: #e2e8f0;
+}
+
+body.dark .spec-table {
+    color: #f8fafc;
+}
+
+body.dark .spec-table td,
+body.dark .spec-table th {
+    border-color: #475569;
+    color: #f8fafc;
+}
+
+body.dark .product-info-row .price {
+    color: #22c55e;
+}
+
+body.dark .product-info-row .rating {
+    color: #facc15;
+}
+/* Fix Pros and Cons text in dark mode */
+
+body.dark .pros li {
+    color: #0f172a !important;
+    background: #d1fae5;
+}
+
+body.dark .cons li {
+    color: #0f172a !important;
+    background: #fee2e2;
+}
+/* Fix specifications table in dark mode */
+body.dark .spec-table {
+    background: #0f172a !important;
+    border-collapse: collapse;
+}
+
+body.dark .spec-table tr {
+    background: #0f172a !important;
+}
+
+body.dark .spec-table td,
+body.dark .spec-table th {
+    background: #0f172a !important;
+    color: #f8fafc !important;
+    border: 1px solid #334155 !important;
+}
+body.dark {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark li {
+    color: #f8fafc;
+}
+
+body.dark .container,
+body.dark main,
+body.dark section {
+    background: #0f172a;
+    color: #f8fafc;
+}
