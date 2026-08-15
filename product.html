@@ -163,6 +163,17 @@ const id = Number(params.get("id"));
 const product = products.find(p => p.id === id);
 
 if (product) {
+    document.title = `FindWise | ${product.title}`;
+
+const metaDescription =
+    document.getElementById("metaDescription");
+
+if (metaDescription) {
+    metaDescription.setAttribute(
+        "content",
+        `${product.title} — read the FindWise review, rating, description and specifications before you buy.`
+    );
+}
 
     const mainImage = document.getElementById("image");
     const thumbnails = document.getElementById("thumbnails");
