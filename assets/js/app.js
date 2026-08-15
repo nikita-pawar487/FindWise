@@ -97,8 +97,6 @@ function displayProducts(productList) {
 if (typeof products !== "undefined") {
     displayProducts(products);
 }
-
-
 // ==========================
 // SEARCH BUTTON
 // ==========================
@@ -107,29 +105,35 @@ if (searchBtn && searchContainer) {
 
     searchBtn.addEventListener("click", function () {
 
-    // If search bar is closed, open it
-    if (!searchContainer.classList.contains("active")) {
+        // Open search bar if it is closed
+        if (!searchContainer.classList.contains("active")) {
 
-        searchContainer.classList.add("active");
+            searchContainer.classList.add("active");
 
-        searchInput.focus();
+            if (searchInput) {
+                searchInput.focus();
+            }
 
-        return;
-    }
+            return;
+        }
 
-    // If search bar is already open, perform search
-    searchProducts();
+        // If already open, perform search
+        searchProducts();
 
-});
+    });
 
 }
+
+
 // ==========================
 // SEARCH PRODUCTS
 // ==========================
 
 function searchProducts() {
 
-    if (!searchInput || typeof products === "undefined") return;
+    if (!searchInput || typeof products === "undefined") {
+        return;
+    }
 
     const keyword = searchInput.value.toLowerCase().trim();
 
@@ -147,29 +151,48 @@ function searchProducts() {
         product.description.toLowerCase().includes(keyword)
     );
 
-    // Display matching products
-    displayProducts(filtered);
 
-    // No products found
+    // ==========================
+    // NO PRODUCTS FOUND
+    // ==========================
+
     if (filtered.length === 0) {
 
         grid.innerHTML = `
-            <div class="no-results">
-                <h3>🔍 No products found</h3>
+            <div class="no-results"
+                 style="
+                    width:100%;
+                    text-align:center;
+                    padding:40px 20px;
+                    box-sizing:border-box;
+                 ">
+
+                <h2>🔍 No products found</h2>
+
                 <p>
-                    We couldn't find anything matching
+                    Sorry, we couldn't find anything matching
                     "<strong>${searchInput.value}</strong>".
                 </p>
+
                 <p>
                     Try another search or browse our categories.
                 </p>
+
             </div>
         `;
 
-        return;
+    } else {
+
+        // ==========================
+        // PRODUCTS FOUND
+        // ==========================
+
+        displayProducts(filtered);
+
     }
 
-    // Automatically move to the products
+
+    // Scroll to products
     const productSection =
         document.getElementById("featured-products");
 
@@ -189,12 +212,16 @@ function searchProducts() {
 }
 
 
-// Search while typing
+// ==========================
+// SEARCH WHILE TYPING
+// ==========================
+
 if (searchInput) {
 
     searchInput.addEventListener("input", function () {
 
-        const keyword = this.value.toLowerCase().trim();
+        const keyword =
+            this.value.toLowerCase().trim();
 
         if (keyword === "") {
 
@@ -216,6 +243,7 @@ if (searchInput) {
 
 
     // Search when pressing Enter
+
     searchInput.addEventListener("keydown", function (event) {
 
         if (event.key === "Enter") {
@@ -227,101 +255,23 @@ if (searchInput) {
         }
 
     });
-    if (searchSubmit) {
+
+}
+
+
+// ==========================
+// SEARCH SUBMIT BUTTON
+// ==========================
+
+if (searchSubmit) {
 
     searchSubmit.addEventListener("click", function () {
 
-        const keyword = searchInput.value.toLowerCase().trim();
-
-        // Don't do anything for an empty search
-        if (keyword === "") {
-            return;
-        }
-
-        const filtered = products.filter(product =>
-            product.title.toLowerCase().includes(keyword) ||
-            product.category.toLowerCase().includes(keyword) ||
-            product.description.toLowerCase().includes(keyword)
-        );
-
-        // ==========================
-        // NO PRODUCT FOUND
-        // ==========================
-
-        if (filtered.length === 0) {
-
-            grid.innerHTML = `
-                <div class="no-results" style="
-                    width: 100%;
-                    text-align: center;
-                    padding: 40px 20px;
-                    box-sizing: border-box;
-                ">
-                    <h2>🔍 No products found</h2>
-
-                    <p>
-                        Sorry, we couldn't find anything matching
-                        "<strong>${searchInput.value}</strong>".
-                    </p>
-
-                    <p>
-                        Try another search or browse our categories.
-                    </p>
-                </div>
-            `;
-
-            const productSection =
-                document.getElementById("featured-products");
-
-            if (productSection) {
-
-                productSection.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
-
-            }
-
-            return;
-        }
-
-        // ==========================
-        // PRODUCTS FOUND
-        // ==========================
-
-        displayProducts(filtered);
-
-        const productSection =
-            document.getElementById("featured-products");
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-
-        }
+        searchProducts();
 
     });
 
 }
-
-displayProducts(filtered);
-
-        const productSection =
-            document.getElementById("featured-products");
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-
-        }
-
-
 // ==========================
 // CATEGORY FILTER
 // ==========================
@@ -457,5 +407,5 @@ if (menuBtn && navLinks) {
         navLinks.classList.toggle("active");
 
     });
-}
+
 }
