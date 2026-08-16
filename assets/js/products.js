@@ -1614,4 +1614,77 @@ const products = [
         CareInstructions: "Wipe gently with a soft dry cloth. Keep the battery compartment dry."
     },
 },
+{
+    id: 32,
+
+    title: "Rakhi Gift Hamper for Brother",
+
+    category: "Gifts",
+
+    images: [
+        "assets/images/pur/pur1.png",
+        "assets/images/pur/pur2.png",
+        "assets/images/pur/pur3.png",
+        "assets/images/pur/pur4.png"
+    ],
+
+    price: "₹499",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Urban-Forest-Rakhi-Hamper-Brother/dp/B07T7MQ3JH?tag=homeorg12-21",
+
+    description: "The URBAN FOREST Stan Rakhi Gift Hamper is a stylish and thoughtful gift set for brothers. It includes a genuine leather bi-fold wallet in a sophisticated Redwood color, a matching leather keyring, and a traditional red-gold Rakhi. The wallet features multiple compartments for cards, coins, photos, and other essentials, making this hamper a practical combination of everyday utility and traditional Raksha Bandhan gifting.",
+
+    review: "This Rakhi gift hamper combines a useful everyday wallet with a matching leather keyring and traditional Rakhi. The genuine leather wallet has a minimalist bi-fold design and multiple storage sections, while the red-gold Rakhi adds a traditional touch. Its compact design and practical features make it a suitable Raksha Bandhan gift for a brother who prefers useful and stylish accessories.",
+
+    pros: [
+        "Complete Rakhi gift hamper",
+        "Includes genuine leather wallet",
+        "Includes matching leather keyring",
+        "Includes traditional red-gold Rakhi",
+        "Multiple wallet compartments",
+        "Includes card holder and coin pocket",
+        "Includes photo slot and secret compartment",
+        "Minimalist and stylish design",
+        "Compact size suitable for everyday use",
+        "Suitable for Raksha Bandhan gifting"
+    ],
+
+    cons: [
+        "Leather requires proper care",
+        "Wallet has a relatively compact storage capacity",
+        "Gift set is primarily designed for Raksha Bandhan",
+        "Color and appearance may vary slightly from product images"
+    ],
+
+    specifications: {
+        Brand: "URBAN FOREST",
+        ProductName: "Stan Rakhi 2",
+        ModelNumber: "RAKBRN0002",
+        ManufacturerPartNumber: "UBF000WKR4561",
+        Material: "Genuine Leather",
+        LeatherType: "Genuine Leather",
+        Color: "Redwood",
+        Pattern: "Solid",
+        Style: "Minimalist",
+        FormFactor: "Bi-Fold",
+        ClosureType: "Snap",
+        WalletType: "Men's Leather Wallet",
+        NumberOfPockets: "1",
+        NumberOfCompartments: "2",
+        IncludesWallet: "Yes",
+        IncludesKeyring: "Yes",
+        IncludesRakhi: "Yes",
+        RakhiColor: "Red-Gold",
+        ItemWeight: "150g",
+        Dimensions: "2.5 × 11 × 13 cm",
+        TargetAudience: "Men",
+        Occasion: "Raksha Bandhan",
+        CareInstructions: "Clean with a dry cloth",
+        ASIN: "B07T7MQ3JH",
+        Manufacturer: "alpha collection",
+        SuitableFor: "Raksha Bandhan, Brother's Birthday, Gifting"
+    }
+},
 ];
