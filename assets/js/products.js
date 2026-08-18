@@ -1687,4 +1687,141 @@ const products = [
         SuitableFor: "Raksha Bandhan, Brother's Birthday, Gifting"
     }
 },
+{
+    id: 33,
+
+    title: "Air Tight Plastic Storage Containers Set for Kitchen",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/plas/plas1.png",
+        "assets/images/plas/plas2.png",
+        "assets/images/plas/plas3.png"
+    ],
+
+    price: "₹389",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/SATVIKAYA-Containers-Organizers-Accessories-Space-Saving/dp/B0DVLBTKPH?tag=homeorg12-21",
+
+    description: "The SATVIKAYA Air Tight Plastic Storage Containers Set is designed to keep your kitchen and pantry neat, organized, and clutter-free. The set includes six 1200ml BPA-free plastic containers featuring airtight silicone-gasket lids, a stackable space-saving design, and transparent construction that makes it easy to identify stored items. They are suitable for storing cereals, grains, pulses, spices, dry fruits, snacks, and other kitchen essentials.",
+
+    review: "These SATVIKAYA storage containers are a practical choice for organizing kitchen and pantry essentials. Their airtight silicone-gasket lids help protect food from moisture and odors, while the transparent, stackable design makes it easier to see and arrange your supplies. The containers are reusable and dishwasher-safe, making them convenient for everyday kitchen organization.",
+
+    pros: [
+        "Set of 6 storage containers",
+        "1200ml capacity per container",
+        "Airtight silicone-gasket lids",
+        "BPA-free plastic",
+        "Stackable space-saving design",
+        "Transparent design for easy identification",
+        "Reusable and durable",
+        "Dishwasher safe",
+        "Suitable for grains, cereals, pulses and dry fruits",
+        "Useful for pantry and fridge organization"
+    ],
+
+    cons: [
+        "Plastic construction may not feel as premium as glass containers",
+        "Not microwaveable",
+        "1200ml capacity may be small for storing large quantities",
+        "Container size may be relatively large for some refrigerator shelves",
+        "Lid seal requires proper closing for airtight storage"
+    ],
+
+    specifications: {
+        Brand: "SATVIKAYA",
+        ProductName: "Air Tight Plastic Storage Containers Set",
+        ASIN: "B0DVLBTKPH",
+        Material: "Plastic",
+        MaterialType: "BPA-Free Plastic",
+        MaterialFeature: "Reusable",
+        Capacity: "1200ml Each",
+        NumberOfContainers: "6",
+        TotalCapacity: "7200ml",
+        ContainerShape: "Square",
+        ClosureType: "Lid",
+        Airtight: "Yes",
+        LidMaterial: "Plastic",
+        FoodGrade: "Yes",
+        DishwasherSafe: "Yes",
+        MicrowaveSafe: "No",
+        Stackable: "Yes",
+        LeakProof: "Yes",
+        OdorResistant: "Yes",
+        ItemForm: "Jar",
+        Dimensions: "10 × 5 × 10 cm",
+        ItemWeight: "199g",
+        RecommendedUses: "Cereal, Spices, Dry Fruits, Grains, Pulses",
+        SuitableFor: "Kitchen, Pantry, Refrigerator Organization",
+        Manufacturer: "Satvikaya",
+        CountryOfOrigin: "India"
+    }
+},
+{
+    id: 34,
+
+    title: "Ceramic Home Decor 4 Elephant Family Figurine",
+
+    category: "Home",
+
+    images: [
+        "assets/images/ele/ele1.png",
+        "assets/images/ele/ele2.png",
+        "assets/images/ele/ele3.png"
+    ],
+
+    price: "₹714",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Xtore%C2%AE-Golden-Family-Mother-Child/dp/B0G8ZWN1H6?tag=homeorg12-21",
+
+    description: "The Xtore® Ceramic Home Decor 4 Elephant Family Figurine is an elegant decorative showpiece designed to add a warm and artistic touch to your home. The figurine represents a family of four elephants and can be used as a decorative accent in living rooms, bedrooms, offices, shelves, tables, and other interior spaces. Its ceramic construction and decorative finish make it suitable for everyday home decoration as well as gifting.",
+
+    review: "This elephant family figurine is a beautiful choice for adding a symbolic family-themed accent to a home. The four-piece elephant design can work particularly well as a centerpiece on a console table, shelf, side table, or cabinet. Its decorative appearance makes it suitable for people who enjoy animal-themed, family-themed, or contemporary home decor pieces.",
+
+    pros: [
+        "Beautiful elephant family design",
+        "Set of 4 decorative elephant figures",
+        "Ceramic construction",
+        "Elegant home decor accent",
+        "Suitable for living room and bedroom decoration",
+        "Can be placed on tables, shelves and cabinets",
+        "Suitable for office decoration",
+        "Can be used as a gifting option",
+        "Symbolic family-themed design",
+        "Attractive decorative centerpiece"
+    ],
+
+    cons: [
+        "Ceramic material requires careful handling",
+        "May be relatively large for very small shelves",
+        "Primarily decorative and has no functional use",
+        "Decorative finish may require regular dusting",
+        "May not suit minimalist spaces that use very few decorative pieces"
+    ],
+
+    specifications: {
+        Brand: "Xtore",
+        ProductName: "Ceramic Home Decor 4 Elephant Family Figurine",
+        ASIN: "B0G8ZWN1H6",
+        Material: "Ceramic",
+        ProductType: "Figurine / Showpiece",
+        Theme: "Elephant Family",
+        NumberOfPieces: "4",
+        ItemWeight: "900g",
+        Dimensions: "35 × 7 × 24 cm",
+        Shape: "Elephant",
+        Color: "Golden",
+        Finish: "Decorative",
+        MountingType: "Freestanding",
+        SuitableFor: "Living Room, Bedroom, Office, Shelf, Table",
+        RecommendedUse: "Home Decoration and Gifting",
+        Occasion: "Housewarming, Anniversary, Birthday, Festival Gifting",
+        CountryOfOrigin: "India"
+    }
+},
 ];
