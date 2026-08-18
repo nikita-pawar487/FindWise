@@ -1824,4 +1824,72 @@ const products = [
         CountryOfOrigin: "India"
     }
 },
+{
+    id: 35,
+
+    title: "Wooden Wall Shelves - Set of 3",
+
+    category: "Home",
+
+    images: [
+        "assets/images/brow/brow1.png",
+        "assets/images/brow/brow2.png",
+        "assets/images/brow/brow3.png",
+        "assets/images/brow/brow4.png"
+    ],
+
+    price: "₹799",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Home-Sparkle-Wooden-Cubes-Brown/dp/B012ZXGVRU?tag=homeorg12-21",
+
+    description: "The Home Sparkle MDF Wooden Wall Shelves are a stylish set of three decorative cube shelves designed to add both storage and visual appeal to your home. The brown-finish shelves can be mounted together or separately and are suitable for displaying books, small plants, photo frames, trophies, decorative items, and other accessories. Their compact wall-mounted design helps save floor space while giving living rooms, bedrooms, offices, and other spaces a modern decorative touch.",
+
+    review: "These cube-shaped wall shelves are a practical option for people who want to decorate empty wall space without using a bulky floor-standing shelf. The set of three different-sized cubes can be arranged creatively according to the room and available wall space. They work particularly well for displaying small decorative objects, plants, books, photographs, and collectibles.",
+
+    pros: [
+        "Set of 3 decorative cube shelves",
+        "Made from engineered/MDF wood",
+        "Brown finish complements many interiors",
+        "Wall-mounted space-saving design",
+        "Can be arranged together or separately",
+        "Suitable for books and decorative items",
+        "Useful for living rooms and bedrooms",
+        "Can also be used in offices and kids' rooms",
+        "Pre-drilled holes for installation",
+        "Mounting hardware included"
+    ],
+
+    cons: [
+        "Requires wall installation",
+        "MDF construction needs protection from excessive moisture",
+        "Not suitable for very heavy objects",
+        "Wall mounting requires drilling/screws",
+        "Different-sized cubes may limit placement options in some spaces"
+    ],
+
+    specifications: {
+        Brand: "Home Sparkle",
+        ProductName: "MDF Wooden Wall Shelves",
+        ASIN: "B012ZXGVRU",
+        Material: "Engineered Wood / MDF",
+        Color: "Brown",
+        Finish: "Wood",
+        ProductType: "Wall Mounted Cube Shelves",
+        NumberOfShelves: "3",
+        Shape: "Cube",
+        MountingType: "Wall Mounted",
+        InstallationType: "Screw",
+        AssemblyRequired: "No",
+        IncludedComponents: "Mounting Hardware",
+        ItemWeight: "1.5 kg",
+        ItemDimensions: "12 × 51 × 12 cm",
+        Depth: "25.5 cm",
+        SuitableFor: "Living Room, Bedroom, Office, Kids Room",
+        RecommendedUse: "Books, Plants, Photo Frames, Trophies, Decorative Items",
+        CountryOfOrigin: "India",
+        Manufacturer: "Sourcing India Inc."
+    }
+},
 ];
