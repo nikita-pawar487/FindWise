@@ -1892,4 +1892,158 @@ const products = [
         Manufacturer: "Sourcing India Inc."
     }
 },
+{
+    id: 36,
+
+    title: "360° Rotating Kitchen Spice Cosmetic Holder Organizer Rack Tray",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/rotate/rotate5.png",
+        "assets/images/rotate/rotate1.png",
+        "assets/images/rotate/rotate2.png",
+        "assets/images/rotate/rotate3.png",
+        "assets/images/rotate/rotate4.png"
+    ],
+
+    price: "₹249",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/INOVERA-Rotating-Kitchen-Cosmetic-Organizer/dp/B09XVG6B1D?tag=homeorg12-21",
+
+    description: "The INOVERA 360° Rotating Lazy Susan Organizer is a compact and practical storage solution for kitchens, bathrooms, dressing tables, offices, and other spaces. Its smooth 360-degree rotating design provides easy access to items stored at the back, while the compact round shape helps keep cabinets, countertops, and shelves organized. It can be used for spices, condiments, cosmetics, skincare products, toiletries, stationery, and other small everyday essentials.",
+
+    review: "This rotating organizer is a simple and useful way to make frequently used items easier to access. Instead of reaching behind other products, you can rotate the tray and bring the required item to the front. Its 23 cm size makes it suitable for kitchen cabinets, pantry shelves, bathroom counters, dressing tables, and other compact storage areas.",
+
+    pros: [
+        "360° rotating design",
+        "Easy access to stored items",
+        "Compact 23 cm diameter",
+        "Suitable for kitchen and pantry organization",
+        "Can also be used for cosmetics and toiletries",
+        "Made from durable plastic",
+        "Lightweight design",
+        "No assembly required",
+        "Easy to clean and maintain",
+        "Useful for cabinets and countertops",
+        "Space-saving organization solution"
+    ],
+
+    cons: [
+        "Single-tier design provides limited vertical storage",
+        "Plastic construction may feel less premium than metal or glass",
+        "Not ideal for very heavy items",
+        "Items can shift while rotating if the tray is overloaded",
+        "7.5 cm height may limit storage of taller bottles"
+    ],
+
+    specifications: {
+        Brand: "INOVERA (LABEL)",
+        ProductName: "Lazy Susan 360° Rotating Kitchen Spice Cosmetic Holder Organizer Rack Tray",
+        ASIN: "B09XVG6B1D",
+        ModelNumber: "KC349WH",
+        Material: "Polypropylene Plastic",
+        Color: "White",
+        ProductType: "Rotating Storage Tray",
+        Style: "Lazy Susan",
+        Shape: "Round",
+        NumberOfTiers: "1",
+        NumberOfPieces: "1",
+        Rotation: "360°",
+        ItemDiameter: "23 cm",
+        Dimensions: "23 × 23 × 7.5 cm",
+        ItemWeight: "320g",
+        HandleIncluded: "Yes",
+        AssemblyRequired: "No",
+        MountingType: "Freestanding",
+        SuitableFor: "Kitchen, Pantry, Bathroom, Home Office, Laundry Room, Garage, Craft Room",
+        RecommendedUse: "Spices, Condiments, Cosmetics, Skincare, Toiletries, Small Accessories",
+        CountryOfOrigin: "India",
+        Manufacturer: "Inovera, Payal Industry"
+    }
+},
+{
+    id: 37,
+
+    title: "Kitchen storage container Set, 18 Pieces",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/cont/cont1.png",
+        "assets/images/cont/cont2.png",
+        "assets/images/cont/cont3.png",
+        "assets/images/cont/cont4.png"
+    ],
+
+    price: "₹515",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/CELLO-Container-Transparent-Unbreakable-Stackable/dp/B01LYBZX6Y?tag=homeorg12-21",
+
+    description: "The CELLO Checkers Plastic PET Canister Set is an 18-piece kitchen storage solution designed to keep your pantry organized and everyday food items fresh. The set includes six 300ml, six 650ml, and six 1200ml transparent containers. Made from food-grade, BPA-free PET plastic, the containers feature airtight lids, a stackable design, and a clear body that makes it easy to identify stored contents. They are suitable for storing spices, pulses, grains, dry fruits, snacks, flour, sugar, rice, pasta, and other kitchen essentials.",
+
+    review: "The CELLO Checkers set is a practical choice for organizing a kitchen or pantry because it provides three different container sizes in one set. The transparent PET construction makes the contents easy to identify, while the airtight design helps protect dry foods from moisture and maintain freshness. The stackable shape also helps make better use of available shelf and cabinet space.",
+
+    pros: [
+        "Complete set of 18 containers",
+        "Includes 6 × 300ml containers",
+        "Includes 6 × 650ml containers",
+        "Includes 6 × 1200ml containers",
+        "Food-grade BPA-free PET material",
+        "Airtight seal helps preserve freshness",
+        "Transparent design for easy identification",
+        "Stackable space-saving design",
+        "Lightweight and unbreakable construction",
+        "Suitable for spices, pulses and grains",
+        "Useful for dry fruits and snacks",
+        "Suitable for pantry organization",
+        "Reusable and refrigerator safe"
+    ],
+
+    cons: [
+        "Large 18-piece set may require considerable storage space",
+        "Plastic construction may feel less premium than glass",
+        "Not ideal for storing very hot food",
+        "Multiple containers require additional cleaning and storage",
+        "Lids need to be properly closed to maintain an airtight seal"
+    ],
+
+    specifications: {
+        Brand: "CELLO",
+        ProductName: "Checkers Plastic PET Canister Set",
+        ASIN: "B01LYBZX6Y",
+        ModelNumber: "CHECKERS_18Pcs_Clear",
+        Material: "Polyethylene Terephthalate (PET)",
+        MaterialFeature: "Food Grade, BPA Free, Reusable",
+        Color: "Transparent",
+        ProductType: "Food Storage Canister Set",
+        NumberOfContainers: "18",
+        SmallContainers: "6 × 300ml",
+        MediumContainers: "6 × 650ml",
+        LargeContainers: "6 × 1200ml",
+        TotalContainers: "18",
+        LargestCapacity: "1200ml",
+        TotalVolume: "12.9 Litres",
+        ClosureType: "Lid",
+        Airtight: "Yes",
+        LeakResistant: "Yes",
+        OdorResistant: "Yes",
+        Stackable: "Yes",
+        SeeThrough: "Yes",
+        FreezerSafe: "Yes",
+        RefrigeratorSafe: "Yes",
+        MicrowaveSafe: "Yes",
+        DishwasherSafe: "Yes",
+        ItemWeight: "1.3 kg",
+        Dimensions: "6.9 × 6.9 × 9.6 cm",
+        RecommendedUses: "Spices, Rice, Pulses, Flour, Sugar, Dry Fruits, Snacks, Pasta, Grains",
+        SuitableFor: "Kitchen, Pantry, Refrigerator",
+        CountryOfOrigin: "India",
+        Manufacturer: "Cello Household"
+    }
+},
 ];
