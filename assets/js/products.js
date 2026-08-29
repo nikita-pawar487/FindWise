@@ -2046,4 +2046,113 @@ const products = [
         Manufacturer: "Cello Household"
     }
 },
+{
+    id: 38,
+
+    title: "Stainless Steel Countertop Organizer 2-tier",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/steel/steel1.png",
+        "assets/images/steel/steel2.png",
+        "assets/images/steel/steel3.png"
+    ],
+
+    price: "₹640",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/dp/B0BF4Y2YMT?tag=homeorg12-21",
+
+    description: "Keep your kitchen and living spaces neatly organized with this Lyrovo 2-tier countertop organizer. Made from stainless steel with a chrome finish, this compact standing shelf provides additional vertical storage without taking up much countertop space. It can be used for organizing spice containers, kitchen accessories, cookware, cosmetics, coffee supplies, and other everyday essentials.",
+
+    review: "This 2-tier countertop organizer is a practical solution for creating additional storage space in compact areas. Its stainless-steel construction and chrome finish give it a clean and modern appearance, while the two shelves help keep frequently used items visible and easy to access. The versatile design makes it suitable for kitchens, bathrooms, offices, pantries, and other indoor spaces.",
+
+    pros: [
+        "2-tier design provides additional vertical storage",
+        "Made from stainless steel",
+        "Chrome finish gives a clean modern look",
+        "Rust-proof and lightweight design",
+        "Suitable for spices, cosmetics and kitchen accessories",
+        "Compact tabletop design",
+        "Includes shelf liner sheets"
+    ],
+
+    cons: [
+        "Assembly is required",
+        "Storage capacity may be limited for larger items",
+        "Best suited for indoor use"
+    ],
+
+    specifications: {
+        Brand: "Lyrovo",
+        Material: "Stainless Steel",
+        Color: "Chrome",
+        Type: "2-Tier Countertop Organizer",
+        ShelfType: "Standing Shelf",
+        NumberOfShelves: "2",
+        Finish: "Chrome",
+        Mounting: "Tabletop",
+        Dimensions: "39.6 × 19 × 30.5 cm",
+        Weight: "1.1 kg",
+        SpecialFeature: "Rust Proof, Lightweight",
+        ModelNumber: "LY-AHM-SR-02-Chrome",
+        SuitableFor: "Kitchen, Bathroom, Pantry, Office, Bedroom",
+        RecommendedUses: "Spice Containers, Cookware, Cosmetics, Coffee Accessories",
+        IncludedComponents: "1 Kitchen Rack, 2 Shelf Liner Sheets",
+        AssemblyRequired: "Yes",
+        CareInstructions: "Wipe with a soft dry cloth and keep the surface dry."
+    },
+},
+{
+    id: 39,
+
+    title: "2-Tier Multipurpose Countertop Organizer",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/rack/rack1.png",
+        "assets/images/rack/rack2.png",
+        "assets/images/rack/rack3.png",
+        "assets/images/rack/rack4.png"
+    ],
+
+    price: "₹474",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/Zepdos-Tier-Countertop-Rack-Multipurpose/dp/B0H41V678R?tag=homeorg12-21",
+
+    description: "Keep your space neat and organized with this Zepdos 2-tier countertop rack. Designed as a multipurpose storage shelf, it provides additional vertical space for organizing spice jars, condiments, kitchen essentials, toiletries, cosmetics, and other everyday items. Its compact two-tier design makes it useful for countertops, cabinets, pantries, bathrooms, and other small spaces.",
+
+    review: "This 2-tier countertop organizer is a practical choice for creating additional storage space without occupying too much room. The double-shelf design helps keep frequently used items visible and easy to access, making it suitable for kitchen organization as well as bathroom and pantry storage. Its versatile design makes it useful in different areas of the home.",
+
+    pros: [
+        "2-tier design provides additional storage space",
+        "Helps organize countertops and small spaces",
+        "Suitable for spice jars and kitchen essentials",
+        "Can also be used in bathrooms and pantries",
+        "Multipurpose storage design",
+        "Space-saving vertical organization"
+    ],
+
+    cons: [
+        "Storage capacity depends on the size of the items placed on it",
+        "Best suited for organizing smaller everyday items",
+        "Exact dimensions should be checked on the Amazon listing before purchase"
+    ],
+
+    specifications: {
+        Brand: "Zepdos",
+        Type: "2-Tier Countertop Organizer Rack",
+        NumberOfShelves: "2",
+        Mounting: "Countertop / Freestanding",
+        Style: "Multipurpose Storage Organizer",
+        RecommendedUses: "Spice Jars, Condiments, Kitchen Essentials, Toiletries, Cosmetics",
+        SuitableFor: "Kitchen, Bathroom, Pantry, Countertop",
+        CareInstructions: "Clean regularly with a soft cloth and keep dry."
+    },
+},
 ];
