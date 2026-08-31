@@ -2155,4 +2155,68 @@ const products = [
         CareInstructions: "Clean regularly with a soft cloth and keep dry."
     },
 },
+{
+    id: 40,
+
+    title: "LED Pearl Bonsai Tree Lamp",
+
+    category: "Home",
+
+    images: [
+        "assets/images/tree/tree1.png",
+        "assets/images/tree/tree2.png",
+        "assets/images/tree/tree3.png",
+        "assets/images/tree/tree4.png"
+    ],
+
+    price: "₹599",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/dp/B08ZHRMNLG?tag=homeorg12-21",
+
+    description: "Create a warm and cozy atmosphere with the REFULGIX LED Pearl Bonsai Tree Lamp. Designed with pearl-style LED lights and flexible branches, this decorative tabletop lamp adds an elegant touch to bedrooms, living rooms, study tables, offices, and festive spaces. The bendable branches can be adjusted to create your preferred bonsai tree shape.",
+
+    review: "This LED bonsai tree lamp combines decorative appeal with soft ambient lighting. The warm-white pearl-style LEDs create a relaxing glow, while the touch control makes operation simple and convenient. Its flexible branches allow you to customize the tree's appearance, making it an attractive décor piece for desks, bedside tables, shelves, and festive displays.",
+
+    pros: [
+        "36 warm-white pearl-style LED lights",
+        "Elegant decorative bonsai tree design",
+        "Touch switch for easy operation",
+        "Flexible and adjustable branches",
+        "USB and battery power options",
+        "Energy-efficient LED lighting",
+        "Suitable for home and festive décor",
+        "Attractive gifting option"
+    ],
+
+    cons: [
+        "Primarily intended for decorative lighting",
+        "3 AA batteries are not included",
+        "Not designed to provide bright room lighting"
+    ],
+
+    specifications: {
+        Brand: "REFULGIX",
+        Type: "LED Bonsai Tree Lamp",
+        NumberOfLights: "36",
+        LightColor: "Warm White",
+        LightSource: "LED",
+        BaseMaterial: "Wood",
+        ShadeMaterial: "Plastic",
+        Color: "Moti Tree Lamp",
+        Control: "Touch Switch",
+        PowerOptions: "USB or 3 AA Batteries",
+        USB: "Yes",
+        BatteryRequired: "3 AA Batteries (Not Included)",
+        Mounting: "Tabletop",
+        Dimensions: "32 × 7 × 32 cm",
+        Weight: "Approx. 250 g",
+        Style: "Modern Decorative",
+        SuitableFor: "Bedroom, Living Room, Study Table, Office, Festive Decoration",
+        SpecialFeature: "Adjustable Bendable Branches",
+        PackageContents: "1 LED Bonsai Tree Lamp, 1 USB Cable",
+        CareInstructions: "Wipe gently with a soft dry cloth and keep away from excessive moisture."
+    },
+},
 ];
