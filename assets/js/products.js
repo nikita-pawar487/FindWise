@@ -2299,6 +2299,62 @@ const productsUSA = [
         BPA_Free: "Yes"
     }
 }
+{
+    id: 1002,
 
+    title: "Stainless Steel Cutting Board",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/cut/cut1.png",
+        "assets/images/USA/cut/cut2.png",
+        "assets/images/USA/cut/cut3.png",
+        "assets/images/USA/cut/cut4.png",
+        "assets/images/USA/cut/cut5.png"
+    ],
+
+    price: "$22.99",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.com/SNOWCLAD-Stainless-Cutting-Dishwasher-Chopping/dp/B0D7CZ9Y7D?tag=homeorg12-20",
+
+    description: "The SNOWCLAD Stainless Steel Cutting Board is a large double-sided cutting board designed for versatile kitchen preparation. One side features stainless steel for meat and other foods, while the wheat straw PP side is designed for fruits and vegetables. Its non-porous surface helps resist odors and bacteria, while the built-in juice groove helps catch liquids and reduce mess during food preparation. The board is dishwasher safe and measures 16 x 11 inches.",
+
+    review: "A practical and versatile cutting board for everyday kitchen use. The double-sided design allows you to use stainless steel for meat and the wheat straw PP surface for fruits and vegetables. Its large 16 x 11 inch size, built-in handle, juice groove and dishwasher-safe construction make it convenient for meal preparation and cleanup. The product is currently rated around 4.5 out of 5 stars on Amazon.",
+
+    pros: [
+        "Double-sided design for versatile food preparation",
+        "Stainless steel side for meat",
+        "Wheat straw PP side for fruits and vegetables",
+        "Large 16 x 11 inch size",
+        "Dishwasher safe",
+        "Non-porous surface",
+        "Built-in handle for easy carrying",
+        "Juice groove helps contain liquids"
+    ],
+
+    cons: [
+        "Relatively heavy at about 2 pounds",
+        "Stainless steel surface may be harder on some knives",
+        "Large size may require more storage space"
+    ],
+
+    specifications: {
+        Brand: "SNOWCLAD",
+        Material: "Stainless Steel and Polypropylene (PP)",
+        Color: "Mixed",
+        Type: "Double-Sided Cutting Board",
+        Size: "16 x 11 Inch",
+        Weight: "2 Pounds",
+        Shape: "Rectangular",
+        Special_Features: "Built-in Handle, Juice Groove",
+        Recommended_Uses: "Bread, Cheese, Fish, Fruit, Meat, Vegetables",
+        Care: "Dishwasher Safe",
+        Included_Components: "Handle, Wheat Straw",
+        Model_Number: "SCCB01"
+    }
+}
     
 ];
