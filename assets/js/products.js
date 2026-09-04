@@ -2302,19 +2302,3 @@ const productsUSA = [
 
     
 ];
-// ==========================================
-// INDIA CATALOG
-// ==========================================
-
-const productsIndia = products;
-
-
-// ==========================================
-// USA CATALOG
-// ==========================================
-
-const productsUSA = [
-    
-    // Your USA products will go here
-
-];
