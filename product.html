@@ -155,14 +155,9 @@ if (localStorage.getItem("theme") === "dark") {
 
 <script>
 
-const params =
-    new URLSearchParams(window.location.search);
+const params = new URLSearchParams(window.location.search);
 
-const id =
-    Number(params.get("id"));
-
-const product =
-    products.find(p => p.id === id);
+const id = Number(params.get("id"));
 
 
 // ==========================================
@@ -174,32 +169,67 @@ const currentRegion =
 
 
 // ==========================================
-// REGION DATA
+// SELECT CATALOG
 // ==========================================
 
-const regionData =
-    currentRegion === "US"
-        ? product?.usa
-        : product?.india;
+let currentProducts;
+
+if (currentRegion === "US") {
+
+    currentProducts =
+        typeof productsUSA !== "undefined"
+            ? productsUSA
+            : [];
+
+} else {
+
+    currentProducts =
+        typeof productsIndia !== "undefined"
+            ? productsIndia
+            : products;
+
+}
 
 
 // ==========================================
-// PRODUCT CHECK
+// FIND PRODUCT
 // ==========================================
 
-if (product && regionData) {
+const product =
+    currentProducts.find(p => Number(p.id) === id);
+
+
+// ==========================================
+// PRODUCT NOT FOUND
+// ==========================================
+
+if (!product) {
+
+    document.getElementById("title").textContent =
+        "Product not found";
+
+    document.getElementById("description").textContent =
+        currentRegion === "US"
+            ? "This USA product is not available in the USA catalog yet."
+            : "This product could not be found.";
+
+} else {
+
+
+    // ==========================================
+    // PAGE TITLE
+    // ==========================================
 
     document.title =
         `FindWise | ${product.title}`;
 
 
-    // ==========================
+    // ==========================================
     // META DESCRIPTION
-    // ==========================
+    // ==========================================
 
     const metaDescription =
         document.getElementById("metaDescription");
-
 
     if (metaDescription) {
 
@@ -211,9 +241,9 @@ if (product && regionData) {
     }
 
 
-    // ==========================
+    // ==========================================
     // IMAGES
-    // ==========================
+    // ==========================================
 
     const mainImage =
         document.getElementById("image");
@@ -222,150 +252,215 @@ if (product && regionData) {
         document.getElementById("thumbnails");
 
 
-    mainImage.src =
-        product.images[0];
+    const images =
+        Array.isArray(product.images)
+            ? product.images
+            : product.image
+                ? [product.image]
+                : [];
 
-    mainImage.alt =
+
+    if (images.length > 0) {
+
+        mainImage.src =
+            images[0];
+
+        mainImage.alt =
+            product.title;
+
+
+        images.forEach((img) => {
+
+            const thumb =
+                document.createElement("img");
+
+            thumb.src =
+                img;
+
+            thumb.className =
+                "thumb";
+
+            thumb.alt =
+                product.title;
+
+
+            thumb.onclick = function () {
+
+                mainImage.src =
+                    img;
+
+            };
+
+
+            thumbnails.appendChild(
+                thumb
+            );
+
+        });
+
+    }
+
+
+    // ==========================================
+    // PRODUCT TITLE
+    // ==========================================
+
+    document.getElementById("title")
+        .textContent =
         product.title;
 
 
-    product.images.forEach((img) => {
-
-        const thumb =
-            document.createElement("img");
-
-        thumb.src = img;
-
-        thumb.className = "thumb";
-
-        thumb.alt = product.title;
-
-        thumb.onclick = () => {
-
-            mainImage.src = img;
-
-        };
-
-
-        thumbnails.appendChild(thumb);
-
-    });
-
-
-    // ==========================
-    // BASIC INFORMATION
-    // ==========================
-
-    document.getElementById("title")
-        .textContent = product.title;
-
+    // ==========================================
+    // PRICE
+    // ==========================================
 
     document.getElementById("price")
-        .textContent = regionData.price;
+        .textContent =
+        product.price || "";
 
+
+    // ==========================================
+    // RATING
+    // ==========================================
 
     document.getElementById("rating")
         .textContent =
-            "⭐ " + product.rating;
+        product.rating
+            ? "⭐ " + product.rating
+            : "";
 
+
+    // ==========================================
+    // DESCRIPTION
+    // ==========================================
 
     document.getElementById("description")
         .textContent =
-            product.description;
+        product.description || "";
 
+
+    // ==========================================
+    // REVIEW
+    // ==========================================
 
     document.getElementById("review")
         .textContent =
-            product.review;
+        product.review || "";
 
 
-    // ==========================
+    // ==========================================
     // PROS
-    // ==========================
+    // ==========================================
 
     const pros =
         document.getElementById("pros");
 
+    pros.innerHTML = "";
 
-    product.pros.forEach(item => {
+
+    (product.pros || []).forEach(item => {
 
         const li =
             document.createElement("li");
 
-        li.textContent = item;
+        li.textContent =
+            item;
 
         pros.appendChild(li);
 
     });
 
 
-    // ==========================
+    // ==========================================
     // CONS
-    // ==========================
+    // ==========================================
 
     const cons =
         document.getElementById("cons");
 
+    cons.innerHTML = "";
 
-    product.cons.forEach(item => {
+
+    (product.cons || []).forEach(item => {
 
         const li =
             document.createElement("li");
 
-        li.textContent = item;
+        li.textContent =
+            item;
 
         cons.appendChild(li);
 
     });
 
 
-    // ==========================
+    // ==========================================
     // SPECIFICATIONS
-    // ==========================
+    // ==========================================
 
     const specs =
         document.getElementById("specifications");
 
-
-    Object.entries(product.specifications)
-        .forEach(([key, value]) => {
-
-            const row =
-                document.createElement("tr");
+    specs.innerHTML = "";
 
 
-            row.innerHTML = `
-                <td>${key}</td>
-                <td>${value}</td>
-            `;
+    Object.entries(
+        product.specifications || {}
+    ).forEach(([key, value]) => {
+
+        const row =
+            document.createElement("tr");
+
+        const keyCell =
+            document.createElement("td");
+
+        const valueCell =
+            document.createElement("td");
 
 
-            specs.appendChild(row);
+        keyCell.textContent =
+            key;
 
-        });
+        valueCell.textContent =
+            value;
 
 
-    // ==========================
+        row.appendChild(keyCell);
+
+        row.appendChild(valueCell);
+
+
+        specs.appendChild(row);
+
+    });
+
+
+    // ==========================================
     // AMAZON BUTTON
-    // ==========================
+    // ==========================================
 
     const buyBtn =
         document.getElementById("buyBtn");
 
 
-    if (regionData.amazon) {
+    if (product.amazon) {
 
         buyBtn.href =
-            regionData.amazon;
+            product.amazon;
+
+        buyBtn.textContent =
+            "Buy on Amazon";
 
     } else {
 
-        buyBtn.href = "#";
+        buyBtn.href =
+            "#";
 
         buyBtn.textContent =
-            "🇺🇸 USA Link Coming Soon";
+            "Amazon Link Coming Soon";
 
-        buyBtn.style.opacity = "0.7";
+        buyBtn.style.opacity =
+            "0.7";
 
         buyBtn.style.pointerEvents =
             "none";
