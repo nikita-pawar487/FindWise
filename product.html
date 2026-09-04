@@ -151,91 +151,231 @@ if (localStorage.getItem("theme") === "dark") {
 
 
 </div>
-
-
-
 <script src="assets/js/products.js"></script>
 
 <script>
-const params = new URLSearchParams(window.location.search);
-const id = Number(params.get("id"));
 
-const product = products.find(p => p.id === id);
+const params =
+    new URLSearchParams(window.location.search);
 
-if (product) {
-    document.title = `FindWise | ${product.title}`;
+const id =
+    Number(params.get("id"));
 
-const metaDescription =
-    document.getElementById("metaDescription");
+const product =
+    products.find(p => p.id === id);
 
-if (metaDescription) {
-    metaDescription.setAttribute(
-        "content",
-        `${product.title} — read the FindWise review, rating, description and specifications before you buy.`
-    );
-}
 
-    const mainImage = document.getElementById("image");
-    const thumbnails = document.getElementById("thumbnails");
+// ==========================================
+// CURRENT REGION
+// ==========================================
 
-    mainImage.src = product.images[0];
-    mainImage.alt = product.title;
+const currentRegion =
+    localStorage.getItem("findwiseRegion") || "IN";
+
+
+// ==========================================
+// REGION DATA
+// ==========================================
+
+const regionData =
+    currentRegion === "US"
+        ? product?.usa
+        : product?.india;
+
+
+// ==========================================
+// PRODUCT CHECK
+// ==========================================
+
+if (product && regionData) {
+
+    document.title =
+        `FindWise | ${product.title}`;
+
+
+    // ==========================
+    // META DESCRIPTION
+    // ==========================
+
+    const metaDescription =
+        document.getElementById("metaDescription");
+
+
+    if (metaDescription) {
+
+        metaDescription.setAttribute(
+            "content",
+            `${product.title} — read the FindWise review, rating, description and specifications before you buy.`
+        );
+
+    }
+
+
+    // ==========================
+    // IMAGES
+    // ==========================
+
+    const mainImage =
+        document.getElementById("image");
+
+    const thumbnails =
+        document.getElementById("thumbnails");
+
+
+    mainImage.src =
+        product.images[0];
+
+    mainImage.alt =
+        product.title;
+
 
     product.images.forEach((img) => {
 
-        const thumb = document.createElement("img");
+        const thumb =
+            document.createElement("img");
 
         thumb.src = img;
+
         thumb.className = "thumb";
 
+        thumb.alt = product.title;
+
         thumb.onclick = () => {
+
             mainImage.src = img;
+
         };
+
 
         thumbnails.appendChild(thumb);
 
     });
 
-    document.getElementById("title").textContent = product.title;
-    document.getElementById("price").textContent = product.price;
-    document.getElementById("rating").textContent = "⭐ " + product.rating;
-    document.getElementById("description").textContent = product.description;
-    document.getElementById("review").textContent = product.review;
 
-    const pros = document.getElementById("pros");
+    // ==========================
+    // BASIC INFORMATION
+    // ==========================
+
+    document.getElementById("title")
+        .textContent = product.title;
+
+
+    document.getElementById("price")
+        .textContent = regionData.price;
+
+
+    document.getElementById("rating")
+        .textContent =
+            "⭐ " + product.rating;
+
+
+    document.getElementById("description")
+        .textContent =
+            product.description;
+
+
+    document.getElementById("review")
+        .textContent =
+            product.review;
+
+
+    // ==========================
+    // PROS
+    // ==========================
+
+    const pros =
+        document.getElementById("pros");
+
 
     product.pros.forEach(item => {
-        const li = document.createElement("li");
+
+        const li =
+            document.createElement("li");
+
         li.textContent = item;
+
         pros.appendChild(li);
+
     });
 
-    const cons = document.getElementById("cons");
+
+    // ==========================
+    // CONS
+    // ==========================
+
+    const cons =
+        document.getElementById("cons");
+
 
     product.cons.forEach(item => {
-        const li = document.createElement("li");
+
+        const li =
+            document.createElement("li");
+
         li.textContent = item;
+
         cons.appendChild(li);
+
     });
 
-    const specs = document.getElementById("specifications");
 
-    Object.entries(product.specifications).forEach(([key, value]) => {
+    // ==========================
+    // SPECIFICATIONS
+    // ==========================
 
-        const row = document.createElement("tr");
+    const specs =
+        document.getElementById("specifications");
 
-        row.innerHTML = `
-            <td>${key}</td>
-            <td>${value}</td>
-        `;
 
-        specs.appendChild(row);
-    });
+    Object.entries(product.specifications)
+        .forEach(([key, value]) => {
 
-    document.getElementById("buyBtn").href = product.amazon;
+            const row =
+                document.createElement("tr");
+
+
+            row.innerHTML = `
+                <td>${key}</td>
+                <td>${value}</td>
+            `;
+
+
+            specs.appendChild(row);
+
+        });
+
+
+    // ==========================
+    // AMAZON BUTTON
+    // ==========================
+
+    const buyBtn =
+        document.getElementById("buyBtn");
+
+
+    if (regionData.amazon) {
+
+        buyBtn.href =
+            regionData.amazon;
+
+    } else {
+
+        buyBtn.href = "#";
+
+        buyBtn.textContent =
+            "🇺🇸 USA Link Coming Soon";
+
+        buyBtn.style.opacity = "0.7";
+
+        buyBtn.style.pointerEvents =
+            "none";
+
+    }
+
 }
+
 </script>
-<script src="assets/js/product.js"></script>
+
 
 </body>
 

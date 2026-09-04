@@ -1210,3 +1210,37 @@ body.dark .blog-card p {
         grid-template-columns: 1fr;
     }
 }
+/* ==========================================
+   REGION SELECTOR
+   ========================================== */
+
+.region-selector {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 4px;
+    color: inherit;
+}
+
+.region-selector option {
+    background: white;
+    color: #222;
+}
+
+.dark .region-selector option {
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .region-selector {
+        font-size: 12px;
+        max-width: 90px;
+    }
+
+}

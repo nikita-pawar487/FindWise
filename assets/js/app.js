@@ -2,6 +2,7 @@
 // FINDWISE MAIN JAVASCRIPT
 // ==========================================
 
+
 // ==========================
 // ELEMENTS
 // ==========================
@@ -19,6 +20,63 @@ const navLinks = document.querySelector(".nav-links");
 
 const categoryCards = document.querySelectorAll(".category-card");
 
+const regionSelector = document.getElementById("regionSelector");
+
+
+// ==========================
+// REGION SYSTEM
+// ==========================
+
+// Get saved region
+let currentRegion = localStorage.getItem("findwiseRegion") || "IN";
+
+
+// Set selector to saved region
+if (regionSelector) {
+    regionSelector.value = currentRegion;
+}
+
+
+// ==========================
+// GET REGION PRODUCT DATA
+// ==========================
+
+function getRegionData(product) {
+
+    if (currentRegion === "US") {
+
+        return product.usa;
+
+    }
+
+    return product.india;
+
+}
+
+
+// ==========================
+// REGION SELECTOR
+// ==========================
+
+if (regionSelector) {
+
+    regionSelector.addEventListener("change", function () {
+
+        currentRegion = this.value;
+
+        // Remember user's choice
+        localStorage.setItem(
+            "findwiseRegion",
+            currentRegion
+        );
+
+        // Refresh products
+        displayProducts(products);
+
+    });
+
+}
+
 
 // ==========================
 // DISPLAY PRODUCTS
@@ -30,21 +88,69 @@ function displayProducts(productList) {
 
     grid.innerHTML = "";
 
-    if (productList.length === 0) {
+    const availableProducts = productList.filter(product => {
 
-        grid.innerHTML = `
-            <p style="text-align:center;grid-column:1/-1;">
-                No products found.
-            </p>
-        `;
+        const regionData = getRegionData(product);
+
+        return regionData &&
+               regionData.price &&
+               regionData.amazon;
+
+    });
+
+
+    if (availableProducts.length === 0) {
+
+        if (currentRegion === "US") {
+
+            grid.innerHTML = `
+                <div style="
+                    text-align:center;
+                    grid-column:1/-1;
+                    padding:40px 20px;
+                ">
+
+                    <h2>🇺🇸 USA products coming soon</h2>
+
+                    <p>
+                        We are currently adding Amazon.com products
+                        for our USA shoppers.
+                    </p>
+
+                    <p>
+                        Please check back soon.
+                    </p>
+
+                </div>
+            `;
+
+        } else {
+
+            grid.innerHTML = `
+                <p style="
+                    text-align:center;
+                    grid-column:1/-1;
+                ">
+                    No products found.
+                </p>
+            `;
+
+        }
 
         return;
     }
 
-    productList.forEach(product => {
+
+    availableProducts.forEach(product => {
+
+        const regionData = getRegionData(product);
 
         grid.innerHTML += `
-            <a href="product.html?id=${product.id}" class="product-link">
+
+            <a
+                href="product.html?id=${product.id}"
+                class="product-link"
+            >
 
                 <div class="product-card">
 
@@ -59,7 +165,9 @@ function displayProducts(productList) {
                             ${product.category}
                         </span>
 
-                        <h3>${product.title}</h3>
+                        <h3>
+                            ${product.title}
+                        </h3>
 
                         <div class="product-meta">
 
@@ -68,7 +176,7 @@ function displayProducts(productList) {
                             </span>
 
                             <span class="price">
-                                ${product.price}
+                                ${regionData.price}
                             </span>
 
                         </div>
@@ -86,6 +194,7 @@ function displayProducts(productList) {
                 </div>
 
             </a>
+
         `;
 
     });
@@ -93,10 +202,17 @@ function displayProducts(productList) {
 }
 
 
-// Show products when page loads
+// ==========================
+// INITIAL PRODUCT DISPLAY
+// ==========================
+
 if (typeof products !== "undefined") {
+
     displayProducts(products);
+
 }
+
+
 // ==========================
 // SEARCH BUTTON
 // ==========================
@@ -105,7 +221,6 @@ if (searchBtn && searchContainer) {
 
     searchBtn.addEventListener("click", function () {
 
-        // Open search bar if it is closed
         if (!searchContainer.classList.contains("active")) {
 
             searchContainer.classList.add("active");
@@ -117,7 +232,6 @@ if (searchBtn && searchContainer) {
             return;
         }
 
-        // If already open, perform search
         searchProducts();
 
     });
@@ -135,9 +249,10 @@ function searchProducts() {
         return;
     }
 
-    const keyword = searchInput.value.toLowerCase().trim();
+    const keyword =
+        searchInput.value.toLowerCase().trim();
 
-    // Empty search
+
     if (keyword === "") {
 
         displayProducts(products);
@@ -145,56 +260,24 @@ function searchProducts() {
         return;
     }
 
+
     const filtered = products.filter(product =>
+
         product.title.toLowerCase().includes(keyword) ||
+
         product.category.toLowerCase().includes(keyword) ||
+
         product.description.toLowerCase().includes(keyword)
+
     );
 
 
-    // ==========================
-    // NO PRODUCTS FOUND
-    // ==========================
-
-    if (filtered.length === 0) {
-
-        grid.innerHTML = `
-            <div class="no-results"
-                 style="
-                    width:100%;
-                    text-align:center;
-                    padding:40px 20px;
-                    box-sizing:border-box;
-                 ">
-
-                <h2>🔍 No products found</h2>
-
-                <p>
-                    Sorry, we couldn't find anything matching
-                    "<strong>${searchInput.value}</strong>".
-                </p>
-
-                <p>
-                    Try another search or browse our categories.
-                </p>
-
-            </div>
-        `;
-
-    } else {
-
-        // ==========================
-        // PRODUCTS FOUND
-        // ==========================
-
-        displayProducts(filtered);
-
-    }
+    displayProducts(filtered);
 
 
-    // Scroll to products
     const productSection =
         document.getElementById("featured-products");
+
 
     if (productSection) {
 
@@ -223,6 +306,7 @@ if (searchInput) {
         const keyword =
             this.value.toLowerCase().trim();
 
+
         if (keyword === "") {
 
             displayProducts(products);
@@ -231,11 +315,17 @@ if (searchInput) {
 
         }
 
+
         const filtered = products.filter(product =>
+
             product.title.toLowerCase().includes(keyword) ||
+
             product.category.toLowerCase().includes(keyword) ||
+
             product.description.toLowerCase().includes(keyword)
+
         );
+
 
         displayProducts(filtered);
 
@@ -272,6 +362,8 @@ if (searchSubmit) {
     });
 
 }
+
+
 // ==========================
 // CATEGORY FILTER
 // ==========================
@@ -286,9 +378,13 @@ categoryCards.forEach(card => {
 
         this.classList.add("active");
 
-        const category = this.dataset.category;
+        const category =
+            this.dataset.category;
 
-        if (typeof products === "undefined") return;
+
+        if (typeof products === "undefined") {
+            return;
+        }
 
 
         if (category === "All") {
@@ -297,9 +393,10 @@ categoryCards.forEach(card => {
 
         } else {
 
-            const filtered = products.filter(product =>
-                product.category === category
-            );
+            const filtered =
+                products.filter(product =>
+                    product.category === category
+                );
 
             displayProducts(filtered);
 
@@ -308,6 +405,7 @@ categoryCards.forEach(card => {
 
         const productSection =
             document.querySelector(".products");
+
 
         if (productSection) {
 
@@ -356,7 +454,10 @@ function applyTheme(theme) {
 
 
 // Load saved theme
-const savedTheme = localStorage.getItem("theme");
+
+const savedTheme =
+    localStorage.getItem("theme");
+
 
 if (savedTheme === "dark") {
 
@@ -370,6 +471,7 @@ if (savedTheme === "dark") {
 
 
 // Theme button
+
 if (themeBtn) {
 
     themeBtn.addEventListener("click", function () {
@@ -377,17 +479,24 @@ if (themeBtn) {
         const isDark =
             document.body.classList.contains("dark");
 
+
         if (isDark) {
 
             applyTheme("light");
 
-            localStorage.setItem("theme", "light");
+            localStorage.setItem(
+                "theme",
+                "light"
+            );
 
         } else {
 
             applyTheme("dark");
 
-            localStorage.setItem("theme", "dark");
+            localStorage.setItem(
+                "theme",
+                "dark"
+            );
 
         }
 

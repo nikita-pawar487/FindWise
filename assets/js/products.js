@@ -2220,3 +2220,24 @@ const products = [
     },
 },
 ];
+// ==========================================
+// FINDWISE REGION SYSTEM
+// ==========================================
+
+// Convert existing product data into regional format
+products.forEach(product => {
+
+    // Keep the existing India information
+    product.india = {
+        price: product.price,
+        amazon: product.amazon
+    };
+
+    // USA information will be added later
+    // Do NOT put fake Amazon.com links here.
+    product.usa = {
+        price: null,
+        amazon: null
+    };
+
+});
