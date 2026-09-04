@@ -1,588 +1,282 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FindWise | Product</title>
 
-<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
->
+<meta id="metaDescription"
+      name="description"
+      content="Explore this product on FindWise, including its review, specifications, rating and buying information.">
 
-<title>FindWise Product</title>
-
-<link
-    rel="stylesheet"
-    href="assets/css/style.css"
->
-
+<link rel="stylesheet" href="assets/css/style.css">
 
 <style>
 
-.product-page {
-
-    max-width: 900px;
-
-    margin: 50px auto;
-
-    padding: 30px;
-
+.product-page{
+    max-width:900px;
+    margin:50px auto;
+    padding:30px;
 }
 
-
-.product-page img {
-
-    width: 100%;
-
-    max-width: 450px;
-
-    display: block;
-
-    margin: auto;
-
-    border-radius: 15px;
-
+.product-page img{
+    width:100%;
+    max-width:450px;
+    display:block;
+    margin:auto;
+    border-radius:15px;
 }
 
-
-.product-page h1 {
-
-    margin: 25px 0;
-
+.product-page h1{
+    margin:25px 0;
 }
 
-
-.buy-btn {
-
-    display: inline-block;
-
-    margin-top: 25px;
-
-    padding: 15px 30px;
-
-    background: #2563eb;
-
-    color: white;
-
-    text-decoration: none;
-
-    border-radius: 10px;
-
+.buy-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
 }
 
-
-.buy-btn:hover {
-
-    background: #1d4ed8;
-
+.buy-btn:hover{
+    background:#1d4ed8;
 }
+@media (max-width: 600px) {
 
+    .product-actions {
+        width: 100% !important;
+        display: block !important;
+    }
 
-.product-price {
+    .product-info-row {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 20px !important;
+        margin-bottom: 20px !important;
+    }
 
-    font-size: 24px;
+    .product-buttons-row {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 8px !important;
+        flex-wrap: nowrap !important;
+    }
 
-    font-weight: bold;
-
-    margin: 15px 0;
-
+    .product-buttons-row .buy-btn,
+    .product-buttons-row .back-to-findwise {
+        display: inline-flex !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding: 12px 14px !important;
+        font-size: 14px !important;
+        white-space: nowrap !important;
+        box-sizing: border-box !important;
+    }
 }
-
-
-.product-rating {
-
-    margin: 10px 0;
-
-}
-
-
-.product-region {
-
-    margin-top: 10px;
-
-    font-size: 14px;
-
-    opacity: 0.8;
-
-}
-
-
-.product-thumbnails {
-
-    display: flex;
-
-    gap: 10px;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    margin-top: 15px;
-
-}
-
-
-.product-thumbnails img {
-
-    width: 70px;
-
-    height: 70px;
-
-    object-fit: cover;
-
-    cursor: pointer;
-
-    border-radius: 8px;
-
-}
-
-
-.product-section {
-
-    margin-top: 30px;
-
-}
-
-
-.product-section ul {
-
-    padding-left: 25px;
-
-}
-
-
-.spec-table {
-
-    width: 100%;
-
-    border-collapse: collapse;
-
-    margin-top: 15px;
-
-}
-
-
-.spec-table td {
-
-    padding: 10px;
-
-    border-bottom: 1px solid #ddd;
-
-}
-
-
-.spec-table td:first-child {
-
-    font-weight: bold;
-
-}
-
-
-.error-message {
-
-    text-align: center;
-
-    padding: 60px 20px;
-
-}
-
 
 </style>
 
 </head>
 
-
 <body>
-
-
+<script>
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+}
+</script>
 <div class="product-page">
 
+<div class="gallery">
 
-    <!-- ==========================
-         PRODUCT IMAGE
-         ========================== -->
-
-    <img
-        id="image"
-        src=""
-        alt=""
-    >
-
-
-    <!-- ==========================
-         THUMBNAILS
-         ========================== -->
-
-    <div
-        id="thumbnails"
-        class="product-thumbnails"
-    ></div>
-
-
-    <!-- ==========================
-         PRODUCT TITLE
-         ========================== -->
-
-    <h1 id="title"></h1>
-
-
-    <!-- ==========================
-         REGION
-         ========================== -->
-
-    <div
-        id="region"
-        class="product-region"
-    ></div>
-
-
-    <!-- ==========================
-         PRICE
-         ========================== -->
-
-    <div
-        id="price"
-        class="product-price"
-    ></div>
-
-
-    <!-- ==========================
-         RATING
-         ========================== -->
-
-    <div
-        id="rating"
-        class="product-rating"
-    ></div>
-
-
-    <!-- ==========================
-         DESCRIPTION
-         ========================== -->
-
-    <div class="product-section">
-
-        <h2>Description</h2>
-
-        <p id="description"></p>
-
+    <div id="thumbnails" class="thumbnails">
+        <!-- JavaScript will automatically create the thumbnails -->
     </div>
 
-
-    <!-- ==========================
-         REVIEW
-         ========================== -->
-
-    <div class="product-section">
-
-        <h2>Review</h2>
-
-        <p id="review"></p>
-
+    <div class="main-image">
+        <img id="image" src="" alt="Product Image">
     </div>
-
-
-    <!-- ==========================
-         PROS
-         ========================== -->
-
-    <div class="product-section">
-
-        <h2>Pros</h2>
-
-        <ul id="pros"></ul>
-
-    </div>
-
-
-    <!-- ==========================
-         CONS
-         ========================== -->
-
-    <div class="product-section">
-
-        <h2>Cons</h2>
-
-        <ul id="cons"></ul>
-
-    </div>
-
-
-    <!-- ==========================
-         SPECIFICATIONS
-         ========================== -->
-
-    <div class="product-section">
-
-        <h2>Specifications</h2>
-
-        <table class="spec-table">
-
-            <tbody id="specifications"></tbody>
-
-        </table>
-
-    </div>
-
-
-    <!-- ==========================
-         AMAZON BUTTON
-         ========================== -->
-
-    <a
-        id="buyBtn"
-        class="buy-btn"
-        target="_blank"
-        rel="nofollow sponsored noopener"
-    >
-        Buy on Amazon
-    </a>
-
-
-    <br>
-    <br>
-
-
-    <!-- ==========================
-         BACK
-         ========================== -->
-
-    <a href="index.html">
-        ⬅ Back to Home
-    </a>
-
 
 </div>
 
+<h1 id="title"></h1>
+<div class="product-actions">
 
-<!-- ==========================
-     PRODUCTS DATABASE
-     ========================== -->
+    <div class="product-info-row">
+        <p class="price" id="price"></p>
+        <p class="rating" id="rating"></p>
+    </div>
 
+    <div class="product-buttons-row">
+        <a id="buyBtn"
+           class="buy-btn"
+           target="_blank"
+           rel="nofollow sponsored noopener">
+            Buy on Amazon
+        </a>
+
+        <a href="index.html" class="back-to-findwise">
+            ← Back to FindWise
+        </a>
+    </div>
+
+</div>
+  
+<div class="description-box">
+    <p id="description"></p>
+</div>
+
+<h2 class="section-title">📝 Product Review</h2>
+
+<div class="description-box">
+    <p id="review"></p>
+</div>
+
+<h2 class="section-title">✅ Why You'll Love It</h2>
+<ul id="pros" class="pros"></ul>
+
+<h2 class="section-title">⚠ Things to Know</h2>
+<ul id="cons" class="cons"></ul>
+
+<h2 class="section-title">📋 Specifications</h2>
+
+<table id="specifications" class="spec-table"></table>
+
+
+
+</div>
 <script src="assets/js/products.js"></script>
-
 
 <script>
 
-// ==========================================
-// GET PRODUCT ID
-// ==========================================
-
 const params =
-    new URLSearchParams(
-        window.location.search
-    );
-
+    new URLSearchParams(window.location.search);
 
 const id =
-    Number(
-        params.get("id")
-    );
+    Number(params.get("id"));
+
+const product =
+    products.find(p => p.id === id);
 
 
 // ==========================================
-// GET CURRENT REGION
+// CURRENT REGION
 // ==========================================
 
 const currentRegion =
-    localStorage.getItem(
-        "findwiseRegion"
-    ) || "IN";
+    localStorage.getItem("findwiseRegion") || "IN";
 
 
 // ==========================================
-// GET CURRENT CATALOG
+// REGION DATA
 // ==========================================
 
-const currentProducts =
+const regionData =
     currentRegion === "US"
-        ? productsUSA
-        : productsIndia;
+        ? product?.usa
+        : product?.india;
 
 
 // ==========================================
-// FIND PRODUCT
+// PRODUCT CHECK
 // ==========================================
 
-const product =
-    currentProducts.find(
-        p => p.id === id
-    );
-
-
-// ==========================================
-// PRODUCT NOT FOUND
-// ==========================================
-
-if (!product) {
-
-    document.querySelector(
-        ".product-page"
-    ).innerHTML = `
-
-        <div class="error-message">
-
-            <h1>
-                Product Not Found
-            </h1>
-
-            <p>
-                This product is not available
-                in the selected region.
-            </p>
-
-            <br>
-
-            <a href="index.html">
-                ⬅ Back to Home
-            </a>
-
-        </div>
-
-    `;
-
-}
-
-
-// ==========================================
-// DISPLAY PRODUCT
-// ==========================================
-
-else {
-
-
-    // ==========================
-    // PAGE TITLE
-    // ==========================
+if (product && regionData) {
 
     document.title =
         `FindWise | ${product.title}`;
 
 
     // ==========================
-    // MAIN IMAGE
+    // META DESCRIPTION
+    // ==========================
+
+    const metaDescription =
+        document.getElementById("metaDescription");
+
+
+    if (metaDescription) {
+
+        metaDescription.setAttribute(
+            "content",
+            `${product.title} — read the FindWise review, rating, description and specifications before you buy.`
+        );
+
+    }
+
+
+    // ==========================
+    // IMAGES
     // ==========================
 
     const mainImage =
-        document.getElementById(
-            "image"
-        );
+        document.getElementById("image");
+
+    const thumbnails =
+        document.getElementById("thumbnails");
 
 
     mainImage.src =
         product.images[0];
 
-
     mainImage.alt =
         product.title;
 
 
-    // ==========================
-    // THUMBNAILS
-    // ==========================
+    product.images.forEach((img) => {
 
-    const thumbnails =
-        document.getElementById(
-            "thumbnails"
-        );
+        const thumb =
+            document.createElement("img");
 
+        thumb.src = img;
 
-    product.images.forEach(
-        image => {
+        thumb.className = "thumb";
 
-            const thumbnail =
-                document.createElement(
-                    "img"
-                );
+        thumb.alt = product.title;
 
+        thumb.onclick = () => {
 
-            thumbnail.src =
-                image;
+            mainImage.src = img;
+
+        };
 
 
-            thumbnail.alt =
-                product.title;
+        thumbnails.appendChild(thumb);
 
-
-            thumbnail.onclick =
-                function () {
-
-                    mainImage.src =
-                        image;
-
-                };
-
-
-            thumbnails.appendChild(
-                thumbnail
-            );
-
-        }
-    );
+    });
 
 
     // ==========================
-    // TITLE
+    // BASIC INFORMATION
     // ==========================
 
-    document.getElementById(
-        "title"
-    ).textContent =
-        product.title;
+    document.getElementById("title")
+        .textContent = product.title;
 
 
-    // ==========================
-    // REGION
-    // ==========================
-
-    document.getElementById(
-        "region"
-    ).textContent =
-        currentRegion === "US"
-            ? "🇺🇸 USA Amazon.com"
-            : "🇮🇳 India Amazon.in";
+    document.getElementById("price")
+        .textContent = regionData.price;
 
 
-    // ==========================
-    // PRICE
-    // ==========================
-
-    document.getElementById(
-        "price"
-    ).textContent =
-        product.price;
+    document.getElementById("rating")
+        .textContent =
+            "⭐ " + product.rating;
 
 
-    // ==========================
-    // RATING
-    // ==========================
-
-    document.getElementById(
-        "rating"
-    ).textContent =
-        "⭐ " + product.rating;
+    document.getElementById("description")
+        .textContent =
+            product.description;
 
 
-    // ==========================
-    // DESCRIPTION
-    // ==========================
-
-    document.getElementById(
-        "description"
-    ).textContent =
-        product.description;
-
-
-    // ==========================
-    // REVIEW
-    // ==========================
-
-    document.getElementById(
-        "review"
-    ).textContent =
-        product.review;
+    document.getElementById("review")
+        .textContent =
+            product.review;
 
 
     // ==========================
@@ -590,34 +284,19 @@ else {
     // ==========================
 
     const pros =
-        document.getElementById(
-            "pros"
-        );
+        document.getElementById("pros");
 
 
-    if (product.pros) {
+    product.pros.forEach(item => {
 
-        product.pros.forEach(
-            item => {
+        const li =
+            document.createElement("li");
 
-                const li =
-                    document.createElement(
-                        "li"
-                    );
+        li.textContent = item;
 
+        pros.appendChild(li);
 
-                li.textContent =
-                    item;
-
-
-                pros.appendChild(
-                    li
-                );
-
-            }
-        );
-
-    }
+    });
 
 
     // ==========================
@@ -625,97 +304,45 @@ else {
     // ==========================
 
     const cons =
-        document.getElementById(
-            "cons"
-        );
+        document.getElementById("cons");
 
 
-    if (product.cons) {
+    product.cons.forEach(item => {
 
-        product.cons.forEach(
-            item => {
+        const li =
+            document.createElement("li");
 
-                const li =
-                    document.createElement(
-                        "li"
-                    );
+        li.textContent = item;
 
+        cons.appendChild(li);
 
-                li.textContent =
-                    item;
-
-
-                cons.appendChild(
-                    li
-                );
-
-            }
-        );
-
-    }
+    });
 
 
     // ==========================
     // SPECIFICATIONS
     // ==========================
 
-    const specifications =
-        document.getElementById(
-            "specifications"
-        );
+    const specs =
+        document.getElementById("specifications");
 
 
-    if (product.specifications) {
+    Object.entries(product.specifications)
+        .forEach(([key, value]) => {
 
-        Object.entries(
-            product.specifications
-        ).forEach(
-            ([key, value]) => {
-
-                const row =
-                    document.createElement(
-                        "tr"
-                    );
+            const row =
+                document.createElement("tr");
 
 
-                const keyCell =
-                    document.createElement(
-                        "td"
-                    );
+            row.innerHTML = `
+                <td>${key}</td>
+                <td>${value}</td>
+            `;
 
 
-                const valueCell =
-                    document.createElement(
-                        "td"
-                    );
+            specs.appendChild(row);
 
-
-                keyCell.textContent =
-                    key;
-
-
-                valueCell.textContent =
-                    value;
-
-
-                row.appendChild(
-                    keyCell
-                );
-
-
-                row.appendChild(
-                    valueCell
-                );
-
-
-                specifications.appendChild(
-                    row
-                );
-
-            }
-        );
-
-    }
+        });
 
 
     // ==========================
@@ -723,36 +350,22 @@ else {
     // ==========================
 
     const buyBtn =
-        document.getElementById(
-            "buyBtn"
-        );
+        document.getElementById("buyBtn");
 
 
-    if (product.amazon) {
+    if (regionData.amazon) {
 
         buyBtn.href =
-            product.amazon;
-
-
-        buyBtn.textContent =
-            currentRegion === "US"
-                ? "Buy on Amazon.com"
-                : "Buy on Amazon.in";
+            regionData.amazon;
 
     } else {
 
         buyBtn.href = "#";
 
-
         buyBtn.textContent =
-            currentRegion === "US"
-                ? "USA Amazon Link Coming Soon"
-                : "Amazon Link Coming Soon";
+            "🇺🇸 USA Link Coming Soon";
 
-
-        buyBtn.style.opacity =
-            "0.7";
-
+        buyBtn.style.opacity = "0.7";
 
         buyBtn.style.pointerEvents =
             "none";
