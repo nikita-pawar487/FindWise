@@ -2221,23 +2221,80 @@ const products = [
 },
 ];
 // ==========================================
-// FINDWISE REGION SYSTEM
+// FINDWISE REGIONAL PRODUCT CATALOGS
 // ==========================================
 
-// Convert existing product data into regional format
-products.forEach(product => {
+// ==========================================
+// INDIA PRODUCTS
+// ==========================================
+// Your existing products are already India products.
+// We create a separate reference so the India
+// catalog can be managed independently.
 
-    // Keep the existing India information
-    product.india = {
-        price: product.price,
-        amazon: product.amazon
-    };
+const productsIndia = products.map(product => ({
+    ...product
+}));
 
-    // USA information will be added later
-    // Do NOT put fake Amazon.com links here.
-    product.usa = {
-        price: null,
-        amazon: null
-    };
 
-});
+// ==========================================
+// USA PRODUCTS
+// ==========================================
+// Add completely different USA products here.
+//
+// IMPORTANT:
+// - Use real Amazon.com products
+// - Use the actual USD price
+// - Use your REAL Amazon.com affiliate link
+// - Do NOT invent an Amazon Associates tag
+//
+// USA product IDs should start from 1001
+// so they never conflict with India product IDs.
+
+const productsUSA = [
+
+    /*
+    EXAMPLE:
+
+    {
+        id: 1001,
+
+        title: "USA Product Name",
+
+        category: "Home",
+
+        images: [
+            "assets/images/usa-product/product1.png",
+            "assets/images/usa-product/product2.png"
+        ],
+
+        price: "$19.99",
+
+        rating: "4.5",
+
+        amazon: "YOUR_REAL_AMAZON_COM_AFFILIATE_LINK",
+
+        description: "Product description goes here.",
+
+        review: "Your product review goes here.",
+
+        pros: [
+            "Pro 1",
+            "Pro 2",
+            "Pro 3"
+        ],
+
+        cons: [
+            "Con 1",
+            "Con 2"
+        ],
+
+        specifications: {
+            Material: "Example",
+            Color: "Example",
+            Type: "Example"
+        }
+    }
+
+    */
+
+];

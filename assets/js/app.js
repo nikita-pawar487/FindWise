@@ -13,67 +13,91 @@ const searchBtn = document.getElementById("searchBtn");
 const searchContainer = document.getElementById("searchContainer");
 const searchInput = document.getElementById("searchInput");
 const searchSubmit = document.getElementById("searchSubmit");
+
 const themeBtn = document.getElementById("themeBtn");
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.querySelector(".nav-links");
 
-const categoryCards = document.querySelectorAll(".category-card");
+const categoryCards =
+    document.querySelectorAll(".category-card");
 
-const regionSelector = document.getElementById("regionSelector");
+const regionSelector =
+    document.getElementById("regionSelector");
 
 
 // ==========================
 // REGION SYSTEM
 // ==========================
 
-// Get saved region
-let currentRegion = localStorage.getItem("findwiseRegion") || "IN";
-
-
-// Set selector to saved region
-if (regionSelector) {
-    regionSelector.value = currentRegion;
-}
+let currentRegion =
+    localStorage.getItem("findwiseRegion") || "IN";
 
 
 // ==========================
-// GET REGION PRODUCT DATA
+// GET CURRENT PRODUCT CATALOG
 // ==========================
 
-function getRegionData(product) {
+function getCurrentProducts() {
 
     if (currentRegion === "US") {
 
-        return product.usa;
+        return typeof productsUSA !== "undefined"
+            ? productsUSA
+            : [];
 
     }
 
-    return product.india;
+    return typeof productsIndia !== "undefined"
+        ? productsIndia
+        : [];
 
 }
 
 
 // ==========================
-// REGION SELECTOR
+// SET REGION SELECTOR
 // ==========================
 
 if (regionSelector) {
 
-    regionSelector.addEventListener("change", function () {
+    regionSelector.value =
+        currentRegion;
 
-        currentRegion = this.value;
+}
 
-        // Remember user's choice
-        localStorage.setItem(
-            "findwiseRegion",
-            currentRegion
-        );
 
-        // Refresh products
-        displayProducts(products);
+// ==========================
+// CHANGE REGION
+// ==========================
 
-    });
+if (regionSelector) {
+
+    regionSelector.addEventListener(
+        "change",
+        function () {
+
+            currentRegion =
+                this.value;
+
+            // Save region
+            localStorage.setItem(
+                "findwiseRegion",
+                currentRegion
+            );
+
+            // Clear search
+            if (searchInput) {
+                searchInput.value = "";
+            }
+
+            // Display new catalog
+            displayProducts(
+                getCurrentProducts()
+            );
+
+        }
+    );
 
 }
 
@@ -84,55 +108,62 @@ if (regionSelector) {
 
 function displayProducts(productList) {
 
-    if (!grid) return;
+    if (!grid) {
+        return;
+    }
+
 
     grid.innerHTML = "";
 
-    const availableProducts = productList.filter(product => {
 
-        const regionData = getRegionData(product);
+    // ==========================
+    // NO PRODUCTS
+    // ==========================
 
-        return regionData &&
-               regionData.price &&
-               regionData.amazon;
-
-    });
-
-
-    if (availableProducts.length === 0) {
+    if (
+        !productList ||
+        productList.length === 0
+    ) {
 
         if (currentRegion === "US") {
 
             grid.innerHTML = `
-                <div style="
-                    text-align:center;
-                    grid-column:1/-1;
-                    padding:40px 20px;
-                ">
 
-                    <h2>🇺🇸 USA products coming soon</h2>
+                <div
+                    style="
+                        text-align:center;
+                        grid-column:1/-1;
+                        padding:40px 20px;
+                    "
+                >
+
+                    <h2>
+                        🇺🇸 USA Amazon Finds Coming Soon
+                    </h2>
 
                     <p>
-                        We are currently adding Amazon.com products
+                        We are currently adding
+                        hand-picked Amazon.com products
                         for our USA shoppers.
                     </p>
 
-                    <p>
-                        Please check back soon.
-                    </p>
-
                 </div>
+
             `;
 
         } else {
 
             grid.innerHTML = `
-                <p style="
-                    text-align:center;
-                    grid-column:1/-1;
-                ">
+
+                <p
+                    style="
+                        text-align:center;
+                        grid-column:1/-1;
+                    "
+                >
                     No products found.
                 </p>
+
             `;
 
         }
@@ -141,9 +172,11 @@ function displayProducts(productList) {
     }
 
 
-    availableProducts.forEach(product => {
+    // ==========================
+    // RENDER PRODUCTS
+    // ==========================
 
-        const regionData = getRegionData(product);
+    productList.forEach(product => {
 
         grid.innerHTML += `
 
@@ -176,7 +209,7 @@ function displayProducts(productList) {
                             </span>
 
                             <span class="price">
-                                ${regionData.price}
+                                ${product.price}
                             </span>
 
                         </div>
@@ -203,12 +236,17 @@ function displayProducts(productList) {
 
 
 // ==========================
-// INITIAL PRODUCT DISPLAY
+// INITIAL DISPLAY
 // ==========================
 
-if (typeof products !== "undefined") {
+if (
+    typeof productsIndia !== "undefined" &&
+    typeof productsUSA !== "undefined"
+) {
 
-    displayProducts(products);
+    displayProducts(
+        getCurrentProducts()
+    );
 
 }
 
@@ -217,24 +255,36 @@ if (typeof products !== "undefined") {
 // SEARCH BUTTON
 // ==========================
 
-if (searchBtn && searchContainer) {
+if (
+    searchBtn &&
+    searchContainer
+) {
 
-    searchBtn.addEventListener("click", function () {
+    searchBtn.addEventListener(
+        "click",
+        function () {
 
-        if (!searchContainer.classList.contains("active")) {
+            if (
+                !searchContainer.classList.contains(
+                    "active"
+                )
+            ) {
 
-            searchContainer.classList.add("active");
+                searchContainer.classList.add(
+                    "active"
+                );
 
-            if (searchInput) {
-                searchInput.focus();
+                if (searchInput) {
+                    searchInput.focus();
+                }
+
+                return;
             }
 
-            return;
+            searchProducts();
+
         }
-
-        searchProducts();
-
-    });
+    );
 
 }
 
@@ -245,38 +295,65 @@ if (searchBtn && searchContainer) {
 
 function searchProducts() {
 
-    if (!searchInput || typeof products === "undefined") {
+    if (
+        !searchInput ||
+        typeof productsIndia === "undefined"
+    ) {
         return;
     }
+
 
     const keyword =
-        searchInput.value.toLowerCase().trim();
+        searchInput.value
+            .toLowerCase()
+            .trim();
 
 
+    const currentProducts =
+        getCurrentProducts();
+
+
+    // Empty search
     if (keyword === "") {
 
-        displayProducts(products);
+        displayProducts(
+            currentProducts
+        );
 
         return;
     }
 
 
-    const filtered = products.filter(product =>
+    const filtered =
+        currentProducts.filter(
+            product =>
 
-        product.title.toLowerCase().includes(keyword) ||
+                product.title
+                    .toLowerCase()
+                    .includes(keyword)
 
-        product.category.toLowerCase().includes(keyword) ||
+                ||
 
-        product.description.toLowerCase().includes(keyword)
+                product.category
+                    .toLowerCase()
+                    .includes(keyword)
 
-    );
+                ||
+
+                product.description
+                    .toLowerCase()
+                    .includes(keyword)
+
+        );
 
 
     displayProducts(filtered);
 
 
     const productSection =
-        document.getElementById("featured-products");
+        document.getElementById(
+            "featured-products"
+        );
 
 
     if (productSection) {
@@ -301,65 +378,96 @@ function searchProducts() {
 
 if (searchInput) {
 
-    searchInput.addEventListener("input", function () {
+    searchInput.addEventListener(
+        "input",
+        function () {
 
-        const keyword =
-            this.value.toLowerCase().trim();
+            const keyword =
+                this.value
+                    .toLowerCase()
+                    .trim();
 
 
-        if (keyword === "") {
+            const currentProducts =
+                getCurrentProducts();
 
-            displayProducts(products);
 
-            return;
+            if (keyword === "") {
+
+                displayProducts(
+                    currentProducts
+                );
+
+                return;
+
+            }
+
+
+            const filtered =
+                currentProducts.filter(
+                    product =>
+
+                        product.title
+                            .toLowerCase()
+                            .includes(keyword)
+
+                        ||
+
+                        product.category
+                            .toLowerCase()
+                            .includes(keyword)
+
+                        ||
+
+                        product.description
+                            .toLowerCase()
+                            .includes(keyword)
+
+                );
+
+
+            displayProducts(filtered);
 
         }
+    );
 
 
-        const filtered = products.filter(product =>
+    // ==========================
+    // ENTER KEY
+    // ==========================
 
-            product.title.toLowerCase().includes(keyword) ||
+    searchInput.addEventListener(
+        "keydown",
+        function (event) {
 
-            product.category.toLowerCase().includes(keyword) ||
+            if (event.key === "Enter") {
 
-            product.description.toLowerCase().includes(keyword)
+                event.preventDefault();
 
-        );
+                searchProducts();
 
-
-        displayProducts(filtered);
-
-    });
-
-
-    // Search when pressing Enter
-
-    searchInput.addEventListener("keydown", function (event) {
-
-        if (event.key === "Enter") {
-
-            event.preventDefault();
-
-            searchProducts();
+            }
 
         }
-
-    });
+    );
 
 }
 
 
 // ==========================
-// SEARCH SUBMIT BUTTON
+// SEARCH SUBMIT
 // ==========================
 
 if (searchSubmit) {
 
-    searchSubmit.addEventListener("click", function () {
+    searchSubmit.addEventListener(
+        "click",
+        function () {
 
-        searchProducts();
+            searchProducts();
 
-    });
+        }
+    );
 
 }
 
@@ -370,58 +478,76 @@ if (searchSubmit) {
 
 categoryCards.forEach(card => {
 
-    card.addEventListener("click", function () {
+    card.addEventListener(
+        "click",
+        function () {
 
-        categoryCards.forEach(c =>
-            c.classList.remove("active")
-        );
-
-        this.classList.add("active");
-
-        const category =
-            this.dataset.category;
-
-
-        if (typeof products === "undefined") {
-            return;
-        }
+            categoryCards.forEach(
+                c =>
+                    c.classList.remove(
+                        "active"
+                    )
+            );
 
 
-        if (category === "All") {
+            this.classList.add("active");
 
-            displayProducts(products);
 
-        } else {
+            const category =
+                this.dataset.category;
 
-            const filtered =
-                products.filter(product =>
-                    product.category === category
+
+            const currentProducts =
+                getCurrentProducts();
+
+
+            // Show everything
+            if (
+                category === "All" ||
+                category === "All Products"
+            ) {
+
+                displayProducts(
+                    currentProducts
                 );
 
-            displayProducts(filtered);
+            } else {
+
+                const filtered =
+                    currentProducts.filter(
+                        product =>
+                            product.category ===
+                            category
+                    );
+
+
+                displayProducts(filtered);
+
+            }
+
+
+            const productSection =
+                document.querySelector(
+                    ".products"
+                );
+
+
+            if (productSection) {
+
+                productSection.scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            }
 
         }
-
-
-        const productSection =
-            document.querySelector(".products");
-
-
-        if (productSection) {
-
-            productSection.scrollIntoView({
-                behavior: "smooth"
-            });
-
-        }
-
-    });
+    );
 
 });
 
 
 // ==========================
-// LIGHT / DARK MODE
+// THEME
 // ==========================
 
 function applyTheme(theme) {
@@ -432,19 +558,31 @@ function applyTheme(theme) {
 
         if (themeBtn) {
 
-            themeBtn.classList.remove("fa-moon");
-            themeBtn.classList.add("fa-sun");
+            themeBtn.classList.remove(
+                "fa-moon"
+            );
+
+            themeBtn.classList.add(
+                "fa-sun"
+            );
 
         }
 
     } else {
 
-        document.body.classList.remove("dark");
+        document.body.classList.remove(
+            "dark"
+        );
 
         if (themeBtn) {
 
-            themeBtn.classList.remove("fa-sun");
-            themeBtn.classList.add("fa-moon");
+            themeBtn.classList.remove(
+                "fa-sun"
+            );
+
+            themeBtn.classList.add(
+                "fa-moon"
+            );
 
         }
 
@@ -453,7 +591,9 @@ function applyTheme(theme) {
 }
 
 
-// Load saved theme
+// ==========================
+// LOAD SAVED THEME
+// ==========================
 
 const savedTheme =
     localStorage.getItem("theme");
@@ -470,37 +610,44 @@ if (savedTheme === "dark") {
 }
 
 
-// Theme button
+// ==========================
+// THEME BUTTON
+// ==========================
 
 if (themeBtn) {
 
-    themeBtn.addEventListener("click", function () {
+    themeBtn.addEventListener(
+        "click",
+        function () {
 
-        const isDark =
-            document.body.classList.contains("dark");
+            const isDark =
+                document.body.classList.contains(
+                    "dark"
+                );
 
 
-        if (isDark) {
+            if (isDark) {
 
-            applyTheme("light");
+                applyTheme("light");
 
-            localStorage.setItem(
-                "theme",
-                "light"
-            );
+                localStorage.setItem(
+                    "theme",
+                    "light"
+                );
 
-        } else {
+            } else {
 
-            applyTheme("dark");
+                applyTheme("dark");
 
-            localStorage.setItem(
-                "theme",
-                "dark"
-            );
+                localStorage.setItem(
+                    "theme",
+                    "dark"
+                );
+
+            }
 
         }
-
-    });
+    );
 
 }
 
@@ -509,12 +656,20 @@ if (themeBtn) {
 // MOBILE MENU
 // ==========================
 
-if (menuBtn && navLinks) {
+if (
+    menuBtn &&
+    navLinks
+) {
 
-    menuBtn.addEventListener("click", function () {
+    menuBtn.addEventListener(
+        "click",
+        function () {
 
-        navLinks.classList.toggle("active");
+            navLinks.classList.toggle(
+                "active"
+            );
 
-    });
+        }
+    );
 
 }
