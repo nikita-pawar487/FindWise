@@ -2298,7 +2298,7 @@ const productsUSA = [
         Use: "Cooking, Air Fryer, Salad, BBQ, Grilling",
         BPA_Free: "Yes"
     }
-}
+},
 {
     id: 1002,
 
@@ -2355,6 +2355,6 @@ const productsUSA = [
         Included_Components: "Handle, Wheat Straw",
         Model_Number: "SCCB01"
     }
-}
+},
     
 ];
