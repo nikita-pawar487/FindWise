@@ -2252,49 +2252,53 @@ const productsIndia = products.map(product => ({
 
 const productsUSA = [
 
-    /*
-    EXAMPLE:
+   {
+    id: 1001,
 
-    {
-        id: 1001,
+    title: "2 in 1 Oil Dispenser Bottle for Kitchen Gadgets ",
 
-        title: "USA Product Name",
+    category: "Kitchen",
 
-        category: "Home",
+    images: [
+        "assets/images/USA/oil1.png",
+        "assets/images/USA/oil2.png"
+    ],
 
-        images: [
-            "assets/images/usa-product/product1.png",
-            "assets/images/usa-product/product2.png"
-        ],
+    price: "$8.99",
 
-        price: "$19.99",
+    rating: "4.6",
 
-        rating: "4.5",
+    amazon: "https://www.amazon.com/TrendPlain-16oz-Dispenser-Bottle-Kitchen/dp/B0CJF94M8J?tag=homeorg12-20",
 
-        amazon: "YOUR_REAL_AMAZON_COM_AFFILIATE_LINK",
+    description: "The TrendPlain 16oz/470ml Glass Olive Oil Sprayer is a versatile 2-in-1 kitchen dispenser that lets you spray or pour cooking oil with greater control. Its fine-mist spray function is useful for air frying, grilling, roasting, salads and sautéing, while the pour function makes it easy to drizzle oil when more is needed. The BPA-free glass design provides a practical and convenient solution for everyday cooking.",
 
-        description: "Product description goes here.",
+    review: "A highly rated kitchen oil dispenser with a convenient spray-and-pour design. Its 2-in-1 functionality makes it useful for air frying, cooking, grilling, salads and baking, while the glass bottle and controlled dispensing help reduce unnecessary oil use. Amazon currently shows a 4.6 out of 5 star rating from more than 46,000 ratings.",
 
-        review: "Your product review goes here.",
+    pros: [
+        "2-in-1 spray and pour functionality",
+        "16oz / 470ml capacity",
+        "BPA-free glass bottle",
+        "Fine mist spray for controlled oil use",
+        "Useful for air fryers, grilling, salads and cooking",
+        "Easy-to-control oil dispensing"
+    ],
 
-        pros: [
-            "Pro 1",
-            "Pro 2",
-            "Pro 3"
-        ],
+    cons: [
+        "Amazon currently has no featured offer displayed",
+        "Glass construction requires careful handling",
+        "Spray performance can vary depending on the oil used"
+    ],
 
-        cons: [
-            "Con 1",
-            "Con 2"
-        ],
-
-        specifications: {
-            Material: "Example",
-            Color: "Example",
-            Type: "Example"
-        }
+    specifications: {
+        Brand: "TrendPlain",
+        Material: "Glass",
+        Capacity: "16oz / 470ml",
+        Color: "Black",
+        Type: "2-in-1 Oil Sprayer and Dispenser",
+        Use: "Cooking, Air Fryer, Salad, BBQ, Grilling",
+        BPA_Free: "Yes"
     }
+}
 
-    */
-
+    
 ];
