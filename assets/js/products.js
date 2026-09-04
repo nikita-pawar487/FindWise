@@ -2260,8 +2260,8 @@ const productsUSA = [
     category: "Kitchen",
 
     images: [
-        "assets/images/USA/oil1.png",
-        "assets/images/USA/oil2.png"
+        "assets/images/USA/oil/oil1.png",
+        "assets/images/USA/oil/oil2.png"
     ],
 
     price: "$8.99",
