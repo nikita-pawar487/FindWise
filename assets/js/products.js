@@ -2314,7 +2314,7 @@ const productsUSA = [
         "assets/images/USA/cut/cut5.png"
     ],
 
-    price: "$22.99",
+    price: "$29.99",
 
     rating: "4.5",
 

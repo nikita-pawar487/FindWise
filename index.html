@@ -337,9 +337,9 @@
         <div class="social-icons">
 
 
-    <a href="https://www.pinterest.com/homeorg12/" aria-label="Pinterest">
-        <i class="fab fa-pinterest"></i>
-    </a>
+    <a id="pinterestLink" href="#" target="_blank" rel="noopener">
+    <i class="fab fa-pinterest"></i>
+</a>
 
   
 
@@ -354,6 +354,52 @@
 </p>
 <script src="assets/js/products.js"></script>
 <script src="assets/js/app.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const pinterestLink =
+        document.getElementById("pinterestLink");
+
+    if (!pinterestLink) return;
+
+
+    // ==========================================
+    // YOUR TWO PINTEREST ACCOUNTS
+    // ==========================================
+
+    const pinterestIndia =
+        "YOUR_INDIA_PINTEREST_PROFILE_URL";
+
+    const pinterestUSA =
+        "YOUR_USA_PINTEREST_PROFILE_URL";
+
+
+    // ==========================================
+    // GET CURRENT FINDWISE REGION
+    // ==========================================
+
+    const currentRegion =
+        localStorage.getItem("findwiseRegion") || "IN";
+
+
+    // ==========================================
+    // SET PINTEREST ACCOUNT
+    // ==========================================
+
+    if (currentRegion === "US") {
+
+        pinterestLink.href =
+            pinterestUSA;
+
+    } else {
+
+        pinterestLink.href =
+            pinterestIndia;
+
+    }
+
+});
+</script>
 </body>
 
 </html>
