@@ -360,42 +360,97 @@ document.addEventListener("DOMContentLoaded", function () {
     const pinterestLink =
         document.getElementById("pinterestLink");
 
+    const regionSelector =
+        document.getElementById("regionSelector");
+
     if (!pinterestLink) return;
 
 
     // ==========================================
-    // YOUR TWO PINTEREST ACCOUNTS
+    // PINTEREST ACCOUNTS
     // ==========================================
 
     const pinterestIndia =
-        "YOUR_INDIA_PINTEREST_PROFILE_URL";
+        "https://www.pinterest.com/homeorg12/";
 
     const pinterestUSA =
-        "YOUR_USA_PINTEREST_PROFILE_URL";
+        "https://www.pinterest.com/findwise12/";
 
 
     // ==========================================
-    // GET CURRENT FINDWISE REGION
+    // UPDATE PINTEREST LINK
     // ==========================================
 
-    const currentRegion =
-        localStorage.getItem("findwiseRegion") || "IN";
+    function updatePinterestLink() {
+
+        const currentRegion =
+            localStorage.getItem("findwiseRegion") || "IN";
 
 
-    // ==========================================
-    // SET PINTEREST ACCOUNT
-    // ==========================================
+        if (currentRegion === "US") {
 
-    if (currentRegion === "US") {
+            pinterestLink.href =
+                pinterestUSA;
 
-        pinterestLink.href =
-            pinterestUSA;
+        } else {
 
-    } else {
+            pinterestLink.href =
+                pinterestIndia;
 
-        pinterestLink.href =
-            pinterestIndia;
+        }
 
+    }
+
+
+    // Set correct Pinterest account when page loads
+    updatePinterestLink();
+
+
+    // Change Pinterest account when
+    // visitor changes India / USA
+    if (regionSelector) {
+
+        regionSelector.addEventListener(
+            "change",
+            updatePinterestLink
+        );
+
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const pinterestLink = document.getElementById("pinterestLink");
+    const regionSelector = document.getElementById("regionSelector");
+
+    if (!pinterestLink) return;
+
+    const pinterestIndia =
+        "https://www.pinterest.com/homeorg12/";
+
+    const pinterestUSA =
+        "https://www.pinterest.com/findwise12/";
+
+    function updatePinterestLink() {
+
+        const currentRegion =
+            localStorage.getItem("findwiseRegion") || "IN";
+
+        if (currentRegion === "US") {
+            pinterestLink.href = pinterestUSA;
+        } else {
+            pinterestLink.href = pinterestIndia;
+        }
+    }
+
+    // Set correct Pinterest account when page loads
+    updatePinterestLink();
+
+    // Change Pinterest account immediately when region changes
+    if (regionSelector) {
+        regionSelector.addEventListener("change", updatePinterestLink);
     }
 
 });
