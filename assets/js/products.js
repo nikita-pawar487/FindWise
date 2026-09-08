@@ -2345,8 +2345,8 @@ const products = [
         Usage: "Soap, Toothbrushes, Tumbler, Toiletries and Bathroom Accessories",
         PackageContents: "1 Bathroom Rack and Accessories",
         CareInstructions: "Clean regularly with a soft cloth and mild cleaning solution. Keep the rack dry when possible to maintain its appearance."
-    }
-}
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
