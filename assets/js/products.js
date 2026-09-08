@@ -2356,5 +2356,184 @@ const productsUSA = [
         Model_Number: "SCCB01"
     }
 },
+{
+    id: 1003,
+
+    title: "24 pcs Kitchen Pantry Organization Canisters",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/cont/cont1.png",
+        "assets/images/USA/cont/cont2.png",
+        "assets/images/USA/cont/cont3.png",
+        "assets/images/USA/cont/cont4.png"
+    ],
+
+    price: "$35.99",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/Airtight-Containers-Vtopmart-Organization-Canisters/dp/B08ZK5WDWN?tag=homeorg12-20",
+
+    description: "The Vtopmart 24-Piece Airtight Food Storage Container Set is designed to organize kitchen pantries while keeping dry foods fresh and protected. The set includes four different container sizes with airtight side-locking lids and silicone gaskets. The stackable design helps maximize pantry space, while the clear containers make it easy to identify stored food. The set also includes 24 reusable labels for convenient organization.",
+
+    review: "A practical pantry organization set with a large variety of container sizes and airtight locking lids. The 24-piece configuration works well for storing cereal, pasta, rice, flour, sugar, oats, snacks and other dry foods. Its stackable design and reusable labels make it particularly useful for keeping a pantry neat and organized. The product is rated around 4.7 out of 5 stars across tens of thousands of customer ratings.",
+
+    pros: [
+        "24-piece storage container set",
+        "Airtight side-locking lids with silicone gaskets",
+        "Four different container sizes",
+        "BPA-free food-grade plastic",
+        "Stackable and space-saving design",
+        "Includes 24 reusable labels",
+        "Clear containers make contents easy to identify",
+        "Dishwasher-safe containers",
+        "Suitable for cereal, pasta, rice, flour, sugar and snacks"
+    ],
+
+    cons: [
+        "Lids should be hand washed",
+        "Plastic construction may not feel as premium as glass",
+        "Large 24-piece set requires adequate pantry storage space",
+        "Containers can create suction when stacked together"
+    ],
+
+    specifications: {
+        Brand: "Vtopmart",
+        Material: "BPA-Free Plastic and Silicone",
+        Color: "Black",
+        Type: "Airtight Food Storage Container Set",
+        Quantity: "24 Pieces",
+        Size_Combinations: "Tall, Large, Medium, Small",
+        Tall_Size: "2.5 Quart / 2.8 Liters",
+        Large_Size: "1.8 Quart / 2.0 Liters",
+        Medium_Size: "1.5 Quart / 1.6 Liters",
+        Small_Size: "0.7 Quart / 0.8 Liters",
+        Labels: "24 Reusable Labels",
+        Closure_Type: "Side-Locking Airtight Lid",
+        Shape: "Rectangular",
+        Special_Features: "Airtight, Stackable, Space-Saving, Shatterproof",
+        Dishwasher_Safe: "Containers only; hand wash lids",
+        Recommended_Uses: "Cereal, Pasta, Rice, Flour, Sugar, Oats, Snacks, Nuts, Coffee and Tea"
+    }
+},
+{
+    id: 1004,
+
+    title: "Roll Up Dish Drying Rack, 17.5 x 11.8 Inch",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/sink/sink1.png",
+        "assets/images/USA/sink/sink2.png",
+        "assets/images/USA/sink/sink3.png",
+        "assets/images/USA/sink/sink4.png",
+        "assets/images/USA/sink/sink5.png"
+    ],
+
+    price: "$6.99",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/Seropy-Kitchen-Foldable-Stainless-17-8x11-8/dp/B08S6M3NXV?tag=homeorg12-20",
+
+    description: "The Seropy Roll Up Dish Drying Rack is a space-saving kitchen accessory designed to fit over the sink. Made from sturdy stainless steel, it provides a convenient surface for drying dishes, fruits, vegetables and kitchen utensils while allowing water to drain directly into the sink. The rack rolls up easily for compact storage when not in use and can also provide additional counter space for food preparation.",
+
+    review: "A practical and highly rated kitchen gadget for small kitchens, apartments and RVs. The roll-up design makes it easy to use over the sink and store when not needed. Its stainless-steel construction is rust resistant and can support up to 33 pounds, making it suitable for dishes, cookware and other kitchen items. The 17.5 x 11.8 inch version is designed for sinks up to approximately 16.5 inches wide.",
+
+    pros: [
+        "Space-saving roll-up design",
+        "Made from stainless steel",
+        "Foldable and easy to store",
+        "Supports up to 33 pounds",
+        "Can be used directly over the sink",
+        "Helps free up counter space",
+        "Suitable for drying dishes, fruits and vegetables",
+        "Useful for small kitchens and RVs",
+        "Rust resistant and waterproof"
+    ],
+
+    cons: [
+        "The 17.5 x 11.8 inch size may not fit every sink",
+        "Requires checking sink dimensions before purchase",
+        "Narrower than some traditional dish racks",
+        "May need to be positioned carefully on larger sinks"
+    ],
+
+    specifications: {
+        Brand: "Seropy",
+        Material: "304 Stainless Steel",
+        Color: "Gray",
+        Type: "Roll Up Over-The-Sink Dish Drying Rack",
+        Size: "17.5 x 11.8 Inch",
+        Dimensions: "17.5 x 11.8 x 0.2 Inch",
+        Weight: "0.62 Pounds",
+        Weight_Capacity: "Up to 33 Pounds",
+        Mounting_Type: "Over The Sink",
+        Special_Features: "Foldable, Roll-Up, Rust Resistant, Waterproof",
+        Recommended_Uses: "Dish Drainer, Kitchen, Food Preparation",
+        Unit_Count: "1"
+    }
+},
+{
+    id: 1005,
+
+    title: "Rotating Spice Rack Organization",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/rota/rota1.png",
+        "assets/images/USA/rota/rota2.png",
+        "assets/images/USA/rota/rota3.png",
+        "assets/images/USA/rota/rota4.png",
+        "assets/images/USA/rota/rota5.png"
+    ],
+
+    price: "$12.99",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/Turntable-Organizer-Organization-Countertop-Condiment/dp/B0CS3FBC6W?tag=homeorg12-20",
+
+    description: "The LAMU 2 Tier Lazy Susan Turntable Organizer is a compact rotating storage solution designed to make spices, condiments, jars and other everyday items easier to access. Its two-tier design maximizes vertical storage space while the 360-degree rotating base allows you to quickly reach items at the back of cabinets, pantries, countertops, refrigerators, bathrooms and vanities. The clear design makes stored items easy to see.",
+
+    review: "A highly rated and affordable organization solution for kitchens, pantries and bathrooms. The two-tier design provides additional storage without taking up much counter or cabinet space, while the rotating mechanism makes items easier to reach. Its clear construction allows you to see the contents at a glance, making it especially useful for spices, condiments and small bottles.",
+
+    pros: [
+        "2-tier space-saving design",
+        "360-degree rotating turntable",
+        "Clear construction for easy visibility",
+        "Compact 9.25-inch size",
+        "Useful for spices and condiments",
+        "Works in cabinets, pantries and countertops",
+        "Can also be used in bathrooms and vanities",
+        "Helps make hard-to-reach items accessible",
+        "Affordable kitchen organization solution"
+    ],
+
+    cons: [
+        "9.25-inch diameter may be too small for larger bottles",
+        "Plastic construction may be less durable than metal",
+        "Two-tier design may have limited space for tall containers",
+        "Requires sufficient vertical clearance inside cabinets"
+    ],
+
+    specifications: {
+        Brand: "LAMU",
+        Material: "Plastic",
+        Color: "Clear",
+        Type: "2-Tier Lazy Susan Turntable Organizer",
+        Diameter: "9.25 Inches",
+        Tiers: "2",
+        Rotation: "360 Degrees",
+        Shape: "Round",
+        Mounting_Type: "Freestanding",
+        Recommended_Uses: "Spices, Condiments, Pantry, Cabinet, Countertop, Bathroom, Vanity, Medicine Cabinet",
+        Special_Features: "Rotating, 2-Tier, Space Saving, Clear Design"
+    }
+}
     
 ];
