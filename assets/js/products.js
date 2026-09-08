@@ -2219,6 +2219,134 @@ const products = [
         CareInstructions: "Wipe gently with a soft dry cloth and keep away from excessive moisture."
     },
 },
+{
+    id: 41,
+
+    title: "Vacuum Compression Storage Bags with Hand Pump - Medium, 5-Pack",
+
+    category: "Home",
+
+    images: [
+        "assets/images/vaccum/vac1.png",
+        "assets/images/vaccum/vac2.png",
+        "assets/images/vaccum/vac3.png",
+        "assets/images/vaccum/vac4.png"
+    ],
+
+    price: "₹569",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/AmazonBasics-Vacuum-Compression-Storage-Medium/dp/B07RTJV6G4?tag=homeorg12-21",
+
+    description: "Save valuable storage space with Amazon Basics Vacuum Compression Storage Bags with Hand Pump. This medium-sized 5-pack is designed to compress bulky clothing, blankets, towels, linens, and other textiles by up to 80%, making them easier to organize and store in wardrobes, cupboards, under beds, or suitcases. The airtight double-zip seal and vacuum valve help protect stored items from dust, moisture, insects, mold, and odors.",
+
+    review: "These vacuum storage bags are a practical solution for organizing bulky clothing and household textiles. The included hand pump makes it easy to remove air without requiring a vacuum cleaner, while the durable construction and airtight sealing system help keep stored items protected. They are particularly useful for seasonal clothes, bedding, towels, and travel packing where saving space is important.",
+
+    pros: [
+        "Compresses bulky textiles by up to 80%",
+        "5 medium-size storage bags included",
+        "Hand pump included",
+        "Heavy-duty double-zip seal",
+        "Airtight vacuum valve",
+        "Protects items from dust, moisture, insects, mold, and odors",
+        "Reusable and space-saving design",
+        "Can also be used with a standard vacuum cleaner hose",
+        "Useful for clothes, blankets, towels, and linens"
+    ],
+
+    cons: [
+        "Requires manual pumping when using the included hand pump",
+        "Sharp objects can damage the bags",
+        "Items need to be properly arranged before sealing",
+        "Not suitable for storing items that should not be compressed"
+    ],
+
+    specifications: {
+        Brand: "Amazon Basics",
+        Type: "Vacuum Compression Storage Bags",
+        ModelNumber: "DC-CBM5",
+        PackSize: "5 Bags",
+        Size: "Medium",
+        Color: "Transparent",
+        Material: "Plastic",
+        Dimensions: "71.12 × 50.8 cm per bag",
+        ProductDimensions: "30 × 19.8 × 10.2 cm",
+        Weight: "Approx. 635 g",
+        ClosureType: "Double-Zip Seal",
+        ValveType: "Vacuum Valve",
+        Pump: "Hand Pump Included",
+        VacuumCleanerCompatible: "Yes",
+        Reusable: "Yes",
+        SpaceSaving: "Up to 80% Compression",
+        SuitableFor: "Clothes, Blankets, Towels, Linens, Seasonal Items, Travel",
+        Protection: "Dust, Moisture, Insects, Mold and Odors",
+        Mounting: "Not Applicable",
+        SpecialFeature: "Space-Saving Vacuum Compression",
+        PackageContents: "5 Medium Vacuum Storage Bags, 1 Hand Pump",
+        CareInstructions: "Keep away from sharp objects and excessive heat. Ensure the zipper and valve are properly sealed before removing air."
+    },
+},
+{
+    id: 42,
+
+    title: "Stainless Steel 2 Layer Wall Mounted Bathroom Rack and Shelf",
+
+    category: "Home",
+
+    images: [
+        "assets/images/bro/bro1.png",
+        "assets/images/bro/bro2.png"
+    ],
+
+    price: "₹799",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Stainless-Multipurpose-Organizer-Toothbrush-Accessories/dp/B0922WNDHX?tag=homeorg12-21",
+
+    description: "Keep your bathroom neat and organized with the Oslen Stainless Steel 2 Layer Wall Mounted Bathroom Rack. Designed with multiple storage sections, this rack provides convenient space for soaps, toiletries, toothbrushes, tumblers, shampoos, and other bathroom essentials. Its stainless steel construction and wall-mounted design make it a practical space-saving solution for bathrooms and wash areas.",
+
+    review: "This 2-layer bathroom organizer is a practical choice for keeping everyday toiletries organized and easily accessible. The multiple storage sections help separate soaps, toothbrushes, tumblers, and other bathroom accessories, while the wall-mounted design saves valuable counter space. Its stainless steel construction also gives it a clean and modern appearance that works well with most bathroom interiors.",
+
+    pros: [
+        "2-layer storage design",
+        "Stainless steel construction",
+        "Wall-mounted space-saving design",
+        "Includes double soap dish",
+        "Tumbler holder included",
+        "Toothbrush storage space",
+        "Useful for organizing bathroom essentials",
+        "Modern and practical design",
+        "Suitable for bathrooms and wash areas"
+    ],
+
+    cons: [
+        "Requires proper wall installation",
+        "May need regular cleaning to maintain its finish",
+        "Limited storage compared with larger multi-tier organizers",
+        "Not intended for very heavy items"
+    ],
+
+    specifications: {
+        Brand: "Oslen",
+        Type: "2 Layer Wall Mounted Bathroom Rack",
+        Material: "Stainless Steel",
+        NumberOfLayers: "2",
+        Color: "Silver",
+        Mounting: "Wall Mounted",
+        StorageType: "Bathroom Shelf and Organizer",
+        SoapDish: "Double Soap Dish",
+        TumblerHolder: "Yes",
+        ToothbrushHolder: "Yes",
+        SuitableFor: "Bathroom, Washroom, Wash Basin Area",
+        SpecialFeature: "Multipurpose Storage",
+        Design: "Space-Saving Wall Mounted",
+        Usage: "Soap, Toothbrushes, Tumbler, Toiletries and Bathroom Accessories",
+        PackageContents: "1 Bathroom Rack and Accessories",
+        CareInstructions: "Clean regularly with a soft cloth and mild cleaning solution. Keep the rack dry when possible to maintain its appearance."
+    }
+}
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
