@@ -2662,6 +2662,115 @@ const productsUSA = [
         Recommended_Uses: "Spices, Condiments, Pantry, Cabinet, Countertop, Bathroom, Vanity, Medicine Cabinet",
         Special_Features: "Rotating, 2-Tier, Space Saving, Clear Design"
     }
+},
+{
+    id: 1006,
+
+    title: "Egg Container With Lid and Handle for Refrigerator Organization, Pack of 2",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/egg/egg1.png",
+        "assets/images/USA/egg/egg2.png",
+        "assets/images/USA/egg/egg3.png"
+    ],
+
+    price: "$12.99",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/Utopia-Home-Egg-Container-Refrigerator/dp/B09CD69XSW?tag=homeorg12-20",
+
+    description: "The Utopia Home Egg Container is a convenient refrigerator organization solution designed to keep eggs neatly stored and protected. Each clear container features 14 individual egg slots, a removable lid and a compact stackable design that helps maximize refrigerator space. Made from BPA-free plastic, the containers provide clear visibility of the eggs while helping prevent them from rolling, bruising or breaking during storage.",
+
+    review: "A simple and practical refrigerator organizer for keeping eggs neat and easy to access. The pack includes two clear containers, with each tray holding up to 14 eggs. The stackable design helps save refrigerator space, while the removable lids keep the eggs covered and protected. Its clear BPA-free construction also makes it easy to see how many eggs remain.",
+
+    pros: [
+        "14 egg slots per container",
+        "Pack of 2 containers",
+        "Stackable space-saving design",
+        "Clear plastic makes eggs easy to see",
+        "BPA-free material",
+        "Removable protective lids",
+        "Compact refrigerator-friendly design",
+        "Helps prevent eggs from rolling and breaking",
+        "Easy to organize and access"
+    ],
+
+    cons: [
+        "Not dishwasher safe",
+        "Hand washing is recommended",
+        "Requires enough refrigerator shelf space for stacking",
+        "Plastic construction may be less premium than glass"
+    ],
+
+    specifications: {
+        Brand: "Utopia Home",
+        Material: "BPA-Free Plastic",
+        Color: "Clear",
+        Type: "Stackable Egg Storage Container",
+        Quantity: "2 Containers",
+        Capacity: "14 Eggs Per Container",
+        Total_Capacity: "28 Eggs",
+        Dimensions: "14.5 x 4.3 x 3 Inches",
+        Closure_Type: "Snap / Removable Lid",
+        Shape: "Rectangular",
+        Dishwasher_Safe: "No",
+        Microwaveable: "No",
+        Special_Features: "Compact, Stackable, Lidded, BPA-Free",
+        Recommended_Uses: "Refrigerator Storage, Pantry Organization"
+    }
+},
+{
+    id: 1007,
+
+    title: "Sink Caddy Sponge Holder for Kitchen with Brush Holder and Stainless Steel Self Drain Tray",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/waa/waa1.png",
+        "assets/images/USA/waa/waa2.png",
+        "assets/images/USA/waa/waa3.png",
+        "assets/images/USA/waa/waa4.png"
+    ],
+
+    price: "$13.99",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.com/Cisily-Organzier-Rustproof-Stainless-Organizer/dp/B0CJ4WZXQF?tag=homeorg12-20",
+
+    description: "Keep your kitchen sink area neat and clutter-free with the Cisily Sink Caddy Organizer. Made from rust-resistant 304 stainless steel, it features a self-draining tray and multiple compartments for organizing sponges, dish soap, sink accessories, and cleaning brushes. Its compact countertop design helps save space while directing excess water toward the sink.",
+
+    review: "A practical and stylish sink organizer for keeping everyday cleaning essentials together. The rust-resistant stainless steel construction, automatic drainage design, and dedicated brush holder make it especially useful for busy kitchen sinks and smaller countertops.",
+
+    pros: [
+        "Rust-resistant 304 stainless steel",
+        "Automatic self-draining tray",
+        "Dedicated high brush holder",
+        "Multiple compartments for sink essentials",
+        "Compact space-saving design",
+        "No assembly required"
+    ],
+
+    cons: [
+        "May not fit every sink countertop layout",
+        "Compact size limits storage for very large bottles",
+        "Black finish may show water spots"
+    ],
+
+    specifications: {
+        Material: "304 Stainless Steel",
+        Color: "Black",
+        Dimensions: "9.25 x 3.93 x 6.3 inches",
+        Type: "Kitchen Sink Caddy Organizer",
+        MountingType: "Tabletop",
+        Compartments: "Multiple compartments",
+        MaximumWeightRecommendation: "5 pounds",
+        SpecialFeatures: "Rust Resistant, Self Draining, Compact"
+    }
 }
     
 ];
