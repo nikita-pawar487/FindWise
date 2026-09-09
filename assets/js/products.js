@@ -2347,6 +2347,67 @@ const products = [
         CareInstructions: "Clean regularly with a soft cloth and mild cleaning solution. Keep the rack dry when possible to maintain its appearance."
     },
 },
+{
+    id: 43,
+
+    title: "Ikigai: The Japanese Secret to a Long and Happy Life",
+
+    category: "Student",
+
+    images: [
+        "assets/images/iki/iki1.png",
+        "assets/images/iki/iki2.png",
+        "assets/images/iki/iki3.png",
+        "assets/images/iki/iki4.png"
+    ],
+
+    price: "₹325",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.in/Ikigai-Japanese-Secret-Long-Happy/dp/B0HHBDRF4R?tag=homeorg12-21",
+
+    description: "Discover the Japanese philosophy of Ikigai and explore practical ideas for finding purpose, happiness, and meaning in everyday life. Written by Héctor García and Francesc Miralles, this inspiring book explores Japanese approaches to longevity, mindfulness, healthy habits, relationships, and living a more fulfilling life.",
+
+    review: "Ikigai is an inspiring and easy-to-read book for anyone interested in personal growth, mindfulness, happiness, and finding greater purpose in everyday life. It combines Japanese philosophy with stories, lifestyle practices, and thoughtful ideas that encourage readers to slow down, stay active, nurture relationships, and discover what gives their life meaning.",
+
+    pros: [
+        "Focuses on purpose and personal fulfillment",
+        "Explores Japanese lifestyle and philosophy",
+        "Easy and engaging writing style",
+        "Covers happiness, longevity, and healthy habits",
+        "Encourages mindfulness and living in the present",
+        "Useful for personal growth and self-reflection",
+        "Suitable for beginners interested in self-help",
+        "Good gifting option for book lovers"
+    ],
+
+    cons: [
+        "Some concepts may feel repetitive",
+        "Not a scientific guide to longevity",
+        "Readers looking for highly detailed research may find it simple",
+        "Ideas may work differently for different lifestyles"
+    ],
+
+    specifications: {
+        Title: "Ikigai: The Japanese Secret to a Long and Happy Life",
+        Authors: "Héctor García and Francesc Miralles",
+        Genre: "Self-Help / Personal Development",
+        Category: "Motivational",
+        Language: "English",
+        Binding: "Paperback",
+        Pages: "208",
+        Publisher: "Cornerstone",
+        ISBN: "9781786330895",
+        PublicationYear: "2017",
+        Edition: "English Edition",
+        SuitableFor: "Personal Growth, Self-Help, Mindfulness, Lifestyle",
+        SpecialFeature: "Explores the Japanese concept of Ikigai",
+        ReadingLevel: "General Readers",
+        PackageContents: "1 Book",
+        CareInstructions: "Keep the book away from moisture, direct sunlight, and excessive heat."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
