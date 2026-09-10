@@ -164,8 +164,15 @@ const id = Number(params.get("id"));
 // CURRENT REGION
 // ==========================================
 
+const urlRegion = params.get("region");
+
 const currentRegion =
-    localStorage.getItem("findwiseRegion") || "IN";
+    (urlRegion === "IN" || urlRegion === "US")
+        ? urlRegion
+        : (localStorage.getItem("findwiseRegion") || "IN");
+
+// Save the region so FindWise remembers it
+localStorage.setItem("findwiseRegion", currentRegion);
 
 
 // ==========================================
