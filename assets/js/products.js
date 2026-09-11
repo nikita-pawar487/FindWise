@@ -2832,6 +2832,59 @@ const productsUSA = [
         MaximumWeightRecommendation: "5 pounds",
         SpecialFeatures: "Rust Resistant, Self Draining, Compact"
     }
-}
+},
+{
+    id: 1008,
+
+    title: "Laundry Hamper , Collapsible Clothes Hamper with Removable and Washable Liner",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/lau/lau1.png",
+        "assets/images/USA/lau/lau2.png",
+        "assets/images/USA/lau/lau3.png",
+        "assets/images/USA/lau/lau4.png"
+    ],
+
+    price: "$33.99",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/SONGMICS-Collapsible-Removable-Washable-ULCB190W01/dp/B09R74HDRK?tag=homeorg12-20",
+
+    description: "Keep dirty clothes organized and your room looking tidy with the SONGMICS 90L Collapsible Laundry Hamper. Its spacious 23.8-gallon capacity provides plenty of room for everyday laundry, while the sturdy metal wire frame keeps the hamper upright. The removable and washable liner makes transporting and cleaning laundry convenient, and the collapsible design allows easy storage when not in use.",
+
+    review: "A practical laundry hamper for bedrooms, bathrooms, and laundry rooms. The large 90L capacity, sturdy frame, removable washable liner, and foldable construction make it a convenient choice for everyday laundry organization.",
+
+    pros: [
+        "Large 90L / 23.8-gallon capacity",
+        "Removable and washable liner",
+        "Sturdy metal wire frame",
+        "Collapsible for convenient storage",
+        "Built-in handles for carrying",
+        "Breathable poly-cotton fabric",
+        "Can hold a large amount of laundry"
+    ],
+
+    cons: [
+        "Large size may not suit very small spaces",
+        "No wheels for rolling transportation",
+        "Frame adds some weight when moving the hamper"
+    ],
+
+    specifications: {
+        Material: "Steel and Poly-Cotton Blend Fabric",
+        Color: "Cream White",
+        Capacity: "90 Liters / 23.8 Gallons",
+        Dimensions: "18.9 x 13 x 22.8 inches",
+        Weight: "7.7 lbs",
+        Frame: "Metal Wire Frame",
+        Liner: "Removable and Machine Washable",
+        BagLoadCapacity: "44 lbs",
+        BasketLoadCapacity: "66 lbs",
+        Type: "Collapsible Laundry Hamper"
+    }
+},
     
 ];
