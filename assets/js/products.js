@@ -2408,6 +2408,134 @@ const products = [
         CareInstructions: "Keep the book away from moisture, direct sunlight, and excessive heat."
     },
 },
+{
+    id: 44,
+
+    title: "Self-Adhesive Bathroom Shelves , Pack of 2",
+
+    category: "Home",
+
+    images: [
+        "assets/images/alu/alu1.png",
+        "assets/images/alu/alu2.png",
+        "assets/images/alu/alu3.png",
+        "assets/images/alu/alu4.png"
+    ],
+
+    price: "₹647",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/EUDELE-Aluminium-Bathroom-Shelf-Accessories/dp/B0GYYRR5JB?tag=homeorg12-21",
+
+    description: "Keep your bathroom organized with the EUDELE Aluminium Pack of 2 Self-Adhesive Bathroom Shelves. Designed for convenient wall-mounted storage without drilling, these shelves provide space for shampoo, soap, skincare products, toiletries, and other bathroom essentials. The lightweight aluminium construction is rust-resistant and suitable for humid bathroom environments.",
+
+    review: "The EUDELE bathroom shelves are a practical space-saving solution for bathrooms where drilling is not preferred. The self-adhesive installation makes setup quick and convenient on smooth surfaces such as tiles, glass, marble, metal, and suitable wooden walls. The open design also allows water to drain easily while keeping everyday toiletries organized and accessible.",
+
+    pros: [
+        "Pack of 2 bathroom shelves",
+        "Durable aluminium construction",
+        "Rust and moisture resistant",
+        "No-drill self-adhesive installation",
+        "Suitable for smooth bathroom walls",
+        "Space-saving wall-mounted design",
+        "Open design allows easy water drainage",
+        "Can be used for toiletries and bathroom accessories",
+        "Can also be used in kitchens and utility areas",
+        "Modern and minimal design"
+    ],
+
+    cons: [
+        "Adhesive installation is not suitable for uneven walls",
+        "Not recommended for wallpaper, cement, gypsum, or rough surfaces",
+        "Adhesive needs time to set before loading the shelf",
+        "Weight capacity depends on the wall surface and adhesive installation"
+    ],
+
+    specifications: {
+        Brand: "EUDELE",
+        Type: "Self-Adhesive Bathroom Shelf",
+        Material: "Aluminium",
+        PackSize: "2 Shelves",
+        Color: "Black",
+        Mounting: "Self-Adhesive Wall Mount",
+        Installation: "No Drilling Required",
+        Model: "Adhesive Bathroom Shelf",
+        Dimensions: "80 × 40 × 60 mm",
+        SuitableSurfaces: "Tile, Marble, Glass, Metal and Smooth Wooden Walls",
+        UnsuitableSurfaces: "Uneven Walls, Cement, Gypsum, Wallpaper and Lime Walls",
+        RustResistant: "Yes",
+        MoistureResistant: "Yes",
+        DrainageDesign: "Open Design",
+        SuitableFor: "Bathroom, Kitchen, Laundry Area and Home Storage",
+        StorageUse: "Shampoo, Soap, Skincare Products, Toiletries and Accessories",
+        SpecialFeature: "No-Drill Self-Adhesive Installation",
+        InstallationTime: "Approximately 5 Minutes",
+        AdhesiveSettingTime: "24 Hours Before Use",
+        PackageContents: "2 Aluminium Bathroom Shelves with Adhesive Mounts",
+        CareInstructions: "Clean regularly with a soft cloth. Keep the shelf free from excessive dirt and moisture buildup."
+    },
+},
+{
+    id: 45,
+
+    title: "Anti-Slip Water Absorbent Bathroom Mat",
+
+    category: "Home",
+
+    images: [
+        "assets/images/bath/bath1.png",
+        "assets/images/bath/bath2.png",
+        "assets/images/bath/bath3.png",
+        "assets/images/bath/bath4.png"
+    ],
+
+    price: "₹578",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/SITTELLA%C2%AE-Silicone-Diatomite-Anti-Slip-Absorbent/dp/B0C1GZ6TP3?tag=homeorg12-21",
+
+    description: "SITTELLA® Silicone Diatomite Anti-Slip Bathroom Mat designed to quickly absorb water and keep bathroom floors dry and safer. Made with an absorbent diatomite material and a non-slip silicone backing, the mat provides a practical solution for areas around showers, bathtubs and wash basins. Its quick-drying design and slim profile make it suitable for everyday bathroom use.",
+
+    review: "A practical bathroom mat for users looking for quick water absorption and better floor grip. The diatomite-style absorbent surface helps soak up water quickly after showers or hand washing, while the anti-slip backing helps keep the mat in place. Its simple design also makes it easy to fit into modern bathrooms without taking up much space.",
+
+    pros: [
+        "Highly absorbent diatomite material",
+        "Anti-slip backing provides better floor grip",
+        "Quick-drying design",
+        "Slim and space-saving profile",
+        "Suitable for bathroom and wash basin areas",
+        "Helps keep floors dry after use"
+    ],
+
+    cons: [
+        "May require regular cleaning to maintain absorbency",
+        "Thin design may not provide much cushioning",
+        "Performance can vary depending on the floor surface",
+        "May not be suitable for heavily uneven floors"
+    ],
+
+    specifications: {
+        Brand: "SITTELLA",
+        Type: "Diatomite Absorbent Bathroom Mat",
+        Material: "Diatomite and Silicone",
+        Color: "Grey",
+        Size: "40 × 60 cm",
+        Quantity: "2 Pieces",
+        Shape: "Rectangular",
+        Thickness: "Approx. 3.5 mm",
+        BackingMaterial: "Silicone",
+        SurfaceType: "Absorbent Diatomite",
+        Feature: "Anti-Slip and Quick Drying",
+        WaterAbsorption: "High",
+        SuitableFor: "Bathroom, Shower Area, Wash Basin and Bathtub Area",
+        Installation: "No Installation Required",
+        SpecialFeature: "Water Absorbent and Anti-Skid",
+        PackageContents: "2 Bathroom Mats",
+        CareInstructions: "Clean regularly and allow the mat to dry completely. Keep the surface free from excessive dirt to maintain water absorption and grip."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
