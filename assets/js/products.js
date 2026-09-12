@@ -3014,5 +3014,121 @@ const productsUSA = [
         Type: "Collapsible Laundry Hamper"
     }
 },
-    
+{
+    id: 1009,
+
+    title: "24-Piece Glass Food Storage Containers with Snap Locking Lids, Airtight Meal Prep Containers",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/gla/gla1.png",
+        "assets/images/USA/gla/gla2.png",
+        "assets/images/USA/gla/gla3.png",
+        "assets/images/USA/gla/gla4.png",
+        "assets/images/USA/gla/gla5.png"
+    ],
+
+    price: "$34.99",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.com/dp/B07Z9Y1677?tag=homeorg12-20",
+
+    description: "Organize your kitchen and keep food fresh with the M MCIRCO 24-piece glass food storage container set. It includes 12 durable borosilicate glass containers with 12 airtight snap-lock lids featuring silicone seals. The containers are suitable for meal prep, leftovers, fruits, vegetables, pasta, salads, and more, and can be used in the microwave, oven, freezer, and dishwasher.",
+
+    review: "A versatile glass storage set that works well for meal preparation, leftovers, and everyday food organization. The borosilicate glass construction is durable and temperature resistant, while the airtight locking lids help prevent leaks and keep food fresh. The variety of container sizes and shapes makes the set useful for different storage needs.",
+
+    pros: [
+        "24-piece set with 12 containers and 12 lids",
+        "Durable borosilicate glass construction",
+        "Airtight snap-lock lids with silicone seals",
+        "Microwave, oven, freezer, and dishwasher safe",
+        "BPA-free materials",
+        "Suitable for meal prep and leftovers",
+        "Multiple sizes and shapes",
+        "Stackable and space-saving design"
+    ],
+
+    cons: [
+        "Glass containers are heavier than plastic alternatives",
+        "Lids may require hand washing for longer durability",
+        "Large 24-piece set can take up considerable storage space"
+    ],
+
+    specifications: {
+        Material: "Borosilicate Glass and BPA-Free Plastic",
+        Color: "Gray",
+        Set: "24 Pieces",
+        Containers: "12 Glass Containers",
+        Lids: "12 Snap-Lock Lids",
+        Capacity: "6790 ml Total",
+        Dimensions: "15.75 x 11.93 x 7.68 inches",
+        Weight: "5.3 kg",
+        ClosureType: "Snap Lock",
+        SpecialFeatures: "Airtight, Leak Resistant, Stackable",
+        MicrowaveSafe: "Yes",
+        OvenSafe: "Yes",
+        FreezerSafe: "Yes",
+        DishwasherSafe: "Yes"
+    }
+}, 
+{
+    id: 1010,
+
+    title: "Oil Sprayer for Cooking, 2 Pack",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/spa/spa1.png",
+        "assets/images/USA/spa/spa2.png",
+        "assets/images/USA/spa/spa3.png",
+        "assets/images/USA/spa/spa4.png",
+        "assets/images/USA/spa/spa5.png"
+    ],
+
+    price: "$13.99",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.com/dp/B08224PB48?tag=homeorg12-20",
+
+    description: "Make cooking easier and control oil usage with the NORBASE 2-pack olive oil sprayer. Each 100ml bottle features a refillable glass design with measurement markings and a stainless steel spray mechanism. It is suitable for olive oil, avocado oil, vinegar, cooking wine, and other liquids, making it useful for air frying, baking, grilling, roasting, salads, and everyday cooking.",
+
+    review: "A convenient two-pack for cooks who want better control over oil application. The compact glass bottles, measurement markings, refillable design, and stainless steel sprayers make them useful for both everyday kitchen cooking and outdoor BBQs.",
+
+    pros: [
+        "Includes 2 refillable spray bottles",
+        "100ml capacity per bottle",
+        "BPA-free glass bottles",
+        "304 stainless steel spray mechanism",
+        "Built-in measurement markings",
+        "Helps control the amount of oil used",
+        "Suitable for oil, vinegar, cooking wine, and other liquids",
+        "Portable design for BBQ and outdoor cooking",
+        "Includes funnel and cleaning brush"
+    ],
+
+    cons: [
+        "100ml capacity requires more frequent refilling",
+        "Hand wash recommended",
+        "Spray performance can vary depending on liquid thickness",
+        "Glass bottles are more fragile than plastic alternatives"
+    ],
+
+    specifications: {
+        Material: "Glass and 304 Stainless Steel",
+        Color: "Transparent",
+        Capacity: "100ml Each",
+        Set: "2 Bottles",
+        Dimensions: "4 x 7.4 inches",
+        Model: "NB0107",
+        BottleType: "Oil Spray Bottle",
+        Features: "Refillable, Portable, Measurement Scale",
+        CareInstructions: "Hand Wash Only",
+        BPAFree: "Yes",
+        RecommendedUses: "Cooking, Baking, BBQ, Roasting, Salad"
+    }
+}, 
 ];
