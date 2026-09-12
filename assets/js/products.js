@@ -2536,6 +2536,74 @@ const products = [
         CareInstructions: "Clean regularly and allow the mat to dry completely. Keep the surface free from excessive dirt to maintain water absorption and grip."
     },
 },
+{
+    id: 46,
+
+    title: "Lint Remover for Clothes, Sweaters and Blankets",
+
+    category: "Home",
+
+    images: [
+        "assets/images/lint/lint1.png",
+        "assets/images/lint/lint2.png",
+        "assets/images/lint/lint3.png",
+        "assets/images/lint/lint4.png"
+    ],
+
+    price: "₹279",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/SHOP-Plastic-Sweaters-Blankets-Multicolour/dp/B01NCVJMKX?tag=homeorg12-21",
+
+    description: "The SHOPTOSHOP NOVA Electric Lint Remover is designed to quickly remove lint, fuzz, fabric pills and loose fibers from clothes, sweaters, blankets and upholstery. It features high-speed stainless-steel blades that rotate at approximately 9000 RPM for efficient fabric cleaning. The compact and lightweight design makes it comfortable to handle, while the transparent detachable lint collector makes it easy to see and empty the collected lint. Its plug-in design provides continuous power without requiring batteries.",
+
+    review: "A useful garment-care tool for refreshing sweaters, woolens, blankets and everyday clothing. The high-speed rotating blades effectively remove visible lint and fabric pills, helping older clothes look cleaner and newer. The lightweight body is easy to hold, and the detachable transparent lint container makes cleaning convenient. Since it uses continuous plug-in power, it can be used without worrying about battery charging.",
+
+    pros: [
+        "Powerful 9000 RPM stainless-steel blades",
+        "Effectively removes lint, fuzz and fabric pills",
+        "Suitable for sweaters, blankets and various fabrics",
+        "Continuous plug-in power",
+        "Transparent detachable lint collector",
+        "Compact and lightweight design",
+        "Easy to clean and maintain",
+        "1-year manufacturer warranty"
+    ],
+
+    cons: [
+        "Requires a power connection during use",
+        "Plastic body may require careful handling",
+        "Small lint collector may need frequent emptying",
+        "Care should be taken with delicate fabrics"
+    ],
+
+    specifications: {
+        Brand: "SHOPTOSHOP",
+        ProductName: "NOVA Lint Remover",
+        Type: "Electric Fabric Lint Remover",
+        ModelNumber: "208",
+        ASIN: "B01NCVJMKX",
+        Material: "Plastic",
+        BladeMaterial: "Stainless Steel",
+        BladeSpeed: "9000 RPM",
+        Color: "White",
+        OperationMode: "Electric / Automatic",
+        PowerSource: "Plug-In",
+        BatteryRequired: "No",
+        ProductDimensions: "5 × 5 × 15 cm",
+        Weight: "150 g",
+        LintCollector: "Transparent Detachable Container",
+        SuitableFor: "Clothes, Sweaters, Woolens, Blankets, Upholstery and Fabrics",
+        SpecialFeature: "High-Speed Fabric Shaving",
+        UnitCount: "1 Pack",
+        Warranty: "1 Year Manufacturer Warranty",
+        Manufacturer: "SHOPTOSHOP",
+        CountryOfOrigin: "India",
+        PackageContents: "1 Electric Lint Remover",
+        CareInstructions: "Switch off and unplug before cleaning. Empty the lint collector regularly and handle the blades carefully. Test on a small area before using on delicate fabrics."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
@@ -3131,4 +3199,112 @@ const productsUSA = [
         RecommendedUses: "Cooking, Baking, BBQ, Roasting, Salad"
     }
 }, 
+{
+    id: 1011,
+
+    title: "Squishy Gold Mango Colossal Slow Rising Scented Fruit Squishy",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/squ/sqi1.png",
+        "assets/images/USA/squ/sqi2.png",
+        "assets/images/USA/squ/sqi3.png"
+    ],
+
+    price: "$12.99",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.com/dp/B071LHQQLT?tag=homeorg12-20",
+
+    description: "Add a fun and relaxing sensory toy to your collection with this Squishy Gold Mango Colossal Slow Rising Scented Fruit Squishy. Designed with a realistic mango-inspired appearance, the soft polyurethane material slowly returns to its original shape after being squeezed. Its compact size makes it easy to hold, squeeze, and carry, making it suitable as a fun fidget toy, stress-relief item, or playful gift.",
+
+    review: "A cute and satisfying squishy toy for kids, teens, and adults who enjoy sensory and fidget products. The slow-rising texture provides a relaxing squeezing experience, while the realistic mango design makes it especially fun for fruit-themed collections, gifts, and party favors.",
+
+    pros: [
+        "Slow-rising squishy texture",
+        "Realistic mango-inspired design",
+        "Soft and satisfying to squeeze",
+        "Lightweight and portable",
+        "Suitable for sensory and fidget play",
+        "Fun gift or party favor",
+        "Scented fruit-themed design"
+    ],
+
+    cons: [
+        "Only one squishy is included",
+        "PU foam can be damaged by sharp objects",
+        "Small size may not feel substantial to everyone",
+        "Scent may fade with extended use"
+    ],
+
+    specifications: {
+        Material: "Polyurethane (PU)",
+        Color: "Yellow / Mango",
+        Size: "Small",
+        Dimensions: "6.3 x 3.54 x 3.54 inches",
+        Weight: "3.84 ounces",
+        UnitCount: "1",
+        NumberOfPacks: "1",
+        Theme: "Fruit",
+        Type: "Slow Rising Squishy",
+        RecommendedAge: "18 Months - 12 Years",
+        Manufacturer: "Shenzhen Airuidi Trading Co., Ltd.",
+        Model: "PA262"
+    }
+},
+{
+    id: 1012,
+
+    title: "6 Pcs Jumbo Slow Rising Squishies Toy Set",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/toy/toy1.png",
+        "assets/images/USA/toy/toy2.png",
+        "assets/images/USA/toy/toy3.png",
+        "assets/images/USA/toy/toy4.png"
+    ],
+
+    price: "$20.97",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/YOAUSHY-Squishies-Rising-Unicorn-Favors/dp/B07Y8P7S1R?tag=homeorg12-20",
+
+    description: "YOAUSHY 6 Pcs Jumbo Slow Rising Squishies are a colorful collection of soft, kawaii squeeze toys featuring six fun designs including a narwhal cake, deer cake, unicorn donut, unicorn horse, spoon cat, and panda. Made from soft polyurethane foam, these squishies are designed to slowly rise back after being squeezed and are suitable for party favors, classroom prizes, gifts, and everyday sensory play.",
+
+    review: "This set offers a fun variety of six large and colorful squishies at once. Buyers generally like the cute designs, soft texture, and satisfying slow-rising feel. However, the rising speed and softness can vary between individual pieces, and some reviewers mention that the toys may have an initial odor or slightly uneven paint and molding details.",
+
+    pros: [
+        "Includes 6 different kawaii squishy designs",
+        "Soft slow-rising PU foam",
+        "Approximately 4–5.1 inches in size",
+        "Good variety for kids and collectors",
+        "Suitable for party favors and classroom prizes",
+        "Colorful and gift-friendly designs"
+    ],
+
+    cons: [
+        "Slow-rising speed varies between pieces",
+        "Some users report an initial odor",
+        "Paint and molding quality can vary",
+        "Some pieces may feel firmer than others",
+        "Foam can tear if squeezed or pulled roughly"
+    ],
+
+    specifications: {
+        Brand: "YOAUSHY",
+        Material: "Polyurethane (PU) Foam",
+        NumberOfPieces: "6",
+        SizeRange: "Approximately 4.0–5.1 inches",
+        Designs: "Narwhal Cake, Deer Cake, Unicorn Donut, Unicorn Horse, Spoon Cat, Panda",
+        Color: "White, Black, Pink, Blue, Yellow, Green",
+        Theme: "Kawaii / Food / Animals",
+        Weight: "Approximately 1.2 lbs",
+        ASIN: "B07Y8P7S1R"
+    }
+},
 ];
