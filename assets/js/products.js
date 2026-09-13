@@ -2604,6 +2604,71 @@ const products = [
         CareInstructions: "Switch off and unplug before cleaning. Empty the lint collector regularly and handle the blades carefully. Test on a small area before using on delicate fabrics."
     },
 },
+{
+    id: 47,
+
+    title: "Stainless Steel Chopping Board for Kitchen - Large",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/cut/cut1.png",
+        "assets/images/cut/cut2.png"
+    ],
+
+    price: "₹699",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/OrganizeMee-Stainless-Choping-Board-Vegetable-vegitable/dp/B08WHLKRRR?tag=homeorg12-21",
+
+    description: "The OrganizeMee Stainless Steel Chopping Board is a heavy-duty kitchen cutting board designed for everyday food preparation. Made from durable stainless steel, it provides a hygienic, non-porous surface for chopping vegetables, fruits, bread and meats. The large 36 × 25 cm format provides plenty of workspace, while the anti-skid silicone corners help improve stability during use. Its stainless-steel construction is easy to clean, resistant to odors and mildew, and suitable for long-term kitchen use.",
+
+    review: "A practical choice for anyone looking for a durable alternative to traditional wooden or plastic chopping boards. The stainless-steel surface is easy to clean and does not absorb food odors or moisture. Its large working area is useful for preparing vegetables, fruits and meat, while the silicone anti-skid corners help keep the board stable on the kitchen counter.",
+
+    pros: [
+        "Heavy-duty stainless steel construction",
+        "Large 36 × 25 cm cutting surface",
+        "Anti-skid silicone corners for better stability",
+        "Non-porous and easy-to-clean surface",
+        "Resistant to odors and mildew",
+        "Suitable for vegetables, fruits, bread and meats",
+        "Durable and designed for long-term use",
+        "Modern stainless-steel appearance"
+    ],
+
+    cons: [
+        "Metal surface can be noisier than wooden or plastic boards",
+        "May require extra care to prevent visible scratches",
+        "Large size may need more storage space",
+        "Silicone anti-skid pads may need cleaning separately"
+    ],
+
+    specifications: {
+        Brand: "OrganizeMee",
+        Type: "Stainless Steel Chopping Board",
+        Material: "Stainless Steel",
+        Size: "Large",
+        Dimensions: "36 × 25 cm",
+        Thickness: "Approx. 1 cm",
+        Color: "Silver",
+        Shape: "Rectangular",
+        SurfaceType: "Non-Porous Stainless Steel",
+        BaseMaterial: "Silicone Anti-Skid Pads",
+        AntiSkid: "Yes",
+        RecommendedUses: "Vegetables, Fruits, Bread, Meat and Food Preparation",
+        HygieneFeature: "Odor and Mildew Resistant",
+        Cleaning: "Easy to Clean",
+        DishwasherSafe: "Yes",
+        DoubleSided: "Yes",
+        SpecialFeature: "Heavy-Duty and Anti-Skid Design",
+        CountryOfOrigin: "India",
+        Manufacturer: "OrganizeMee",
+        Warranty: "1 Year",
+        PackageContents: "1 Stainless Steel Chopping Board with Anti-Skid Silicone Corners",
+        CareInstructions: "Wash and dry after use. Avoid leaving food residue or moisture on the surface for extended periods. Clean the silicone anti-skid pads regularly."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
@@ -3305,6 +3370,57 @@ const productsUSA = [
         Theme: "Kawaii / Food / Animals",
         Weight: "Approximately 1.2 lbs",
         ASIN: "B07Y8P7S1R"
+    }
+},
+{
+    id: 1013,
+
+    title: "Dishwasher Magnet Clean Dirty Sign - Clean/Dirty Indicator",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/clean/clean1.png",
+        "assets/images/USA/clean/clean2.png",
+        "assets/images/USA/clean/clean3.png",
+        "assets/images/USA/clean/clean4.png"
+    ],
+
+    price: "$6.99",
+
+    rating: "4.8",
+
+    amazon: "https://www.amazon.com/dp/B0CR3QXNYH?pd_rd_i=B0CR3QXNYH&tag=homeorg12-20",
+
+    description: "A simple and convenient dishwasher magnet that clearly shows whether your dishes are clean or dirty. The clean/dirty indicator helps households avoid guessing about the dishwasher status and keeps everyone on the same page. Its compact design makes it easy to place on the front of most dishwashers.",
+
+    review: "This is a small but useful kitchen organization accessory for busy households. The clear clean/dirty indicator eliminates the need to open the dishwasher just to check whether dishes are ready to unload. Its magnetic design makes it easy to move or reposition, while the simple appearance blends naturally with most kitchen appliances.",
+
+    pros: [
+        "Clearly indicates clean or dirty dishwasher status",
+        "Simple and easy-to-use design",
+        "Strong magnetic backing",
+        "Compact and space-saving",
+        "Helps prevent confusion in shared households",
+        "Affordable kitchen organization accessory"
+    ],
+
+    cons: [
+        "Requires a magnetic-compatible dishwasher surface",
+        "May not adhere to some non-magnetic appliance surfaces",
+        "Small accessory that may be easy to overlook",
+        "Indicator needs to be manually changed"
+    ],
+
+    specifications: {
+        Brand: "Generic",
+        ProductType: "Dishwasher Clean/Dirty Magnet",
+        Material: "Magnetic / Durable Surface",
+        Color: "White / Black",
+        Design: "Clean / Dirty Indicator",
+        Installation: "Magnetic",
+        Use: "Dishwasher Status Indicator",
+        ASIN: "B0CR3QXNYH"
     }
 },
 ];
