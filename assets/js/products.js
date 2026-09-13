@@ -3423,4 +3423,59 @@ const productsUSA = [
         ASIN: "B0CR3QXNYH"
     }
 },
+{
+    id: 1014,
+
+    title: "7-Piece Magnetic Stainless Steel Measuring Spoons Set with Leveler",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/mea/mea1.png",
+        "assets/images/USA/mea/mea2.png",
+        "assets/images/USA/mea/mea3.png",   
+        "assets/images/USA/mea/mea4.png"
+    ],
+
+    price: "$6.88",
+
+    rating: "4.8",
+
+    amazon: "https://www.amazon.com/Magnetic-Measuring-Stainless-Baking%EF%BC%8CEasier-Use-Utensils/dp/B09P6HFCSP?tag=homeorg12-20",
+
+    description: "The BIDFUL Magnetic Measuring Spoons Set is a 7-piece stainless steel kitchen tool designed for accurate cooking and baking measurements. The magnetic design keeps the spoons neatly stacked together for convenient storage, while the included leveler helps create more precise measurements. The durable metal construction and compact design make these spoons useful for everyday baking, cooking, and measuring spices.",
+
+    review: "This measuring spoon set is a practical upgrade for anyone who wants better organization and easier measuring in the kitchen. The magnetic nesting feature keeps the spoons together without a bulky connecting ring, while the stainless steel construction feels sturdy and easy to clean. The different spoon shapes are also useful for reaching into narrow spice jars. The included leveler is a helpful addition for baking and precise ingredient measurements.",
+
+    pros: [
+        "Durable stainless steel construction",
+        "Magnetic design keeps spoons together",
+        "Includes a useful measurement leveler",
+        "Fits easily into narrow spice jars",
+        "Compact and easy to store",
+        "Clear measurement markings",
+        "Suitable for cooking and baking"
+    ],
+
+    cons: [
+        "Measurements may be harder to read depending on lighting",
+        "Some users reported edges that can feel sharp",
+        "Magnetic connection may collect metal utensils nearby",
+        "Individual spoons can be slightly difficult to separate when stacked"
+    ],
+
+    specifications: {
+        Brand: "BIDFUL",
+        Material: "Stainless Steel",
+        NumberOfPieces: "7",
+        Type: "Magnetic Measuring Spoons",
+        Includes: "Measuring Spoons + Leveler",
+        Color: "Silver",
+        Dimensions: "6.8 x 1.64 x 1.84 inches",
+        Weight: "6.72 ounces",
+        Use: "Cooking and Baking",
+        Features: "Magnetic, Stackable, Dual-Sided",
+        ASIN: "B09P6HFCSP"
+    }
+},
 ];
