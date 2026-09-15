@@ -3478,4 +3478,59 @@ const productsUSA = [
         ASIN: "B09P6HFCSP"
     }
 },
+{
+    id: 1015,
+
+    title: "Digital Kitchen Food Scale, 11 lb / 5 kg",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/USA/sca/sca1.png",
+        "assets/images/USA/sca/sca2.png",
+        "assets/images/USA/sca/sca3.png",
+        "assets/images/USA/sca/sca4.png"
+    ],
+
+    price: "$13.99",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/Etekcity-Multifunction-Stainless-Batteries-Included/dp/B0113UZJE2?tag=homeorg12-20",
+
+    description: "The Etekcity Digital Kitchen Food Scale is a compact stainless-steel kitchen scale designed for accurate food and ingredient measurements. It supports weights up to 11 pounds and measures in 1-gram increments, making it useful for baking, cooking, portion control, meal preparation, and everyday kitchen tasks.",
+
+    review: "A practical everyday kitchen scale with a simple design and easy-to-read digital display. Its stainless-steel surface is easy to wipe clean, while the multiple measurement units make it convenient for different recipes. The 11-pound capacity is suitable for most household cooking and baking needs, although users looking for smart nutrition tracking will need a more advanced model.",
+
+    pros: [
+        "Measures up to 11 lb / 5 kg",
+        "1 gram measurement increments",
+        "Stainless-steel weighing surface",
+        "Supports multiple measurement units",
+        "Compact and easy to store",
+        "Easy-to-clean surface",
+        "Useful for baking, cooking and portion control"
+    ],
+
+    cons: [
+        "No smartphone or nutrition-tracking features",
+        "Small display can be harder to read from an angle",
+        "Requires batteries",
+        "Maximum capacity may be limiting for very large batches"
+    ],
+
+    specifications: {
+        Brand: "Etekcity",
+        Model: "EK6015",
+        Material: "Stainless Steel",
+        Capacity: "11 lb / 5 kg",
+        Accuracy: "1 g",
+        Units: "oz, lb:oz, g, mL",
+        Display: "Digital LCD",
+        Features: "Tare Function, Auto-Off",
+        Battery: "2 AAA Batteries",
+        Use: "Cooking, Baking, Meal Prep, Portion Control",
+        ASIN: "B0113UZJE2"
+    }
+},
 ];
