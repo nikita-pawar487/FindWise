@@ -2669,6 +2669,72 @@ const products = [
         CareInstructions: "Wash and dry after use. Avoid leaving food residue or moisture on the surface for extended periods. Clean the silicone anti-skid pads regularly."
     },
 },
+{
+    id: 48,
+
+    title: "Set Top Box Stand and WiFi Router Holder Wall Mounted Shelf",
+
+    category: "Home",
+
+    images: [
+        "assets/images/rau/rau1.png",
+        "assets/images/rau/rau2.png",
+        "assets/images/rau/rau3.png"
+    ],
+
+    price: "₹270",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/Dime-Store-Holder-Shelf-Standard/dp/B08J7LV6T4?tag=homeorg12-21",
+
+    description: "The Dime Store Wall Mounted Set Top Box Stand is a compact storage shelf designed to keep set-top boxes, Wi-Fi routers, speakers, streaming devices and other small electronics organized. Its wall-mounted design helps save space around the TV unit while also providing a cleaner way to manage electronic equipment and cables. The compact 25 × 20 × 9 cm design makes it suitable for living rooms, bedrooms and entertainment areas.",
+
+    review: "A practical space-saving solution for keeping a set-top box or Wi-Fi router neatly positioned near the television. The wall-mounted design frees up table and cabinet space, while the compact wooden shelf provides a dedicated place for small electronic devices. It comes with screws and wall plugs for installation and does not require assembly.",
+
+    pros: [
+        "Space-saving wall-mounted design",
+        "Suitable for set-top boxes and Wi-Fi routers",
+        "Can also hold speakers and streaming devices",
+        "Compact size suitable for small spaces",
+        "Helps keep electronic devices organized",
+        "Includes screws and wall plugs",
+        "No assembly required",
+        "Suitable for living rooms and TV areas"
+    ],
+
+    cons: [
+        "Requires drilling for wall installation",
+        "Limited shelf size",
+        "Not suitable for very heavy equipment",
+        "Wooden surface may require protection from moisture",
+        "Wall strength and installation quality affect stability"
+    ],
+
+    specifications: {
+        Brand: "Dime Store",
+        Type: "Wall Mounted Set Top Box Holder / Shelf",
+        Material: "Wood / MDF",
+        Color: "Brown",
+        Finish: "Glossy",
+        Dimensions: "25 × 20 × 9 cm",
+        ItemDepth: "5 inches",
+        Weight: "930 g",
+        MountingType: "Wall Mount",
+        InstallationType: "Wall Mounted",
+        AssemblyRequired: "No",
+        SuitableFor: "Set Top Box, WiFi Router, Speakers, Streaming Devices and Small Electronics",
+        SuitableLocation: "Living Room, Bedroom and TV Unit Area",
+        IncludedComponents: "Wall Shelf, Screws and Wall Plugs",
+        SpecialFeature: "Space-Saving Wall Mounted Design",
+        Design: "Curved Wall Shelf",
+        CountryOfOrigin: "India",
+        Manufacturer: "Dime Store",
+        ModelNumber: "Set Top Box Holder Wall Shelf Curved",
+        PackageContents: "1 Wall Mounted Shelf with Screws and Plugs",
+        CareInstructions: "Wipe with a dry or slightly damp cloth. Keep away from excessive moisture and avoid placing equipment heavier than the shelf's recommended capacity."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
