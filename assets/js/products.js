@@ -2808,6 +2808,71 @@ const products = [
         CareInstructions: "Store the kit in a cool, dry place. Keep chemicals and small components away from unsupervised young children and follow the supplied instructions for every experiment."
     },
 },
+{
+    id: 50,
+
+    title: "Angels & Demons: Robert Langdon Book",
+
+    category: "Student",
+
+    images: [
+        "assets/images/angel/angel1.png",
+        "assets/images/angel/angel2.png"
+    ],
+
+    price: "₹371",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.in/Angels-Demons-Robert-Langdon-Paperback/dp/0552161268?tag=homeorg12-21",
+
+    description: "Angels & Demons by Dan Brown is a fast-paced mystery thriller and the first novel featuring Harvard symbologist Robert Langdon. When a scientist is found murdered at CERN with a mysterious symbol, Langdon is drawn into a dangerous investigation connected to the Illuminati and the Vatican. As a deadly threat unfolds in Rome, Langdon must decipher ancient symbols and solve a series of clues before time runs out. The novel combines mystery, science, history, art, religion, secret societies and suspense into a gripping adventure.",
+
+    review: "A compelling thriller for readers who enjoy mysteries, puzzles, secret societies and fast-moving adventures. Dan Brown combines historical locations and symbolic clues with a race-against-time storyline, keeping the narrative focused on discovery and suspense. Robert Langdon's investigation through Rome provides plenty of twists, codes and historical references, making this a good choice for readers who enjoy intellectually themed thrillers.",
+
+    pros: [
+        "Fast-paced mystery thriller",
+        "Intricate puzzles and symbolic clues",
+        "Features Robert Langdon",
+        "Combines science, history, art and mystery",
+        "Set across iconic locations in Rome and Vatican City",
+        "Engaging plot with multiple twists",
+        "Suitable for readers who enjoy investigative fiction",
+        "Paperback format is easy to carry"
+    ],
+
+    cons: [
+        "Some historical and scientific elements are presented as part of the fiction",
+        "The fast pace may feel intense for readers who prefer slower narratives",
+        "Contains mature themes and violent scenes",
+        "Large number of clues and characters can require close attention"
+    ],
+
+    specifications: {
+        Title: "Angels & Demons",
+        Series: "Robert Langdon Series - Book 1",
+        Author: "Dan Brown",
+        Genre: "Mystery / Thriller / Suspense",
+        Language: "English",
+        Binding: "Paperback",
+        Publisher: "Corgi Books",
+        PublicationDate: "28 August 2009",
+        Pages: "620-624",
+        ISBN10: "0552161268",
+        ISBN13: "9780552161268",
+        Edition: "Paperback Edition",
+        ReadingAge: "Adult / Older Teens",
+        Format: "Physical Book",
+        Weight: "Approx. 322-330 g",
+        Dimensions: "Approx. 176 × 110 mm",
+        MainCharacter: "Robert Langdon",
+        Setting: "Rome, Vatican City and CERN, Switzerland",
+        Themes: "Science, Religion, Art, History, Symbols and Secret Societies",
+        SpecialFeature: "First Robert Langdon Novel",
+        PackageContents: "1 Paperback Book",
+        CareInstructions: "Keep the book away from moisture, direct sunlight and excessive heat. Store upright or flat in a dry place."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
@@ -3670,6 +3735,177 @@ const productsUSA = [
         Battery: "2 AAA Batteries",
         Use: "Cooking, Baking, Meal Prep, Portion Control",
         ASIN: "B0113UZJE2"
+    }
+},
+{
+    id: 1016,
+
+    title: "FLOWER Plant Terrarium with Wooden Stand - 3 Bulb Glass Vase",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/pla/pla1.png",
+        "assets/images/USA/pla/pla2.png",
+        "assets/images/USA/pla/pla3.png",
+        "assets/images/USA/pla/pla4.png"
+    ],
+
+    price: "$18.98",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/Terrarium-Planter-Tabletop-Hydroponics-Decoration/dp/B07D29P5Z1?tag=homeorg12-20",
+
+    description: "The FLOWER Plant Terrarium is a decorative tabletop propagation station featuring three glass bulb vases mounted on a retro wooden stand. It is designed for growing water-rooted plants, displaying flowers, propagating cuttings, and creating a stylish indoor garden display for desks, windowsills, offices, bedrooms, kitchens, and living spaces.",
+
+    review: "This three-bulb plant terrarium combines plant propagation with attractive home décor. The clear glass vases make it easy to observe roots and water levels, while the wooden stand gives it a warm, vintage-inspired appearance. It works well with plants such as pothos, lucky bamboo, herbs, flowers, and other water-propagated cuttings. Plants are not included, so the buyer supplies their own.",
+
+    pros: [
+        "Three separate glass propagation vases",
+        "Attractive wooden tabletop stand",
+        "Suitable for hydroponic plant propagation",
+        "Clear glass makes roots and water easy to observe",
+        "Works well as home or office décor",
+        "Compact desktop-friendly design",
+        "Suitable for a variety of water-rooted plants"
+    ],
+
+    cons: [
+        "Plants are not included",
+        "Glass vases require careful handling",
+        "Small vase openings may limit larger plants",
+        "Requires regular water changes and cleaning",
+        "Wooden stand should be kept away from prolonged water exposure"
+    ],
+
+    specifications: {
+        Brand: "XXXFLOWER",
+        Material: "Glass and Wood",
+        NumberOfVases: "3",
+        VaseType: "Bulb Glass Vase",
+        StandDimensions: "5.5 H x 11 W x 4 D inches",
+        ProductDimensions: "11.02 x 3.94 x 5.51 inches",
+        VaseDimensions: "Approximately 3.74 H x 2.75 W inches",
+        OpeningDiameter: "Approximately 1 inch",
+        Weight: "1.1 lbs",
+        Use: "Plant Propagation, Hydroponics, Home Décor",
+        PlantsIncluded: "No",
+        ASIN: "B07D29P5Z1"
+    }
+},
+{
+    id: 1017,
+
+    title: "MUDEELA Adjustable Plant Stand for 8-12 Inch Pots",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/stool/stool1.png",
+        "assets/images/USA/stool/stool2.png",
+        "assets/images/USA/stool/stool3.png",
+        "assets/images/USA/stool/stool4.png"
+    ],
+
+    price: "$19.99",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.com/dp/B07X5WXG5B?tag=homeorg12-20",
+
+    description: "The MUDEELA Adjustable Plant Stand is a mid-century modern indoor plant holder made from bamboo and wood. Its adjustable design accommodates plant pots from approximately 8 to 12 inches, making it a versatile way to elevate houseplants and add a decorative touch to living rooms, bedrooms, offices, entryways, and other indoor spaces.",
+
+    review: "A simple and attractive plant stand for displaying medium-sized houseplants at a more visible height. The bamboo construction gives it a warm natural appearance, while the adjustable width makes it useful for different pot sizes. Its compact 15-inch height works well beside furniture or as part of a larger indoor plant display.",
+
+    pros: [
+        "Adjustable design fits 8-12 inch pots",
+        "Natural bamboo and wood construction",
+        "Mid-century modern appearance",
+        "Works with a variety of indoor plants",
+        "Compact 15-inch height",
+        "Easy way to elevate plants for display",
+        "Suitable for living rooms, bedrooms and offices"
+    ],
+
+    cons: [
+        "Plant pot and plant are not included",
+        "Designed for indoor use",
+        "May not be suitable for very heavy pots",
+        "Assembly may require some adjustment",
+        "Wood can require care around excessive moisture"
+    ],
+
+    specifications: {
+        Brand: "MUDEELA",
+        Material: "Bamboo and Wood",
+        Color: "Dark Brown",
+        AdjustableSize: "Fits 8-12 inch pots",
+        Height: "15 inches",
+        ProductDimensions: "8 x 12 x 15 inches",
+        Weight: "2 lbs",
+        Type: "Indoor Plant Stand",
+        Style: "Mid-Century Modern",
+        PotIncluded: "No",
+        PlantIncluded: "No",
+        ASIN: "B07X5WXG5B"
+    }
+},
+{
+    id: 1018,
+
+    title: "Natural Decorative Polished White Pebbles - 2 lb Bag",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/stone/stone1.png",
+        "assets/images/USA/stone/stone2.png",
+        "assets/images/USA/stone/stone3.png",
+        "assets/images/USA/stone/stone4.png"
+    ],
+
+    price: "$13.95",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/dp/B07S6ZTK3H?tag=homeorg12-20",
+
+    description: "Midwest Hearth Natural Decorative Polished White Pebbles are smooth, polished natural stones designed to add a clean decorative finish to potted plants, succulent containers, vases, fairy gardens, flower arrangements, crafts, and other home décor projects. The small 3/8-inch size makes them especially suitable for smaller decorative applications.",
+
+    review: "These polished white pebbles are a simple way to give plant pots, vases, and DIY décor projects a cleaner and more finished appearance. The stones have a smooth polished surface and natural variations in shape, giving arrangements a decorative look. The 2-pound bag is convenient for small projects, although the quantity may not be enough for larger landscaping areas.",
+
+    pros: [
+        "Natural polished white stones",
+        "Smooth and attractive finish",
+        "Approximate 3/8-inch gravel size",
+        "Great for potted plants and succulents",
+        "Useful for vases and flower arrangements",
+        "Suitable for crafts and DIY projects",
+        "No fillers, dyes, or oils"
+    ],
+
+    cons: [
+        "2-pound bag provides limited coverage",
+        "Small stones are not ideal for heavy landscaping",
+        "Individual stones vary naturally in shape",
+        "Coated with paraffin wax",
+        "Not suitable for every aquarium application because of the wax coating"
+    ],
+
+    specifications: {
+        Brand: "Midwest Hearth",
+        Material: "Natural Stone",
+        Color: "White",
+        Size: "Approximately 3/8 inch",
+        Weight: "2 lbs",
+        Shape: "Natural / Round",
+        Finish: "Polished",
+        Coating: "Pure Paraffin Wax",
+        NumberOfItems: "Approximately 100 stones",
+        Use: "Plants, Vases, Crafts, Fairy Gardens, Home Décor",
+        PackageDimensions: "Approximately 6.42 x 5.55 x 1.54 inches",
+        ASIN: "B07S6ZTK3H"
     }
 },
 ];
