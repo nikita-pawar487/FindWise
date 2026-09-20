@@ -2735,6 +2735,79 @@ const products = [
         CareInstructions: "Wipe with a dry or slightly damp cloth. Keep away from excessive moisture and avoid placing equipment heavier than the shelf's recommended capacity."
     },
 },
+{
+    id: 49,
+
+    title: "EINSTEIN BOX Ultimate Science Experiment Kit for Boys & Girls Age 7-14",
+
+    category: "Toys & Games",
+
+    images: [
+        "assets/images/kit/kit11.png",
+        "assets/images/kit/kit22.png",
+        "assets/images/kit/kit33.png",
+        "assets/images/kit/kit44.png"
+    ],
+
+    price: "₹698",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/dp/B0855MGS99?tag=homeorg12-21",
+
+    description: "The EINSTEIN BOX Ultimate Science Experiment Kit is an educational STEM activity kit designed to make science learning engaging and hands-on for children. It includes a wide range of experiments covering concepts such as chemistry, colors, crystals and other science activities. The kit comes with easy-to-follow instructions and leak-proof containers for the included materials, allowing children to explore experiments at home while developing curiosity, creativity and problem-solving skills. It is designed for children approximately 7-14 years old and can also be used as a parent-child learning activity.",
+
+    review: "A fun educational kit for children who enjoy experimenting and learning how things work. The hands-on activities provide an alternative to screen-based entertainment and can encourage children to explore basic scientific concepts through practical experiments. The included instructions make it easier to get started, while the variety of activities gives children multiple opportunities to experiment and learn.",
+
+    pros: [
+        "Hands-on STEM learning experience",
+        "120+ experiments and activities",
+        "Suitable for boys and girls",
+        "Designed for children around 7-14 years",
+        "Easy-to-follow illustrated instructions",
+        "Leak-proof containers for included materials",
+        "Encourages creativity and problem-solving",
+        "Can be used for parent-child activities",
+        "No assembly required",
+        "Screen-free educational activity"
+    ],
+
+    cons: [
+        "Adult supervision is recommended for experiments involving chemicals",
+        "Some experiments may require additional household items",
+        "The kit contains consumable materials that may need replacement",
+        "Younger children may need assistance with instructions",
+        "Actual experiment availability can vary depending on included materials"
+    ],
+
+    specifications: {
+        Brand: "EINSTEIN BOX",
+        Type: "Science Experiment Kit",
+        ProductName: "Ultimate Science Experiment Kit",
+        ModelNumber: "DEYS-JS-1208-679",
+        ASIN: "B0855MGS99",
+        Category: "Science Toys & Kits",
+        Theme: "Science / STEM",
+        RecommendedAge: "7-14 Years",
+        Size: "Large",
+        Color: "Multicolor",
+        Dimensions: "33 × 24 × 5 cm",
+        Weight: "870 g",
+        NumberOfExperiments: "120+",
+        EducationalObjective: "STEM Learning, Creativity and Problem Solving",
+        BatteryRequired: "No",
+        AssemblyRequired: "No",
+        IncludedComponents: "Chemical Materials, Experiment Equipment and Instruction Manual",
+        Instructions: "Step-by-Step Instructions with Illustrations",
+        SafetyFeature: "Leak-Proof Containers",
+        CountryOfOrigin: "India",
+        Manufacturer: "Metis Learning Solutions Pvt. Ltd.",
+        SuitableFor: "Home Learning, STEM Activities, Science Projects and Educational Play",
+        SpecialFeature: "Hands-On Screen-Free Science Learning",
+        PackageContents: "Science Experiment Kit with Materials and Instruction Manual",
+        CareInstructions: "Store the kit in a cool, dry place. Keep chemicals and small components away from unsupervised young children and follow the supplied instructions for every experiment."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
