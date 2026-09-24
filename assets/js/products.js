@@ -2873,6 +2873,73 @@ const products = [
         CareInstructions: "Keep the book away from moisture, direct sunlight and excessive heat. Store upright or flat in a dry place."
     },
 },
+{
+    id: 51,
+
+    title: "BellaVita Luxury CEO Man & White Oud Unisex Perfume Combo",
+
+    category: "Beauty",
+
+    images: [
+        "assets/images/fra/fra1.png",
+        "assets/images/fra/fra2.png"
+    ],
+
+    price: "₹183",
+
+    rating: "4.2",
+
+    amazon: "https://www.amazon.in/Bella-Vita-Luxury-Agarwood-Fragrance/dp/B0CHW268JT?tag=homeorg12-21",
+
+    description: "Experience a sophisticated fragrance duo with the Bella Vita Luxury CEO Man & White Oud Unisex Perfume Combo. This set includes two travel-friendly 20ml Eau de Parfum fragrances featuring woody, citrus and spicy oud-inspired notes. Designed for both men and women, the compact bottles are convenient for everyday use, office wear, travel, parties and special occasions.",
+
+    review: "This Bella Vita fragrance combo offers two distinct fragrance profiles in convenient 20ml bottles. CEO Man combines woody and citrus elements with notes such as tonka and agarwood, while White Oud adds a deeper spicy and oud-inspired character. The compact size makes the set convenient to carry and also makes it a practical gifting option for fragrance lovers.",
+
+    pros: [
+        "Combo of 2 fragrances",
+        "20ml travel-friendly bottles",
+        "Unisex fragrance set",
+        "Eau de Parfum concentration",
+        "Woody, citrus and spicy fragrance profiles",
+        "Features agarwood and oud-inspired notes",
+        "Made with imported fragrance oils",
+        "Compact and easy to carry",
+        "Suitable for everyday and office wear",
+        "Suitable as a gifting option"
+    ],
+
+    cons: [
+        "Fragrance preferences vary from person to person",
+        "20ml bottles contain less perfume than standard-size bottles",
+        "Fragrance longevity can vary depending on skin and weather",
+        "Oud and spicy notes may not suit everyone"
+    ],
+
+    specifications: {
+        Brand: "BELLAVITA",
+        Type: "Unisex Eau de Parfum Combo",
+        ProductName: "CEO Man & White Oud",
+        FragranceConcentration: "Eau de Parfum",
+        ItemForm: "Liquid",
+        NumberOfItems: "2",
+        VolumePerBottle: "20 ml",
+        TotalVolume: "40 ml",
+        FragranceType: "Woody, Citrus and Spicy",
+        FragranceNotes: "Tonka, Agarwood, Orange, Oud and Citrus",
+        SuitableFor: "Men and Women",
+        ApplicationMode: "Spray",
+        ModelNumber: "8906150345393",
+        ASIN: "B0CHW268JT",
+        MaterialFeatures: "Sulfate Free",
+        SpecialFeature: "Travel-Friendly Compact Bottles",
+        CrueltyFree: "Yes",
+        SuitableForOccasions: "Daily Wear, Office, Parties, Travel and Gifting",
+        CountryOfOrigin: "India",
+        Manufacturer: "STELLA INDUSTRIES LIMITED",
+        PackageContents: "1 CEO Man 20ml Perfume and 1 White Oud 20ml Perfume",
+        CareInstructions: "Store in a cool, dry place away from direct sunlight and excessive heat. Avoid contact with eyes and do not apply to irritated skin."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
