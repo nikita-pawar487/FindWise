@@ -3064,6 +3064,79 @@ const products = [
         CareInstructions: "Wipe or wash with mild soap and water when necessary. Dry completely before placing the organizers back into the drawer."
     },
 },
+{
+    id: 54,
+
+    title: "Soft Silicone Scrubbers for Bathing, Exfoliation and Massage - 4-in-1 Personal Care Set",
+    category: "Beauty",
+
+    images: [
+        "assets/images/sili/sili1.png",
+        "assets/images/sili/sili2.png",
+        "assets/images/sili/sili3.png"
+    ],
+
+    price: "₹199",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.in/ETSAP-Silicone-Combination-Super-Exfoliating-Lathering/dp/B0G2GN8LYS?tag=homeorg12-21",
+
+    description: "The ETSAP Soft Silicone Bath Scrubber Set is a versatile 4-in-1 personal care kit designed for deep cleaning, exfoliation and massage. The set includes a long-handle back scrubber, soft body scrubber, scalp massager and facial cleansing brush. Made from food-grade BPA-free silicone, the scrubbers are designed to be hygienic, quick-drying and easy to clean. The long handle makes it easier to reach the back and feet, while the compact face and scalp tools can be used separately as part of a daily bathing and grooming routine.",
+
+    review: "A convenient multi-purpose bathing and grooming set for people who want separate tools for different parts of the body. The long-handled back brush makes hard-to-reach areas easier to clean, while the body scrubber is designed to create more lather and provide exfoliation. The scalp massager and face brush add extra versatility, making this a useful all-in-one personal-care set.",
+
+    pros: [
+        "4-in-1 personal care set",
+        "Includes long-handle back scrubber",
+        "Includes body scrubber, scalp massager and face scrubber",
+        "Made from food-grade silicone",
+        "BPA-free material",
+        "Easy to clean and quick drying",
+        "Long 15-inch handle helps reach the back and feet",
+        "Non-slip handle and hanging hole",
+        "Suitable for men and women",
+        "Includes 3 adhesive hooks for storage"
+    ],
+
+    cons: [
+        "Silicone texture may feel different from traditional loofahs",
+        "Long handle can take some time to get used to",
+        "Exfoliation intensity may vary depending on the user's skin",
+        "Adhesive hooks may perform differently on different surfaces",
+        "Some users may prefer separate specialized grooming tools"
+    ],
+
+    specifications: {
+        Brand: "ETSAP",
+        Type: "4-in-1 Silicone Bath and Body Scrubber Set",
+        ModelNumber: "BB01",
+        ASIN: "B0G2GN8LYS",
+        Material: "Food-Grade Silicone",
+        BPAFree: "Yes",
+        Color: "Multicolor",
+        NumberOfPieces: "7 Pieces",
+        ScrubbersIncluded: "4",
+        BackScrubber: "1",
+        BodyScrubber: "1",
+        ScalpMassager: "1",
+        FaceScrubber: "1",
+        AdhesiveHooks: "3",
+        HandleLength: "Approx. 15 Inches",
+        ProductDimensions: "20.3 × 10.2 × 10.2 cm",
+        Weight: "99 g",
+        SuitableFor: "Men and Women",
+        Usage: "Bathing, Body Scrubbing, Exfoliation, Scalp Massage and Face Cleansing",
+        SpecialFeature: "Super Exfoliating and Lathering",
+        HandleFeature: "Non-Slip Handle with Hanging Hole",
+        HygieneFeature: "Quick-Drying and Easy to Clean",
+        Design: "One-Piece Silicone Construction",
+        CountryOfOrigin: "India",
+        Manufacturer: "ETSAP",
+        PackageContents: "1 Back Scrubber, 1 Body Scrubber, 1 Scalp Massager, 1 Face Scrubber and 3 Adhesive Hooks",
+        CareInstructions: "Rinse thoroughly after use and hang the scrubbers to dry. Clean regularly and allow them to dry completely between uses."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
