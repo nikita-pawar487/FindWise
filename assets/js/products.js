@@ -4099,4 +4099,58 @@ const productsUSA = [
         ASIN: "B07S6ZTK3H"
     }
 },
+{
+    id: 1019,
+
+    title: "Lotus Leaf Shape Decorative Jewelry Ring Tray",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/jew/jew1.png",
+        "assets/images/USA/jew/jew2.png",
+        "assets/images/USA/jew/jew3.png",
+        "assets/images/USA/jew/jew4.png"
+    ],
+
+    price: "$6.98",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/Decorative-Organizing-Necklace-Earrings-Decoration/dp/B0BD5WRC85?tag=homeorg12-20",
+
+    description: "The JAMEND CLXP Lotus Leaf Jewelry Tray is a decorative ceramic trinket dish designed for organizing small everyday items such as rings, earrings, necklaces, keys, coins, and other accessories. Its lotus-leaf-inspired shape adds a decorative touch to nightstands, dressers, bathroom counters, desks, and entryway tables.",
+
+    review: "A compact and attractive option for keeping small jewelry and everyday essentials in one convenient place. The lotus-leaf design makes it more decorative than a basic storage tray, while the shallow shape keeps frequently used accessories easy to see and access. It also works well as a small decorative accent or gift for friends and family.",
+
+    pros: [
+        "Attractive lotus-leaf design",
+        "Useful for rings, earrings and small jewelry",
+        "Can also hold keys and other small items",
+        "Compact tabletop design",
+        "Decorative addition to bedrooms and entryways",
+        "Easy access to frequently used accessories",
+        "Suitable as a small gift"
+    ],
+
+    cons: [
+        "Limited capacity compared with jewelry organizers",
+        "Shallow design is not suitable for large jewelry collections",
+        "Ceramic material can break if dropped",
+        "Small items can still become mixed together",
+        "Not designed for storing long necklaces without tangling"
+    ],
+
+    specifications: {
+        Brand: "JAMEND CLXP",
+        Material: "Ceramic",
+        Color: "Pink",
+        Shape: "Lotus Leaf",
+        Type: "Jewelry Dish / Trinket Tray",
+        Use: "Rings, Earrings, Necklaces, Keys and Small Accessories",
+        Style: "Decorative",
+        Placement: "Tabletop / Dresser / Nightstand",
+        ASIN: "B0BD5WRC85"
+    }
+},
 ];
