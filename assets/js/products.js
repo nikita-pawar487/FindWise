@@ -4153,4 +4153,65 @@ const productsUSA = [
         ASIN: "B0BD5WRC85"
     }
 },
+{
+    id: 1020,
+
+    title: "Thermal Insulated Blackout Curtains - 2 Panels",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/blac/blac1.png",
+        "assets/images/USA/blac/blac2.png",
+        "assets/images/USA/blac/blac3.png",
+        "assets/images/USA/blac/blac4.png"
+    ],
+
+    price: "$10.78",
+
+    rating: "4.6",
+
+    amazon: "https://www.amazon.com/NICETOWN-Thermal-Insulated-Blackout-Curtains/dp/B01CS31R94?tag=homeorg12-20",
+
+    description: "NICETOWN Thermal Insulated Blackout Curtains are designed to block sunlight, reduce glare, improve privacy, and help regulate room temperature. The triple-weave polyester fabric provides strong light-blocking performance while the grommet-top design makes the curtains easy to install and slide along a standard curtain rod. They are suitable for bedrooms, living rooms, nurseries, and other spaces where light and privacy control are important.",
+
+    review: "These curtains combine blackout performance with thermal insulation in a simple solid-color design. The heavy triple-weave fabric helps block much of the incoming light and can reduce heat transfer through windows. The six-grommet design on each panel makes installation straightforward, while the machine-washable fabric makes routine care easier. Darker colors generally provide stronger light-blocking performance.",
+
+    pros: [
+        "Strong blackout and light-blocking performance",
+        "Thermal insulation helps reduce heat transfer",
+        "Triple-weave polyester fabric",
+        "Grommet-top design for easy installation",
+        "Helps improve privacy",
+        "Can help reduce outside light and some noise",
+        "Machine washable",
+        "Available in multiple sizes and colors"
+    ],
+
+    cons: [
+        "Actual blackout performance can vary with window size and installation",
+        "Dark colors generally block more light than lighter colors",
+        "Curtain rod is not included",
+        "Fabric may require ironing or steaming after washing",
+        "Correct size must be selected carefully for full window coverage"
+    ],
+
+    specifications: {
+        Brand: "NICETOWN",
+        Material: "100% Polyester",
+        Color: "Black",
+        NumberOfPanels: "2",
+        PanelSize: "42 x 63 inches",
+        CurtainType: "Blackout / Thermal Insulated",
+        HangingMethod: "Grommet",
+        GrommetsPerPanel: "6",
+        GrommetInnerDiameter: "1.6 inches",
+        FabricTechnology: "Triple Weave",
+        LightBlocking: "Approximately 85%-99%",
+        Care: "Machine Washable",
+        Pattern: "Solid",
+        Use: "Bedroom, Living Room, Nursery, Home",
+        ASIN: "B01CS31R94"
+    }
+},
 ];
