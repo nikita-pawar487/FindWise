@@ -2940,6 +2940,61 @@ const products = [
         CareInstructions: "Store in a cool, dry place away from direct sunlight and excessive heat. Avoid contact with eyes and do not apply to irritated skin."
     },
 },
+{
+    id: 52,
+
+    title: "Rust-Resistant Fruit & Vegetable Organizer",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/bas/bas1.png",
+        "assets/images/bas/bas2.png",
+        "assets/images/bas/bas3.png",
+        "assets/images/bas/bas4.png"
+    ],
+
+    price: "₹999",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/BAUZINI-Rust-Resistant-Vegetable-Organizer-Household/dp/B0H5CPLM7B?tag=homeorg12-21",
+
+    description: "The BAUZINI Rust-Resistant Fruit and Vegetable Organizer is designed to provide convenient storage for fruits, vegetables and other kitchen essentials while helping keep the countertop organized. Its open design allows ventilation around stored produce and provides easy visibility and access.",
+
+    review: "A practical kitchen storage solution for keeping commonly used fruits and vegetables organized and accessible. The rust-resistant construction is designed for regular kitchen use, while the open structure allows air circulation around stored produce.",
+
+    pros: [
+        "Rust-resistant construction",
+        "Designed for fruit and vegetable storage",
+        "Helps organize kitchen countertops",
+        "Open design allows air circulation",
+        "Easy access to stored produce",
+        "Suitable for everyday kitchen use"
+    ],
+
+    cons: [
+        "Exact storage capacity depends on the selected variant",
+        "Open design does not protect produce from dust completely",
+        "May require regular cleaning",
+        "Price and availability may vary on Amazon"
+    ],
+
+    specifications: {
+        Brand: "BAUZINI",
+        Type: "Fruit and Vegetable Organizer",
+        Material: "Metal",
+        Feature: "Rust Resistant",
+        SuitableFor: "Fruits, Vegetables and Kitchen Essentials",
+        Usage: "Kitchen Storage and Organization",
+        Design: "Open Storage Organizer",
+        Mounting: "Countertop / Freestanding",
+        SpecialFeature: "Rust-Resistant Construction",
+        ASIN: "B0H5CPLM7B",
+        PackageContents: "1 BAUZINI Vegetable Organizer",
+        CareInstructions: "Wipe clean regularly with a soft, dry or slightly damp cloth. Keep the organizer clean and dry to maintain its finish."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
