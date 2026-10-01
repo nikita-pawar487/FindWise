@@ -2995,6 +2995,75 @@ const products = [
         CareInstructions: "Wipe clean regularly with a soft, dry or slightly damp cloth. Keep the organizer clean and dry to maintain its finish."
     },
 },
+{
+    id: 53,
+
+    title: "8 Pieces Cutlery Tray for Kitchen Drawers - Interlocking Drawer Desk Organizer",
+
+    category: "Kitchen",
+
+    images: [
+        "assets/images/draw/draw1.png",
+        "assets/images/draw/draw2.png",
+        "assets/images/draw/draw3.png",
+        "assets/images/draw/draw4.png"
+    ],
+
+    price: "₹349",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/dp/B0DHGX5GT4?tag=homeorg12-21",
+
+    description: "The INOVERA (LABEL) 8-Piece Interlocking Drawer Organizer Set is designed to bring order to cluttered kitchen drawers, bathroom drawers, dressing tables and office desks. The set includes large, medium and small organizer bins that can be arranged in different combinations according to your storage needs. The interlocking and stackable design helps maximize available drawer space while keeping cutlery, utensils, cosmetics, stationery and other small items separated and easy to find.",
+
+    review: "A versatile drawer organization solution for anyone looking to make better use of available storage space. The combination of different-sized trays makes it possible to organize items according to their size, while the interlocking design allows the arrangement to be customized for different drawers. The lightweight plastic construction is also easy to clean and suitable for everyday household organization.",
+
+    pros: [
+        "8-piece organizer set",
+        "Interlocking design allows customized arrangements",
+        "Includes large, medium and small bins",
+        "Useful for kitchen drawers and cutlery",
+        "Can also be used in bathrooms, bedrooms and offices",
+        "Stackable design helps maximize drawer space",
+        "Easy to clean",
+        "Lightweight and practical plastic construction"
+    ],
+
+    cons: [
+        "Plastic construction may not be suitable for very heavy items",
+        "Individual trays are relatively compact",
+        "May not fit every drawer without measuring first",
+        "White color may show dirt more easily",
+        "Interlocking arrangement may need adjustment depending on drawer size"
+    ],
+
+    specifications: {
+        Brand: "INOVERA (LABEL)",
+        Type: "Interlocking Drawer Organizer / Cutlery Tray",
+        Material: "Plastic",
+        Color: "White",
+        NumberOfPieces: "8 Pieces",
+        LargeBins: "2",
+        MediumBins: "3",
+        SmallBins: "3",
+        LargeBinDimensions: "23.5 × 15.5 × 4.5 cm",
+        MediumBinDimensions: "23.5 × 7.5 × 4.5 cm",
+        SmallBinDimensions: "7.5 × 7.5 × 4.5 cm",
+        ModelNumber: "KC317GY/317GY-SET2",
+        ASIN: "B0DHGX5GT4",
+        Design: "Interlocking and Stackable",
+        SuitableFor: "Kitchen Drawers, Bathroom Drawers, Dressing Tables and Office Desks",
+        StorageUse: "Cutlery, Utensils, Cosmetics, Stationery and Small Accessories",
+        Mounting: "Drawer / Countertop",
+        AssemblyRequired: "No",
+        SpecialFeature: "Customizable Interlocking Arrangement",
+        CountryOfOrigin: "India",
+        Manufacturer: "INOVERA",
+        PackageContents: "2 Large Bins, 3 Medium Bins and 3 Small Bins",
+        CareInstructions: "Wipe or wash with mild soap and water when necessary. Dry completely before placing the organizers back into the drawer."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
