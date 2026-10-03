@@ -3137,6 +3137,151 @@ const products = [
         CareInstructions: "Rinse thoroughly after use and hang the scrubbers to dry. Clean regularly and allow them to dry completely between uses."
     },
 },
+{
+    id: 55,
+
+    title: "2-Tier Countertop Multipurpose Organizer",
+
+    category: "Home",
+
+    images: [
+        "assets/images/pik/pik1.png",
+        "assets/images/pik/pik2.png",
+        "assets/images/pik/pik3.png",
+        "assets/images/pik/pik4.png"
+    ],
+
+    price: "₹499",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/WonderStand-Countertop-Organizer-Organiser-Bathroom/dp/B0CYM12DPZ?tag=homeorg12-21",
+
+    description: "The WonderStand Iron 2-Tier Countertop Multipurpose Organizer is a versatile storage rack designed to keep everyday items neatly arranged and easily accessible. Its two-tier design provides additional vertical storage while taking up limited countertop space. Made from durable GI steel with a rust-resistant finish, it can be used in bathrooms, kitchens, bedrooms, living rooms and offices for organizing toiletries, cosmetics, spices, bottles, accessories and other household essentials.",
+
+    review: "A practical countertop organizer for anyone looking to make better use of vertical space. The two-tier structure provides separate levels for storing different items, while the sturdy metal construction gives the rack a stable feel. Rubber pads help protect furniture surfaces from scratches, and the ready-to-use design means there is no assembly required.",
+
+    pros: [
+        "Two-tier vertical storage design",
+        "Durable GI steel construction",
+        "Rust-resistant finish",
+        "Suitable for bathroom and kitchen use",
+        "Can also be used in bedrooms and offices",
+        "Helps maximize countertop space",
+        "Rubber pads help protect furniture",
+        "No assembly required",
+        "Stable and sturdy construction",
+        "Multipurpose storage solution"
+    ],
+
+    cons: [
+        "Requires countertop or flat surface space",
+        "Metal construction may be heavier than plastic organizers",
+        "Black finish may show dust more easily",
+        "Large bottles or unusually heavy items may not fit comfortably",
+        "Open design does not fully protect stored items from dust"
+    ],
+
+    specifications: {
+        Brand: "WonderStand",
+        Type: "2-Tier Countertop Storage Organizer",
+        Material: "GI Steel / Iron",
+        Color: "Black",
+        Finish: "Powder Coated",
+        NumberOfTiers: "2",
+        Dimensions: "17 × 28 × 30 cm",
+        Width: "28 cm",
+        Depth: "17 cm",
+        Height: "30 cm",
+        Weight: "Approx. 2 kg",
+        ModelNumber: "WGWS-SPCRCK-01B",
+        ModelName: "WGWS-SPCRCK-01B",
+        MountingType: "Countertop / Freestanding",
+        InstallationType: "Countertop",
+        AssemblyRequired: "No",
+        RubberPads: "Yes",
+        SuitableFor: "Bathroom, Kitchen, Bedroom, Living Room and Office",
+        StorageUse: "Toiletries, Cosmetics, Spices, Bottles, Accessories and Household Items",
+        SpecialFeature: "Rust-Resistant and Multipurpose",
+        Design: "Tiered Vertical Storage",
+        CountryOfOrigin: "India",
+        Manufacturer: "Wonder Goods Pvt Ltd",
+        PackageContents: "1 WonderStand 2-Tier Countertop Organizer",
+        CareInstructions: "Wipe regularly with a soft dry or slightly damp cloth. Keep the organizer dry and avoid prolonged exposure to standing water."
+    },
+},
+{
+    id: 56,
+
+    title: "Akhand Diya for Puja - Decorative Brass Crystal Oil Lamp",
+
+    category: "Home",
+
+    images: [
+        "assets/images/diya/diya1.png",
+        "assets/images/diya/diya2.png",
+        "assets/images/diya/diya3.png",
+        "assets/images/diya/diya4.png"
+    ],
+
+    price: "₹298",
+
+    rating: "3.9",
+
+    amazon: "https://www.amazon.in/Collectible-India-Decorative-Festival-Decoration/dp/B071W7D1SB?tag=homeorg12-21",
+
+    description: "The Collectible India Akhand Diya is a decorative traditional oil lamp crafted from polished brass and crystal glass. Its compact oval design combines traditional Indian craftsmanship with an elegant decorative appearance, making it suitable for daily puja, Diwali celebrations, festive decoration and gifting. The crystal glass is designed to provide enhanced clarity and brightness while the brass body adds a classic golden finish.",
+
+    review: "A compact and elegant diya for puja rooms, temples and festive home decoration. The combination of polished brass and crystal glass gives it a traditional yet decorative appearance. Its 11 cm height makes it easy to place on a puja altar, table or shelf, while the relatively lightweight construction makes it convenient to move and store.",
+
+    pros: [
+        "Polished brass construction",
+        "Decorative crystal glass design",
+        "Traditional Akhand Diya style",
+        "Compact 9 × 9 × 11 cm size",
+        "Suitable for daily puja and Diwali decoration",
+        "Elegant golden finish",
+        "Can be used as a festive or religious gift",
+        "Designed to provide bright light through clear glass",
+        "Suitable for home temples and decorative spaces"
+    ],
+
+    cons: [
+        "Requires regular cleaning to maintain the brass shine",
+        "Glass component should be handled carefully",
+        "Compact size may have limited oil capacity",
+        "Brass can develop tarnish if not maintained",
+        "Not suitable for unattended burning"
+    ],
+
+    specifications: {
+        Brand: "Collectible India",
+        Type: "Akhand Diya / Oil Lamp",
+        Material: "Brass and Glass",
+        Color: "Gold",
+        Finish: "Polished",
+        Shape: "Oval",
+        Dimensions: "9 × 9 × 11 cm",
+        Height: "11 cm",
+        Diameter: "9 cm",
+        Weight: "300 g",
+        ModelNumber: "DFBS120S",
+        ASIN: "B071W7D1SB",
+        NumberOfItems: "1",
+        UnitCount: "1 Count",
+        MountingType: "Freestanding",
+        SuitableFor: "Puja, Diwali, Home Decor and Festive Decoration",
+        SuitableLocation: "Puja Room, Temple, Living Room and Decorative Table",
+        SpecialFeature: "Decorative Brass and Crystal Design",
+        GlassFeature: "High-Clarity Crystal Glass",
+        HeatFeature: "Designed for Extended Burning",
+        GiftSuitable: "Yes",
+        CountryOfOrigin: "India",
+        Manufacturer: "Collectible India / Bansal Impex Jaipur",
+        PackageContents: "1 Akhand Diya",
+        CareInstructions: "Wash with water and mild cleaning solution when required. For extra brass shine, use suitable brass-cleaning powder such as Pitambari. Wipe dry with a soft cloth. Do not use steel wool or wire mesh. Clean the glass with a soft sponge and mild liquid soap."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
