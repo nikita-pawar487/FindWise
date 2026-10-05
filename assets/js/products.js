@@ -3282,6 +3282,269 @@ const products = [
         CareInstructions: "Wash with water and mild cleaning solution when required. For extra brass shine, use suitable brass-cleaning powder such as Pitambari. Wipe dry with a soft cloth. Do not use steel wool or wire mesh. Clean the glass with a soft sponge and mild liquid soap."
     },
 },
+{
+    id: 57,
+
+    title: "Crystal Akhand Diya Decorative Brass Oil Lamp",
+
+    category: "Home",
+
+    images: [
+        "assets/images/di/di1.png",
+        "assets/images/di/di2.png"
+    ],
+
+    price: "₹189",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/Collectible-India-Crystal-Akhand-Golden/dp/B07HKL8Y7S?tag=homeorg12-21",
+
+    description: "The Collectible India Crystal Akhand Diya is a decorative brass oil lamp designed for puja, festive celebrations and traditional home decoration. Its polished golden brass body is complemented by crystal detailing, giving the diya an elegant appearance when placed in a home temple, puja room or decorative setting. The compact design makes it suitable for everyday worship as well as occasions such as Diwali, Navratri, housewarming ceremonies and gifting.",
+
+    review: "A beautiful traditional diya for anyone looking to add an elegant decorative element to a puja space. The combination of polished brass and crystal details gives it a bright, festive appearance, particularly when the diya is lit. Its compact form makes it easy to place on a puja shelf, thali or small home temple. It can also work well as a traditional Indian gift for festive and religious occasions.",
+
+    pros: [
+        "Elegant brass and crystal construction",
+        "Traditional Akhand Diya design",
+        "Polished golden finish",
+        "Suitable for daily puja and festive decoration",
+        "Compact and easy to place",
+        "Attractive when illuminated",
+        "Suitable for home temples and puja rooms",
+        "Can be used as a festive or religious gift",
+        "Suitable for Diwali and other Indian celebrations"
+    ],
+
+    cons: [
+        "Crystal components require careful handling",
+        "Brass may tarnish over time without regular cleaning",
+        "Compact size may limit oil capacity",
+        "Decorative finish may require maintenance",
+        "Should not be left burning unattended"
+    ],
+
+    specifications: {
+        Brand: "Collectible India",
+        Type: "Crystal Akhand Diya / Oil Lamp",
+        Material: "Brass and Crystal",
+        Color: "Golden",
+        Finish: "Polished",
+        Shape: "Decorative Round",
+        FuelType: "Vegetable Oil",
+        UnitCount: "1",
+        MountingType: "Freestanding",
+        SuitableFor: "Puja, Diwali, Home Temple, Festive Decoration and Gifting",
+        SuitableLocation: "Puja Room, Temple, Living Room and Decorative Table",
+        SpecialFeature: "Crystal Embellishment with Brass Body",
+        Design: "Traditional Indian Decorative Diya",
+        AssemblyRequired: "No",
+        CountryOfOrigin: "India",
+        Manufacturer: "Collectible India",
+        ASIN: "B07HKL8Y7S",
+        PackageContents: "1 Crystal Akhand Diya",
+        CareInstructions: "Clean the brass surface regularly with a suitable brass cleaner or Pitambari powder. Wash and dry thoroughly after cleaning. Clean crystal or glass portions gently with a soft sponge and mild liquid soap. Avoid steel wool or abrasive materials."
+    },
+},
+{
+    id: 58,
+
+    title: "Tealight Candle Holders for Home Decor - Mosaic Glass Flowers, Pack of 2",
+
+    category: "Home",
+
+    images: [
+        "assets/images/lamp/lamp1.png",
+        "assets/images/lamp/lamp2.png",
+        "assets/images/lamp/lamp3.png",
+        "assets/images/lamp/lamp4.png"
+    ],
+
+    price: "₹319",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/Homesake%C2%AE-Tealight-Holders-Decorations-Festival/dp/B07FF4V7LZ?tag=homeorg12-21",
+
+    description: "The Homesake Tealight Candle Holders are decorative mosaic glass holders designed to add a warm and colourful glow to your home. Featuring a handcrafted floral mosaic pattern with an antique finish, these holders are suitable for Diwali decorations, pooja spaces, weddings, parties, romantic dinners and everyday home décor. The compact tabletop design makes them easy to place on dining tables, shelves, side tables, balconies or other decorative spaces.",
+
+    review: "These Homesake tealight holders are a beautiful choice for adding a festive and elegant touch to a room. The multicolour mosaic glass creates an attractive glow when a tealight is placed inside, while the antique finish gives the holders a traditional decorative appearance. The set of two works well as a small table centerpiece, Diwali decoration or festive gift. Their compact size also makes them easy to use in different areas around the home.",
+
+    pros: [
+        "Beautiful multicolour mosaic glass design",
+        "Handcrafted decorative appearance",
+        "Antique finish adds a traditional look",
+        "Pack of 2 holders",
+        "Suitable for Diwali and festive decoration",
+        "Works well for weddings and parties",
+        "Compact tabletop design",
+        "Can be used as home décor or a centerpiece",
+        "Made from lead-free glass"
+    ],
+
+    cons: [
+        "Glass construction requires careful handling",
+        "Compact size may not suit large candles",
+        "Mosaic surface may require gentle cleaning",
+        "Colour and finish may vary slightly due to handcrafted construction",
+        "Should be placed on a stable, heat-resistant surface"
+    ],
+
+    specifications: {
+        Brand: "Homesake",
+        Type: "Tealight Candle Holder",
+        Material: "Glass",
+        Colour: "Multicolour",
+        Finish: "Antique Finish",
+        Design: "Mosaic Floral",
+        NumberOfPieces: "2",
+        ItemDimensions: "12 x 12 x 10 cm",
+        ItemDiameter: "4.5 Inches",
+        ItemWeight: "340 g",
+        MountingType: "Tabletop",
+        IndoorOutdoorUsage: "Indoor",
+        Occasion: "Housewarming, Diwali, Weddings, Parties and Festivals",
+        Theme: "Festival",
+        CountryOfOrigin: "India",
+        Manufacturer: "Homesake, IHPL",
+        ModelNumber: "B434",
+        ManufacturerPartNumber: "IH0B434",
+        ASIN: "B07FF4V7LZ",
+        PackageContents: "2 Tealight Candle Holders",
+        SuitableFor: "Home Decor, Diwali Decoration, Pooja, Weddings, Parties and Table Decoration",
+        CareInstructions: "Clean gently with a soft, dry or slightly damp cloth. Handle carefully to avoid damaging the glass mosaic surface."
+    },
+},
+{
+    id: 59,
+
+    title: "LED Tea Light Candles - Flameless & Smokeless Decorative Acrylic Diyas",
+
+    category: "Home",
+
+    images: [
+        "assets/images/led/led1.png",
+        "assets/images/led/led2.png",
+        "assets/images/led/led3.png"
+    ],
+
+    price: "₹206",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/SATYAM-KRAFT-Flameless-Smokeless-Decorative/dp/B01LY8P5O7?tag=homeorg12-21",
+
+    description: "The SATYAM KRAFT LED Tea Light Candles are a flameless and smokeless decorative lighting option designed to create a warm candle-like glow without fire, smoke or wax. This pack contains 12 acrylic LED tea lights in a bright yellow colour, making them suitable for home decoration, Diwali and festive décor, birthdays, weddings, parties, romantic dinners and other special occasions. Their compact design allows them to be placed on tables, shelves, balconies, bedrooms, living rooms or inside suitable candle holders.",
+
+    review: "These LED tea lights are a convenient alternative to traditional candles when you want decorative lighting without an open flame. The yellow glow gives a warm and festive appearance, while the flameless design makes them suitable for a variety of indoor decorative setups. With 12 pieces in the pack, they can be arranged together to decorate tables, entrances, rooms, balconies or celebration spaces.",
+
+    pros: [
+        "Flameless and smokeless design",
+        "Pack of 12 LED tea lights",
+        "Warm yellow decorative glow",
+        "No wax mess or open flame",
+        "Suitable for homes with children and pets",
+        "Compact and lightweight",
+        "Useful for Diwali and festive decoration",
+        "Suitable for birthdays, weddings and parties",
+        "Can be used with suitable tea light holders",
+        "Easy to arrange for decorative setups"
+    ],
+
+    cons: [
+        "Requires batteries for operation",
+        "Acrylic construction is less premium than real glass candles",
+        "Light brightness may be lower than larger LED candles",
+        "Small size may not suit every decorative setup",
+        "Battery replacement is required after extended use"
+    ],
+
+    specifications: {
+        Brand: "SATYAM KRAFT",
+        Type: "LED Tea Light Candle",
+        Material: "Acrylic",
+        Colour: "Yellow",
+        NumberOfPieces: "12",
+        Size: "Approximately 5 cm",
+        Design: "Decorative Tea Light",
+        LightType: "LED",
+        FlameType: "Flameless",
+        SmokeFree: "Yes",
+        HeatFree: "Yes",
+        PowerSource: "Battery Operated",
+        MountingType: "Tabletop",
+        SuitableFor: "Home Decor, Festivals, Weddings, Birthdays, Parties and Events",
+        Occasions: "Diwali, Ganpati, Birthdays, Weddings, Anniversaries, Parties and Celebrations",
+        CountryOfOrigin: "China",
+        Manufacturer: "Navrang K N Park, Udhna, Surat",
+        ASIN: "B01LY8P5O7",
+        PackageContents: "12 LED Tea Light Candles",
+        SafetyFeature: "Flameless and Smokeless",
+        SpecialFeature: "Decorative Warm Yellow LED Glow"
+    },
+},
+{
+    id: 60,
+
+    title: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+
+    category: "Books",
+
+    images: [
+        "assets/images/psychology-of-money/psychology1.png",
+        "assets/images/psychology-of-money/psychology2.png",
+        "assets/images/psychology-of-money/psychology3.png",
+        "assets/images/psychology-of-money/psychology4.png"
+    ],
+
+    price: "₹269",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.in/Psychology-Money-Morgan-Housel-ebook/dp/B08FHZ5L47?tag=homeorg12-21",
+
+    description: "The Psychology of Money by Morgan Housel explores the ways people think about money, wealth, saving, investing and financial decisions. Rather than focusing only on financial formulas, the book examines the emotional and behavioral factors that influence how people manage money. Through short stories and practical lessons, it explains concepts such as compounding, risk, wealth, financial freedom, saving and the importance of making decisions that work for your personal circumstances.",
+
+    review: "The Psychology of Money is a highly accessible personal finance book that focuses on the behavior and mindset behind financial decisions. Morgan Housel uses simple stories and real-world observations to explain why earning money and building wealth are not only mathematical problems. The book is particularly useful for readers who want to develop better financial habits, understand long-term investing and think more carefully about risk, spending and wealth.",
+
+    pros: [
+        "Easy-to-understand writing style",
+        "Focuses on financial behavior and psychology",
+        "Useful lessons about saving and investing",
+        "Explains the power of compound growth",
+        "Discusses risk and uncertainty in a practical way",
+        "Suitable for beginners in personal finance",
+        "Short, engaging chapters",
+        "Encourages long-term financial thinking",
+        "Useful for developing better money habits"
+    ],
+
+    cons: [
+        "Not a step-by-step investing manual",
+        "Does not provide specific stock recommendations",
+        "Some ideas may feel repetitive",
+        "Primarily focuses on mindset rather than technical finance",
+        "Examples are more conceptual than calculation-based"
+    ],
+
+    specifications: {
+        Title: "The Psychology of Money",
+        Subtitle: "Timeless Lessons on Wealth, Greed, and Happiness",
+        Author: "Morgan Housel",
+        Publisher: "Jaico Publishing House",
+        Edition: "1st Edition",
+        Format: "Kindle Edition",
+        Language: "English",
+        NumberOfPages: "252",
+        PublicationDate: "18 September 2020",
+        ISBN: "9789390166275",
+        ASIN: "B08FHZ5L47",
+        Genre: "Personal Finance / Business / Investing",
+        Subjects: "Wealth, Saving, Investing, Financial Behavior and Money Psychology",
+        CountryOfPublication: "India",
+        SuitableFor: "Beginners, Students, Investors and Personal Finance Readers"
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
