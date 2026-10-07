@@ -3491,10 +3491,10 @@ const products = [
     category: "Books",
 
     images: [
-        "assets/images/psychology-of-money/psychology1.png",
-        "assets/images/psychology-of-money/psychology2.png",
-        "assets/images/psychology-of-money/psychology3.png",
-        "assets/images/psychology-of-money/psychology4.png"
+        "assets/images/psycho/psycho1.png",
+        "assets/images/psycho/psycho2.png",
+        "assets/images/psycho/psycho3.png",
+        "assets/images/psycho/psycho4.png"
     ],
 
     price: "₹269",
