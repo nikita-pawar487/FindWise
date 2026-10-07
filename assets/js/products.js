@@ -3491,10 +3491,10 @@ const products = [
     category: "Books",
 
     images: [
-        "assets/images/psycho/psycho1.png",
-        "assets/images/psycho/psycho2.png",
-        "assets/images/psycho/psycho3.png",
-        "assets/images/psycho/psycho4.png"
+        "assets/images/pyscho/pyscho1.png",
+        "assets/images/pyscho/pyscho2.png",
+        "assets/images/pyscho/pyscho3.png",
+        "assets/images/pyscho/pyscho4.png"
     ],
 
     price: "₹269",
