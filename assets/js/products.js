@@ -4695,4 +4695,118 @@ const productsUSA = [
         ASIN: "B01CS31R94"
     }
 },
+{
+    id: 1021,
+
+    title: "Collapsible Fabric Storage Cubes - Pack of 6",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/sto/sto1.png",
+        "assets/images/USA/sto/sto2.png",
+        "assets/images/USA/sto/sto3.png",
+        "assets/images/USA/sto/sto4.png"
+    ],
+
+    price: "$17.84",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/Amazon-Basics-Collapsible-Storage-Organizer/dp/B0711RQMNF?tag=homeorg12-20",
+
+    description: "The Amazon Basics Collapsible Fabric Storage Cubes come in a convenient six-pack designed to help organize closets, shelves, bedrooms, and living spaces. Made from lightweight, breathable fabric, these beige storage bins feature sewn-in handles for easy carrying and fold flat when not in use. They can be used as open-top storage baskets or as drawers in a compatible cube organizer.",
+
+    review: "These fabric storage cubes offer a simple and versatile way to keep everyday household items organized. Their neutral beige color works with many home décor styles, while the sewn-in handles make them easy to pull out from shelves or carry between rooms. The collapsible construction is especially useful when the bins are not needed. They are best suited for lightweight items rather than heavy objects.",
+
+    pros: [
+        "Includes 6 matching storage cubes",
+        "Collapsible design saves space when not in use",
+        "Lightweight and breathable fabric",
+        "Sewn-in handles for easy carrying",
+        "Neutral beige color suits many interiors",
+        "Useful for closets, shelves and cube organizers",
+        "Suitable for clothes, toys, towels and accessories"
+    ],
+
+    cons: [
+        "Not designed for heavy or bulky items",
+        "May lose shape when overloaded",
+        "Open-top design provides limited dust protection",
+        "Cube organizer frame is not included",
+        "Fabric may require spot cleaning"
+    ],
+
+    specifications: {
+        Brand: "Amazon Basics",
+        Material: "Fabric",
+        Color: "Beige",
+        NumberOfPieces: "6",
+        Dimensions: "10.5 x 10.5 x 11 inches per cube",
+        Capacity: "Approximately 8.5 liters per cube",
+        LoadCapacity: "Up to 5 lbs per cube",
+        HandleType: "Sewn-in Fabric Handles",
+        Design: "Collapsible / Open-Top",
+        Use: "Closet, Bedroom, Shelves and Household Storage",
+        Model: "AQ-NON006",
+        ASIN: "B0711RQMNF"
+    }
+},
+{
+    id: 1022,
+
+    title: "3-Tier Open Shelf Bookcase",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/stick/stick1.png",
+        "assets/images/USA/stick/stick2.png",
+        "assets/images/USA/stick/stick3.png",
+        "assets/images/USA/stick/stick4.png"
+    ],
+
+    price: "$25.16",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.com/Furinno-Pasir-3-Tier-Bookcase-11003WH/dp/B074NDK23R?tag=homeorg12-20",
+
+    description: "The Furinno PASIR 3-Tier Open Shelf Bookcase is a compact storage solution for organizing books, decorative accessories, small plants, and everyday essentials. Its simple white finish blends easily with different interior styles, making it suitable for bedrooms, living rooms, home offices, and study spaces. The three open shelves provide convenient access to frequently used items without taking up much floor space.",
+
+    review: "This compact bookcase offers a straightforward way to add extra storage to smaller rooms. Its minimalist design works well with modern and casual décor, while the three open shelves make books and decorative items easy to display. The engineered-wood construction keeps the design relatively lightweight, although it is best used on a flat surface with heavier items placed on the lower shelf.",
+
+    pros: [
+        "Three open shelves for everyday storage",
+        "Simple white finish suits many interiors",
+        "Compact footprint for smaller spaces",
+        "Useful for books, plants and decorations",
+        "Suitable for bedrooms and home offices",
+        "Engineered-wood construction",
+        "Straightforward assembly"
+    ],
+
+    cons: [
+        "Assembly is required",
+        "Not designed for climbing or sitting",
+        "Particleboard can be damaged by excessive moisture",
+        "Open shelves provide limited dust protection",
+        "Heavy items should be placed on lower shelves"
+    ],
+
+    specifications: {
+        Brand: "Furinno",
+        Model: "11003WH",
+        Material: "Engineered Particleboard",
+        Color: "White",
+        NumberOfTiers: "3",
+        Dimensions: "12 x 9.37 x 31.49 inches",
+        Weight: "Approximately 13.36 lbs",
+        Style: "Modern / Minimalist",
+        ShelfType: "Open Shelves",
+        AssemblyRequired: "Yes",
+        Use: "Books, Décor, Plants and Home Storage",
+        ASIN: "B074NDK23R"
+    }
+},
 ];
