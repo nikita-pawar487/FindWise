@@ -4703,9 +4703,9 @@ const productsUSA = [
     category: "Home",
 
     images: [
-        "assets/images/USA/sto/sto1.png",
-        "assets/images/USA/sto/sto2.png",
         "assets/images/USA/sto/sto3.png",
+        "assets/images/USA/sto/sto2.png",
+        "assets/images/USA/sto/sto1.png",
         "assets/images/USA/sto/sto4.png"
     ],
 
@@ -4807,6 +4807,63 @@ const productsUSA = [
         AssemblyRequired: "Yes",
         Use: "Books, Décor, Plants and Home Storage",
         ASIN: "B074NDK23R"
+    }
+},
+{
+    id: 1023,
+
+    title: "Waterproof Mat - 34 x 22 Inches",
+
+    category: "Home",
+
+    images: [
+        "assets/images/USA/mat/mat1.png",
+        "assets/images/USA/mat/mat2.png",
+        "assets/images/USA/mat/mat3.png",
+        "assets/images/USA/mat/mat4.png"
+    ],
+
+    price: "$15.99",
+
+    rating: "4.7",
+
+    amazon: "https://www.amazon.com/SIKADEER-Waterproof-34-22-Protector/dp/B09PRGXY3Y?tag=homeorg12-20",
+
+    description: "The SIKADEER Waterproof Under Sink Mat is a flexible silicone tray designed to protect kitchen and bathroom cabinets from water leaks, spills, stains, and everyday messes. Measuring 34 x 22 inches, it features raised edges that help contain liquid and a textured, non-slip surface for added stability. It can also be used as a shelf liner, pet feeding mat, boot tray, or multipurpose household organizer.",
+
+    review: "This under-sink protector is a practical addition to cabinets where cleaning supplies, plumbing, or stored household items can create occasional messes. Its waterproof silicone surface is easy to wipe clean, while the raised perimeter helps keep small spills from spreading onto the cabinet floor. Before purchasing, measure your cabinet interior and check whether the mat needs trimming to fit around plumbing.",
+
+    pros: [
+        "Waterproof silicone construction",
+        "Raised edges help contain leaks and spills",
+        "Large 34 x 22 inch coverage area",
+        "Helps protect cabinet surfaces from stains",
+        "Textured surface helps reduce slipping",
+        "Flexible and easy to clean",
+        "Can also be used as a pet feeding mat or boot tray",
+        "Suitable for kitchen and bathroom cabinets"
+    ],
+
+    cons: [
+        "May not fit smaller cabinets without trimming",
+        "Plumbing pipes can make installation more difficult",
+        "Raised edges reduce the usable flat area slightly",
+        "Requires measuring the cabinet before purchase",
+        "Does not repair or stop the source of a plumbing leak"
+    ],
+
+    specifications: {
+        Brand: "SIKADEER",
+        Material: "Silicone",
+        Color: "Gray",
+        Dimensions: "34 x 22 inches",
+        Thickness: "Approximately 0.1 inch",
+        Weight: "Approximately 2.16 lbs",
+        Shape: "Rectangular",
+        EdgeDesign: "Raised Edges",
+        Features: "Waterproof, Non-Slip, Flexible",
+        Use: "Kitchen Cabinets, Bathroom Cabinets, Pet Feeding, Boot Tray",
+        ASIN: "B09PRGXY3Y"
     }
 },
 ];
