@@ -4866,4 +4866,60 @@ const productsUSA = [
         ASIN: "B09PRGXY3Y"
     }
 },
+{
+    id: 1024,
+
+    title: "30 Pack Kawaii Squishy Toys - Mini Animal Mochi Squishies",
+
+    category: "Toys",
+
+    images: [
+        "assets/images/USA/stress/stress1.png",
+        "assets/images/USA/stress/stress2.png",
+        "assets/images/USA/stress/stress3.png",
+        "assets/images/USA/stress/stress4.png"
+    ],
+
+    price: "$9.99",
+
+    rating: "4.5",
+
+    amazon: "https://www.amazon.com/Squishy-Squishies-Treasure-Classroom-Birthday/dp/B0DG2VRFV7?tag=homeorg12-20",
+
+    description: "This 30-pack of kawaii mochi squishy toys features a colorful assortment of mini animal and character designs. Their soft, squeezable texture makes them fun little toys for playtime, party favors, birthday goodie bags, classroom prize boxes, treasure chests, and holiday gifts. With multiple designs in one pack, they offer an easy way to prepare small gifts for groups of children.",
+
+    review: "This assorted squishy set is a budget-friendly choice for birthdays, classroom rewards, and party favor bags. The variety of cute designs makes the pack appealing to children who enjoy small collectible toys, while the compact size makes the pieces easy to distribute as gifts. Because the designs are assorted, the exact characters and colors may vary between packs.",
+
+    pros: [
+        "Includes 30 assorted mini squishy toys",
+        "Cute kawaii animal and character designs",
+        "Useful for birthday party favor bags",
+        "Suitable for classroom prizes and treasure boxes",
+        "Lightweight and easy to distribute",
+        "Multiple designs in one affordable pack",
+        "Good for small gifts and party activities"
+    ],
+
+    cons: [
+        "Individual toys are small",
+        "Exact designs and colors may vary",
+        "Durability can vary between pieces",
+        "Some pieces may have a noticeable initial odor",
+        "Small parts may pose a choking hazard for young children"
+    ],
+
+    specifications: {
+        Brand: "Generic",
+        ProductType: "Mochi Squishy Toys",
+        NumberOfPieces: "30",
+        Material: "Soft Squishy Toy Material",
+        Design: "Assorted Kawaii Animals and Characters",
+        Color: "Multicolor",
+        Texture: "Soft and Squeezable",
+        RecommendedUse: "Party Favors, Classroom Prizes, Goodie Bags",
+        TargetAudience: "Children",
+        SafetyNote: "Keep away from children who may put small toys in their mouths",
+        ASIN: "B0DG2VRFV7"
+    }
+},
 ];
