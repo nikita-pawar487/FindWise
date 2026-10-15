@@ -4960,4 +4960,47 @@ const productsUSA = [
         ASIN: "B0G24SP29C"
     }
 },
+
+{
+    id: 1025,
+    title: "Original BigBlok Premium Stress Cube – Squishy Fidget Toy",
+    category: "Home",
+    images: [
+        "assets/images/USA/blue/blue1.png",
+        "assets/images/USA/blue/blue2.png",
+        "assets/images/USA/blue/blue3.png",
+        "assets/images/USA/blue/blue4.png"
+    ],
+    price: "$16.99",
+    rating: "4.4",
+    amazon: "https://www.amazon.com/dp/B0FG779YKY?tag=homeorg12-20",
+    description: "The Squeez'M Original BigBlok Premium Stress Cube is a large, slow-rising squishy fidget toy designed for satisfying squeezes and sensory play. Its firm gel core and tear-resistant outer shell provide resistance when squeezed, making it suitable for stress relief, focus breaks, classrooms, offices, and everyday fidgeting. The listing states that it uses non-toxic, BPA-free materials and meets ASTM F963 toy safety standards for ages 3 and up.",
+    review: "The Amazon listing displays a 4.4 out of 5 star rating from approximately 2,578 ratings. Its larger size, firm squeeze, and slow-rise feel make it an option for both kids and adults who enjoy tactile fidget toys.",
+    pros: [
+        "Large cube design for satisfying squeezes",
+        "Firm, slow-rising sensory feedback",
+        "Designed for kids, teens, and adults",
+        "BPA-free materials, according to the listing",
+        "ASTM F963 safety certification stated by the seller",
+        "Useful for fidgeting during study or work breaks"
+    ],
+    cons: [
+        "The firm texture may not suit people who prefer very soft squishies",
+        "Must not be heated, punctured, or opened",
+        "The outer shell may be damaged by rough handling",
+        "Adult supervision is recommended for young children"
+    ],
+    specifications: {
+        Brand: "Squeez'M",
+        Product: "Original BigBlok Premium Stress Cube",
+        Type: "Squishy Fidget Toy",
+        Color: "Blue (check selected variation)",
+        Material: "Gel core with tear-resistant outer shell",
+        AgeRange: "3 years and up",
+        Safety: "ASTM F963 stated by the seller",
+        ModelNumber: "SM-BB-Blue-FBA",
+        ASIN: "B0FG779YKY"
+    }
+},
+
 ];
