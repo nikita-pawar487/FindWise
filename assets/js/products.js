@@ -4922,4 +4922,42 @@ const productsUSA = [
         ASIN: "B0DG2VRFV7"
     }
 },
+{
+    id: 1025,
+    title: "Automatic Foaming Soap Dispenser with Digital Display",
+    category: "Home",
+    images: [
+        "assets/images/USA/char/char1.png",
+        "assets/images/USA/char/char2.png",
+        "assets/images/USA/char/char3.png"
+    ],
+    price: "$22.99",
+    rating: "4.3",
+    amazon: "https://www.amazon.com/dp/B0G24SP29C?tag=homeorg12-20",
+    description: "Make handwashing more convenient with the Cheftick automatic foaming soap dispenser. It features a digital display, six adjustable foam levels, a rechargeable design, and touchless operation. Its approximately 380 ml capacity makes it suitable for bathrooms, kitchens, hotels, and other spaces.",
+    review: "The Amazon listing shows a 4.3 out of 5 star rating from approximately 2,979 customer reviews. Its touchless operation, adjustable foam settings, and digital display make it a practical option for modern kitchens and bathrooms.",
+    pros: [
+        "Touchless dispensing helps reduce contact",
+        "Six adjustable foam levels",
+        "Rechargeable design",
+        "Digital display",
+        "Wall-mounted design helps save counter space",
+        "Suitable for kitchens and bathrooms"
+    ],
+    cons: [
+        "Requires charging",
+        "Wall mounting may not suit every setup",
+        "Foaming soap dispensers may require soap diluted to the recommended consistency"
+    ],
+    specifications: {
+        Brand: "Cheftick",
+        Model: "P15",
+        Capacity: "Approximately 380 ml",
+        Operation: "Automatic, touchless",
+        FoamLevels: "6 adjustable levels",
+        Power: "Rechargeable",
+        Mounting: "Wall-mounted",
+        ASIN: "B0G24SP29C"
+    }
+},
 ];
