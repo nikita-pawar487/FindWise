@@ -3545,6 +3545,68 @@ const products = [
         SuitableFor: "Beginners, Students, Investors and Personal Finance Readers"
     },
 },
+{
+    id: 61,
+
+    title: "Electric Automatic Rechargeable Multi-Bubble Gun Toy for Kids",
+
+    category: "Home",
+
+    images: [
+        "assets/images/bubble/bub1.png",
+        "assets/images/bubble/bub2.png",
+        "assets/images/bubble/bub3.png"
+    ],
+
+    price: "₹599",
+
+    rating: "5.0",
+
+    amazon: "https://www.amazon.in/Electric-Automatic-Rechargeable-Multi-Bubble-Birthday/dp/B0HGB6MHQ9?tag=homeorg12-21",
+
+    description: "Make playtime more exciting with this electric automatic rechargeable bubble gun. Designed to produce a stream of bubbles with minimal effort, this fun toy is suitable for outdoor play, birthday parties, family gatherings, picnics and celebrations. Its automatic operation makes it easy for children to enjoy bubble-blowing fun, while the rechargeable design offers a convenient alternative to frequently replacing disposable batteries. It can also make a playful gift for children who enjoy interactive toys and outdoor activities.",
+
+    review: "An automatic bubble gun can add a fun, colourful touch to children's playtime and special occasions. Its electric operation helps produce bubbles continuously without the need to blow them manually. The rechargeable design can make repeated use more convenient, while its party-friendly style makes it suitable for birthdays, garden play and family events. Check the exact package contents, charging method and recommended age on the Amazon listing before purchasing.",
+
+    pros: [
+        "Automatic bubble-blowing operation",
+        "Rechargeable design for convenient use",
+        "Fun toy for outdoor activities",
+        "Suitable for birthday parties and celebrations",
+        "Can make an entertaining gift for children",
+        "Encourages active and imaginative play",
+        "Easy to use compared with manual bubble wands",
+        "Suitable for family gatherings and picnics"
+    ],
+
+    cons: [
+        "Requires bubble solution to operate",
+        "May create slippery surfaces if solution spills",
+        "Battery runtime depends on usage and battery capacity",
+        "May need cleaning after use to prevent residue buildup",
+        "Small parts or liquid may require adult supervision",
+        "Exact accessories and features should be checked on the listing"
+    ],
+
+    specifications: {
+        Brand: "Check Amazon Listing",
+        Type: "Electric Automatic Bubble Gun",
+        Material: "Check Amazon Listing",
+        Colour: "May Vary",
+        PowerSource: "Rechargeable Battery",
+        Operation: "Automatic Electric",
+        BubbleOutput: "Multi-Bubble",
+        ChargingMethod: "Check Amazon Listing",
+        BatteryIncluded: "Check Amazon Listing",
+        BubbleSolutionIncluded: "Check Amazon Listing",
+        RecommendedAge: "Check Amazon Listing",
+        SuitableFor: "Outdoor Play, Birthday Parties, Picnics and Celebrations",
+        Occasion: "Birthdays, Parties, Holidays and Gifting",
+        ASIN: "B0HGB6MHQ9",
+        PackageContents: "Check Amazon Listing",
+        SafetyInstructions: "Avoid directing bubbles or liquid into the eyes. Keep the toy and bubble solution away from the mouth, and supervise young children during use."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
