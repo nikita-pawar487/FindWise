@@ -3667,6 +3667,69 @@ const products = [
         CareInstructions: "Clean gently with a soft, dry cloth. Avoid water and harsh cleaning chemicals."
     },
 },
+{
+    id: 63,
+
+    title: "Love Animated Characters Valentine Multicolor Polyresin Showpiece",
+
+    category: "Home",
+
+    images: [
+        "assets/images/ecraftindia-love-showpiece/love1.png",
+        "assets/images/ecraftindia-love-showpiece/love2.png",
+        "assets/images/ecraftindia-love-showpiece/love3.png",
+        "assets/images/ecraftindia-love-showpiece/love4.png"
+    ],
+
+    price: "₹395",
+
+    rating: "Check Amazon Listing",
+
+    amazon: "https://www.amazon.in/eCraftIndia-Characters-Valentine-Multicolor-Polyresin/dp/B0BRXGH5HB?tag=homeorg12-21",
+
+    description: "Add a sweet and romantic touch to your home with the eCraftIndia Love Animated Characters Showpiece. Made from multicolour polyresin, this decorative figurine features a charming love-themed character design that makes it a lovely addition to shelves, tabletops, bedside tables and display spaces. Its playful appearance makes it suitable for Valentine's Day, anniversaries, birthdays and other special occasions. It can also be a thoughtful gift for couples, partners and loved ones.",
+
+    review: "The eCraftIndia Love Animated Characters Showpiece is a cute decorative option for people who enjoy romantic and character-themed home accessories. Its colourful design gives it a cheerful appearance, making it suitable for small decorative spaces and gifting. The polyresin construction makes it a decorative keepsake that can be displayed on a shelf, desk or bedside table. Its love-themed design is especially suitable for Valentine's Day and anniversaries.",
+
+    pros: [
+        "Cute love-themed character design",
+        "Attractive multicolour appearance",
+        "Made from polyresin",
+        "Suitable for tabletop decoration",
+        "Ideal for Valentine's Day gifting",
+        "Suitable for anniversaries and birthdays",
+        "Compact decorative showpiece",
+        "Can be displayed on shelves and desks",
+        "Thoughtful gift option for couples"
+    ],
+
+    cons: [
+        "Polyresin requires careful handling",
+        "May collect dust around detailed areas",
+        "Not suitable for rough handling",
+        "Decorative size may be smaller than expected",
+        "Exact dimensions should be checked before purchase"
+    ],
+
+    specifications: {
+        Brand: "eCraftIndia",
+        Type: "Love Animated Characters Showpiece",
+        Material: "Polyresin",
+        Colour: "Multicolour",
+        Design: "Romantic Love-Themed Characters",
+        Pattern: "Character / Decorative",
+        Style: "Modern Decorative",
+        MountingType: "Tabletop",
+        AssemblyRequired: "No",
+        SuitableFor: "Home Decor, Bedroom, Living Room and Tabletop Decoration",
+        Occasions: "Valentine's Day, Anniversaries, Birthdays and Gifting",
+        CountryOfOrigin: "India",
+        Manufacturer: "Eunoia Crafts India Pvt Ltd",
+        ASIN: "B0BRXGH5HB",
+        PackageContents: "1 Decorative Showpiece",
+        CareInstructions: "Do not wash. Use a dry or slightly damp cotton cloth to remove dust and dirt."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
