@@ -3675,15 +3675,15 @@ const products = [
     category: "Home",
 
     images: [
-        "assets/images/ecraftindia-love-showpiece/love1.png",
-        "assets/images/ecraftindia-love-showpiece/love2.png",
-        "assets/images/ecraftindia-love-showpiece/love3.png",
-        "assets/images/ecraftindia-love-showpiece/love4.png"
+        "assets/images/love/love1.png",
+        "assets/images/love/love2.png",
+        "assets/images/love/love3.png",
+        "assets/images/love/love4.png"
     ],
 
-    price: "₹395",
+    price: "₹158",
 
-    rating: "Check Amazon Listing",
+    rating: "4.3",
 
     amazon: "https://www.amazon.in/eCraftIndia-Characters-Valentine-Multicolor-Polyresin/dp/B0BRXGH5HB?tag=homeorg12-21",
 
