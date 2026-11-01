@@ -3607,6 +3607,66 @@ const products = [
         SafetyInstructions: "Avoid directing bubbles or liquid into the eyes. Keep the toy and bubble solution away from the mouth, and supervise young children during use."
     },
 },
+{
+    id: 62,
+
+    title: "Musical Ganesh Idol with Printed Gift Box",
+
+    category: "Home",
+
+    images: [
+        "assets/images/gift/gift1.png",
+        "assets/images/gift/gift2.png",
+        "assets/images/gift/gift3.png"
+    ],
+
+    price: "₹690",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/INTERNATIONAL-GIFT-Musical-Idol-Printed/dp/B0CXXM441P?tag=homeorg12-21",
+
+    description: "The INTERNATIONAL GIFT Musical Ganesh Idol is a decorative religious showpiece designed for home temples, prayer rooms and festive displays. Its musical theme gives the idol a distinctive decorative appeal, making it suitable for occasions such as Ganesh Chaturthi, Diwali, housewarming ceremonies and other celebrations. The gift-style printed packaging also makes it a thoughtful option for gifting to family and friends.",
+
+    review: "A musical Ganesh idol can add a traditional and decorative touch to a home temple or living space. Its religious theme makes it suitable for festive occasions, पूजा spaces and gifting. The printed gift packaging adds to its presentation, making it a convenient choice for special occasions. Check the exact idol design, musical mechanism and package contents on the Amazon listing before purchasing.",
+
+    pros: [
+        "Musical Ganesh idol design",
+        "Traditional religious decorative showpiece",
+        "Suitable for home temples and prayer rooms",
+        "Printed gift packaging",
+        "Suitable for Ganesh Chaturthi and Diwali",
+        "Thoughtful option for housewarming gifts",
+        "Can be displayed on shelves or tabletops",
+        "Suitable for festive and religious decoration"
+    ],
+
+    cons: [
+        "Musical mechanism may require careful handling",
+        "Exact sound and operating mechanism should be checked",
+        "Decorative finish may require gentle cleaning",
+        "May not be suitable for outdoor display",
+        "Exact dimensions and package contents need verification"
+    ],
+
+    specifications: {
+        Brand: "INTERNATIONAL GIFT",
+        Type: "Musical Ganesh Idol / Religious Showpiece",
+        Material: "Check Amazon Listing",
+        Colour: "Check Amazon Listing",
+        Finish: "Check Amazon Listing",
+        Design: "Musical Ganesh Idol",
+        SpecialFeature: "Musical Design",
+        Packaging: "Printed Gift Box",
+        MountingType: "Tabletop",
+        SuitableFor: "Home Temple, Pooja Room and Home Decoration",
+        Occasions: "Ganesh Chaturthi, Diwali, Housewarming and Gifting",
+        CountryOfOrigin: "Check Amazon Listing",
+        ASIN: "B0CXXM441P",
+        PackageContents: "Check Amazon Listing",
+        CareInstructions: "Clean gently with a soft, dry cloth. Avoid water and harsh cleaning chemicals."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
