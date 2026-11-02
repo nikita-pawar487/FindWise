@@ -3730,6 +3730,73 @@ const products = [
         CareInstructions: "Do not wash. Use a dry or slightly damp cotton cloth to remove dust and dirt."
     },
 },
+{
+    id: 64,
+
+    title: "Ceramic Clay Candle Operated Aroma Burner & Oil Diffuser - Blue",
+
+    category: "Home",
+
+    images: [
+        "assets/images/cera/cera1.png",
+        "assets/images/cera/cera2.png",
+        "assets/images/cera/cera3.png"
+    ],
+
+    price: "₹186",
+
+    rating: "4.1",
+
+    amazon: "https://www.amazon.in/dp/B0C6V3355R?tag=homeorg12-21",
+
+    description: "The Pure Source India Ceramic Aroma Burner is a compact candle-operated oil diffuser designed to create a pleasant and relaxing atmosphere at home. Made from ceramic clay, this decorative burner allows you to use aroma oils, essential oils, camphor or wax melts to add fragrance to your surroundings. Simply place a tealight candle in the lower section and add your preferred fragrance to the upper bowl. Its attractive blue finish and compact design make it suitable for bedrooms, living rooms, meditation spaces and other decorative areas.",
+
+    review: "The Pure Source India Ceramic Aroma Burner is a simple and decorative option for enjoying fragrance at home. Its ceramic construction and compact size make it easy to place on a tabletop or shelf. The candle-operated design provides a traditional way to diffuse aroma oils and create a soothing atmosphere. It is also a thoughtful gifting option for people who enjoy home fragrance and decorative accessories. The included tealight candle makes it convenient to get started.",
+
+    pros: [
+        "Attractive blue ceramic design",
+        "Compact and lightweight construction",
+        "Suitable for aroma oils and essential oils",
+        "Can be used with camphor and wax melts",
+        "Candle-operated fragrance diffusion",
+        "Includes one tealight candle",
+        "Easy to place on tables and shelves",
+        "Suitable for bedrooms and living rooms",
+        "Reusable design",
+        "Suitable for gifting"
+    ],
+
+    cons: [
+        "Requires a separate tealight candle for repeated use",
+        "Ceramic material can break if dropped",
+        "Requires careful handling around an open flame",
+        "Needs regular cleaning after use",
+        "Fragrance strength depends on the oil used",
+        "Small size may not be suitable for large rooms"
+    ],
+
+    specifications: {
+        Brand: "Pure Source India",
+        Type: "Ceramic Aroma Burner / Oil Diffuser",
+        Material: "Ceramic Clay",
+        Colour: "Blue",
+        ModelNumber: "PSI-A-97-BLUENEW1",
+        ModelName: "Candle Operated",
+        Dimensions: "8.3 x 8.3 x 8.9 cm",
+        ApproximateSize: "8.5 cm / 3.5 inches",
+        Operation: "Candle Operated",
+        PowerSource: "Tealight Candle",
+        FragranceType: "Aroma Oils, Essential Oils, Camphor and Wax Melts",
+        MountingType: "Tabletop",
+        SpecialFeature: "Reusable and Easy to Clean",
+        SuitableFor: "Bedroom, Living Room, Meditation Space and Home Decor",
+        CountryOfOrigin: "India",
+        Manufacturer: "Pure Source India",
+        ASIN: "B0C6V3355R",
+        PackageContents: "1 Ceramic Aroma Burner and 1 Tealight Candle",
+        CareInstructions: "Allow the burner to cool completely before cleaning. Clean gently with a soft cloth and remove any remaining oil or wax residue. Handle carefully to avoid damaging the ceramic."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
