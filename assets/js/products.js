@@ -3797,6 +3797,73 @@ const products = [
         CareInstructions: "Allow the burner to cool completely before cleaning. Clean gently with a soft cloth and remove any remaining oil or wax residue. Handle carefully to avoid damaging the ceramic."
     },
 },
+{
+    id: 65,
+
+    title: "Turkish Mosaic Glass Votive Tealight Candle Holders for Diwali",
+
+    category: "Home",
+
+    images: [
+        "assets/images/light/light1.png",
+        "assets/images/light/light2.png",
+        "assets/images/light/light3.png",
+        "assets/images/light/light4.png"
+    ],
+
+    price: "₹278",
+
+    rating: "4.0",
+
+    amazon: "https://www.amazon.in/dp/B01LRV6MO8?tag=homeorg12-21",
+
+    description: "Add a warm and elegant glow to your home with the TIED RIBBONS Turkish Mosaic Glass Tealight Candle Holders. This decorative set includes two beautifully designed votive holders featuring intricate golden mosaic patterns on glass. When a tealight candle is placed inside, the light shines through the patterned surface, creating attractive decorative reflections around the room. These holders are ideal for Diwali decorations, festive celebrations, home décor, dinner tables, parties and special occasions.",
+
+    review: "The TIED RIBBONS Mosaic Glass Candle Holders are a beautiful decorative addition for anyone who enjoys traditional and festive home décor. The intricate mosaic pattern creates an attractive lighting effect when the candles are lit, giving the surroundings a warm and inviting appearance. The set of two makes it easy to decorate a dining table, living room, balcony or festive display. They are also a lovely gifting option for Diwali, housewarming ceremonies and other celebrations.",
+
+    pros: [
+        "Beautiful Turkish mosaic glass design",
+        "Set includes 2 decorative candle holders",
+        "Creates attractive light patterns when illuminated",
+        "Warm golden decorative appearance",
+        "Suitable for Diwali and festive decorations",
+        "Ideal for dining table decoration",
+        "Can be used for parties and special occasions",
+        "Suitable for living rooms and decorative spaces",
+        "Attractive gifting option",
+        "Compact tabletop design"
+    ],
+
+    cons: [
+        "Glass construction requires careful handling",
+        "May break if dropped accidentally",
+        "Mosaic surface requires gentle cleaning",
+        "Tealight candles may need to be purchased separately",
+        "Should be placed on a stable, heat-resistant surface",
+        "Avoid touching the holder immediately after candle use"
+    ],
+
+    specifications: {
+        Brand: "TIED RIBBONS",
+        Type: "Votive Tealight Candle Holder",
+        Material: "Glass",
+        Colour: "Golden / Multicolour Mosaic",
+        Design: "Turkish Mosaic Pattern",
+        NumberOfPieces: "2",
+        Shape: "Round",
+        Style: "Traditional Decorative",
+        Finish: "Mosaic Glass Finish",
+        MountingType: "Tabletop",
+        LightSource: "Tealight Candle",
+        SpecialFeature: "Decorative Light Reflection Pattern",
+        SuitableFor: "Home Decor, Table Decoration and Festive Decoration",
+        Occasions: "Diwali, Festivals, Parties, Weddings and Housewarming",
+        RoomType: "Living Room, Dining Room and Bedroom",
+        ASIN: "B01LRV6MO8",
+        PackageContents: "2 Turkish Mosaic Glass Votive Candle Holders",
+        CareInstructions: "Clean gently using a soft, dry or slightly damp cloth. Avoid abrasive cleaners. Handle carefully because the holders are made of glass. Allow them to cool completely before cleaning."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
