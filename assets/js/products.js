@@ -3864,6 +3864,73 @@ const products = [
         CareInstructions: "Clean gently using a soft, dry or slightly damp cloth. Avoid abrasive cleaners. Handle carefully because the holders are made of glass. Allow them to cool completely before cleaning."
     },
 },
+{
+    id: 66,
+
+    title: "Crochet Kit for Beginners with Wool Yarn, Crochet Hooks, Plastic Needles & Stitch Markers",
+
+    category: "Home",
+
+    images: [
+        "assets/images/yarn/yarn1.png",
+        "assets/images/yarn/yarn2.png",
+        "assets/images/yarn/yarn3.png"
+    ],
+
+    price: "₹284",
+
+    rating: "3.9",
+
+    amazon: "https://www.amazon.in/dp/B0FJYDHKN5?tag=homeorg12-21",
+
+    description: "Explore your creativity with the picknMAKE Crochet Kit for Beginners, an all-in-one DIY craft set designed for adults, teenagers and children interested in learning crochet. The kit includes 8 colourful wool yarns, 2 crochet hooks, 2 plastic yarn needles and 6 stitch markers to help beginners get started with basic crochet projects. The colourful yarn selection is suitable for making small handmade creations such as flowers, coasters, toys and other decorative items. Whether you are learning a new hobby, enjoying a relaxing craft activity or looking for a creative gift, this crochet starter kit offers a convenient way to begin.",
+
+    review: "The picknMAKE Crochet Kit is a beginner-friendly crafting set that brings together the basic accessories needed to practise crochet. With 8 colourful yarns, crochet hooks, plastic needles and stitch markers, it provides useful materials for trying different patterns and creating small handmade projects. Its beginner-focused design makes it suitable for teenagers and adults who want to explore crochet as a hobby. It can also be a thoughtful gift for people interested in DIY crafts and creative activities.",
+
+    pros: [
+        "Complete crochet starter kit for beginners",
+        "Includes 8 colourful wool yarns",
+        "Comes with 2 crochet hooks",
+        "Includes 2 plastic yarn needles",
+        "6 stitch markers included",
+        "Suitable for learning basic crochet techniques",
+        "Useful for making flowers, coasters and small toys",
+        "Encourages creativity and handmade projects",
+        "Suitable for teenagers and adults",
+        "Can be given as a creative hobby gift"
+    ],
+
+    cons: [
+        "Beginners may need practice to learn crochet techniques",
+        "Yarn quantity may be limited for larger projects",
+        "Only 2 crochet hooks are included",
+        "Advanced crocheters may need additional tools",
+        "Exact yarn thickness and hook sizes should be checked before purchase",
+        "The kit may not include instructions for every crochet pattern"
+    ],
+
+    specifications: {
+        Brand: "picknMAKE",
+        Type: "Crochet Starter Kit",
+        ProductType: "DIY Arts and Crafts Kit",
+        AgeRange: "Teen",
+        Colour: "Kit 1",
+        Theme: "Floral",
+        YarnCount: "8",
+        YarnMaterial: "Wool Yarn",
+        CrochetHooks: "2",
+        PlasticYarnNeedles: "2",
+        StitchMarkers: "6",
+        ItemDimensions: "15 x 15 x 5 cm",
+        SkillLevel: "Beginner",
+        SuitableFor: "Adults, Teenagers and Kids",
+        ProjectIdeas: "Crochet Flowers, Coasters, Toys and Decorative Crafts",
+        SpecialFeature: "All-in-One Beginner Crochet Kit",
+        ASIN: "B0FJYDHKN5",
+        PackageContents: "8 Colourful Wool Yarns, 2 Crochet Hooks, 2 Plastic Yarn Needles and 6 Stitch Markers",
+        CareInstructions: "Keep yarn and crochet accessories clean and dry. Store the tools and yarn together in a suitable pouch or box after use."
+    },
+},
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
