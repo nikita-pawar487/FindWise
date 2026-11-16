@@ -3931,6 +3931,77 @@ const products = [
         CareInstructions: "Keep yarn and crochet accessories clean and dry. Store the tools and yarn together in a suitable pouch or box after use."
     },
 },
+
+{
+    id: 67,
+
+    title: "Leather Watch Organiser Box with 6 Slots and Transparent Glass Lid (Black)",
+
+    category: "Home",
+
+    images: [
+        "assets/images/watch-organiser/watch1.png",
+        "assets/images/watch-organiser/watch2.png",
+        "assets/images/watch-organiser/watch3.png"
+    ],
+
+    price: "₹519",
+
+    rating: "4.4",
+
+    amazon: "https://www.amazon.in/dp/B0DZ2YY9NC?tag=homeorg12-21",
+
+    description: "Keep your watch collection organised and protected with the Amazon Basics Unisex Faux Leather Watch Organiser Box. Designed with 6 individual cushioned compartments, this elegant storage box provides a dedicated space for your favourite watches. It features a sleek black faux leather exterior and a transparent glass display lid that allows you to showcase your collection while protecting it from dust. The soft inner compartments help keep watches neatly arranged and reduce the risk of scratches. Suitable for both men and women, this stylish watch organiser is a practical addition to your dressing table, wardrobe or personal accessories collection. It also makes a thoughtful gift for watch enthusiasts.",
+
+    review: "The Amazon Basics Faux Leather Watch Organiser is a practical and stylish storage solution for anyone who owns multiple watches. Its 6 cushioned compartments help keep different timepieces organised, while the transparent glass lid makes it easy to view your collection without opening the box. The black faux leather finish gives it a sophisticated appearance that fits well with modern bedroom and dressing table setups. Its compact design and unisex appeal make it suitable for everyday use as well as gifting. Overall, it combines organised storage, convenient display and an elegant look in one box.",
+
+    pros: [
+        "Elegant black faux leather finish",
+        "6 individual cushioned watch compartments",
+        "Transparent glass lid for easy display",
+        "Helps protect watches from dust",
+        "Soft inner compartments help reduce scratches",
+        "Suitable for both men and women",
+        "Keeps multiple watches neatly organised",
+        "Compact design for dressing tables and wardrobes",
+        "Suitable for everyday and luxury watches",
+        "Can be a thoughtful gift for watch enthusiasts"
+    ],
+
+    cons: [
+        "Limited storage capacity of 6 watches",
+        "Not suitable for very large watch collections",
+        "Requires sufficient table or shelf space",
+        "Faux leather is not genuine leather",
+        "Glass lid requires careful handling",
+        "Does not provide individual compartments for other accessories"
+    ],
+
+    specifications: {
+        Brand: "Amazon Basics",
+        Type: "Watch Organiser Box",
+        ProductType: "Watch Storage and Display Box",
+        Colour: "Black",
+        Material: "Polyurethane (Faux Leather)",
+        InnerMaterial: "Fabric",
+        FinishType: "Leather Finish",
+        NumberOfCompartments: "6",
+        StorageCapacity: "6 Watches",
+        LidType: "Transparent Glass Display Lid",
+        ClosureType: "Buckle",
+        ItemDimensions: "10.5 x 34 x 8 cm (D x W x H)",
+        ItemWeight: "600 Grams",
+        MountingType: "Table Top",
+        Shape: "Rectangular",
+        SuitableFor: "Men and Women",
+        RecommendedUse: "Watch Storage and Display",
+        SpecialFeature: "Transparent Glass Lid and Cushioned Compartments",
+        ASIN: "B0DZ2YY9NC",
+        PackageContents: "1 Watch Organiser Box",
+        CareInstructions: "Clean the exterior with a soft, dry cloth. Keep away from excessive moisture and handle the transparent glass lid carefully. Store in a clean and dry place."
+    },
+},
+
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
