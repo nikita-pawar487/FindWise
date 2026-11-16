@@ -3940,9 +3940,10 @@ const products = [
     category: "Home",
 
     images: [
-        "assets/images/watch-organiser/watch1.png",
-        "assets/images/watch-organiser/watch2.png",
-        "assets/images/watch-organiser/watch3.png"
+        "assets/images/watch/watch1.png",
+        "assets/images/watch/watch2.png",
+        "assets/images/watch/watch3.png",
+        "assets/images/watch/watch4.png"
     ],
 
     price: "₹519",
