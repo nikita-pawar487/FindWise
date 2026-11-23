@@ -4003,6 +4003,82 @@ const products = [
     },
 },
 
+{
+    id: 68,
+
+    title: "Transparent Glass Jars with Airtight Black Metal Lids, 400ml, Pack of 6",
+
+    category: "Home",
+
+    images: [
+        "assets/images/jar/jar1.png",
+        "assets/images/jar/jar2.png",
+        "assets/images/jar/jar3.png",
+        "assets/images/jar/jar4.png",
+        "assets/images/jar/jar5.png"
+    ],
+
+    price: "₹352",
+
+    rating: "4.3",
+
+    amazon: "https://www.amazon.in/dp/B091MLKY9C?tag=homeorg12-21",
+
+    description: "Organise your kitchen essentials in style with the SITOVI Transparent Glass Jar Set. This set includes 6 reusable 400ml glass jars featuring elegant vertical striped designs and airtight black metal lids. Made from food-grade, BPA-free glass, these transparent containers make it easy to identify stored ingredients without opening them. They are suitable for storing spices, herbs, tea, coffee, dry fruits, nuts, jams and other kitchen essentials. The airtight lids help protect contents from moisture and maintain freshness. With their stylish appearance and versatile design, these glass jars are a practical addition to modern kitchens, pantry shelves and countertops.",
+
+    review: "The SITOVI Glass Jar Set offers a stylish and practical solution for organising everyday kitchen ingredients. Its transparent glass design makes it convenient to identify stored items, while the vertical striped pattern adds an attractive touch to kitchen shelves. Each jar has a 400ml capacity and comes with a black airtight metal lid. The set is useful for storing spices, tea, coffee, herbs and other small food items. Its reusable design also makes it suitable for people looking to create a neat and organised pantry. However, buyers should handle the glass jars carefully during washing and storage.",
+
+    pros: [
+        "Set includes 6 transparent glass storage jars",
+        "400ml capacity for each jar",
+        "Airtight black metal lids",
+        "Made from food-grade glass",
+        "BPA-free material",
+        "Elegant vertical striped design",
+        "Transparent body makes contents easy to identify",
+        "Suitable for storing spices, herbs and tea",
+        "Can also store coffee, nuts and dry fruits",
+        "Reusable and easy to organise",
+        "Suitable for kitchen shelves and pantry storage",
+        "Can be used for decorative and DIY purposes"
+    ],
+
+    cons: [
+        "Glass material requires careful handling",
+        "400ml capacity may be small for bulk storage",
+        "Not suitable for storing very large quantities of groceries",
+        "Glass jars may break if dropped",
+        "Requires sufficient shelf space for organising all 6 jars",
+        "Metal lids may require careful cleaning and drying",
+        "Airtight performance depends on proper lid closure"
+    ],
+
+    specifications: {
+        Brand: "SITOVI",
+        Type: "Glass Storage Jar Set",
+        ProductType: "Kitchen Storage Containers",
+        Colour: "Transparent with Black Lids",
+        Material: "Glass",
+        MaterialFeature: "Food Grade and BPA-Free",
+        Capacity: "400 ml Each",
+        TotalCapacity: "2400 ml",
+        NumberOfContainers: "6",
+        ContainerShape: "Round",
+        LidMaterial: "Metal",
+        ClosureType: "Twist Lock",
+        Airtight: "Yes",
+        Design: "Vertical Striped Pattern",
+        ItemDimensions: "10 x 8 x 5 cm (listed dimensions; verify individual jar measurements)",
+        ItemWeight: "400 Grams (listed)",
+        CountryOfOrigin: "India",
+        SuitableFor: "Spices, Herbs, Tea, Coffee, Nuts and Dry Fruits",
+        SpecialFeature: "Reusable Transparent Glass with Airtight Lids",
+        ASIN: "B091MLKY9C",
+        PackageContents: "6 Transparent Glass Jars with Black Airtight Metal Lids",
+        CareInstructions: "Handle carefully to avoid breakage. Clean the jars gently and dry them thoroughly before storing. Keep the lids clean and dry. Check the manufacturer's care instructions before using a dishwasher or microwave."
+    },
+},
+
 ];
 // ==========================================
 // FINDWISE REGIONAL PRODUCT CATALOGS
